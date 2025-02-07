@@ -1,0 +1,63 @@
+---
+title: "Sum of elements in each row"
+tags: ["Binomial Theorem", "Pascal's Triangle Properties"]
+showTags: true
+math: true
+---
+
+
+
+Certainly! Let's explore how to find the sum of the elements in each row of Pascal's Triangle using properties from the **Binomial Theorem**. 
+
+### Step-by-Step Explanation:
+
+1. **Understanding Pascal's Triangle:**
+   - Pascal's Triangle is a triangular array where each number is the sum of the two numbers directly above it.
+   - Each row \( n \) corresponds to the coefficients of the binomial expansion of \( (a + b)^n \).
+
+2. **Binomial Theorem Basics:**
+   - The Binomial Theorem states that:
+     \[
+     (a + b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^k
+     \]
+     where \( \binom{n}{k} \) is the binomial coefficient, also known as "n choose k."
+
+3. **Identifying the Elements in Each Row:**
+   - In Pascal's Triangle:
+     - The topmost row (row 0) has a single element: \( \binom{0}{0} = 1 \).
+     - The next row (row 1) has two elements: \( \binom{1}{0} = 1 \), \( \binom{1}{1} = 1 \).
+     - Subsequent rows continue this pattern, with each entry being the sum of the two entries above it.
+
+4. **Summing the Elements in a Single Row:**
+   - To find the sum of all elements in row \( n \), we can substitute \( a = 1 \) and \( b = 1 \) into the binomial expansion formula:
+     \[
+     (1 + 1)^n = 2^n
+     \]
+   - This means that each row \( n \) sums up to \( 2^n \).
+
+5. **Example:**
+   - Let's verify this with a few rows:
+     - **Row 0:** Only element is 1.
+       Sum = \( 1 = 2^0 = 1 \).
+     - **Row 1:** Elements are 1 and 1.
+       Sum = \( 1 + 1 = 2 = 2^1 = 2 \).
+     - **Row 2:** Elements are 1, 2, 1.
+       Sum = \( 1 + 2 + 1 = 4 = 2^2 = 4 \).
+     - **Row 3:** Elements are 1, 3, 3, 1.
+       Sum = \( 1 + 3 + 3 + 1 = 8 = 2^3 = 8 \).
+
+6. **Conclusion:**
+   - The sum of the elements in row \( n \) of Pascal's Triangle is always \( 2^n \).
+   - This result follows directly from substituting \( a = 1 \) and \( b = 1 \) into the binomial expansion formula, which simplifies to \( 2^n \).
+
+---
+
+**Final Answer:**
+
+The sum of the elements in each row \( n \) of Pascal's Triangle is equal to \( 2^n \). This result stems from substituting \( a = 1 \) and \( b = 1 \) into the Binomial Theorem, which yields:
+
+\[
+(1 + 1)^n = 2^n
+\]
+
+Therefore, each row sums up to **\( 2^n \)**.
