@@ -1,0 +1,99 @@
+---
+title: "cos(π/2 - θ) = sin(θ)"
+tags: ["Trignometry", "Cofunction Identities"]
+showTags: true
+math: true
+---
+
+
+
+To prove that \( \cos\left(\frac{\pi}{2} - \theta\right) = \sin(\theta) \), we'll explore this using several approaches, including trigonometric identities and a unit circle perspective.
+
+**Step 1: Understanding the Relationship Between Cosine and Sine**
+
+Trigonometric functions have reciprocal relationships. Specifically, sine and cosine are co-functions. This means that:
+
+\[
+\sin(\theta) = \cos\left( \frac{\pi}{2} - \theta \right)
+\]
+
+and
+
+\[
+\cos(\theta) = \sin\left( \frac{\pi}{2} - \theta \right)
+\]
+
+This relationship is derived from the fact that sine and cosine are cofunctions, meaning they are supplementary functions.
+
+**Step 2: Using a Unit Circle Approach**
+
+Let's visualize this using the unit circle. Consider an angle \( \theta \) on the unit circle. The coordinates of the point where the terminal side of the angle intersects the circle are:
+
+\[
+(\cos(\theta), \sin(\theta))
+\]
+
+Now, consider the reference angle \( \frac{\pi}{2} - \theta \). This is a rotation that complements \( \theta \) to form a right angle (\( \frac{\pi}{2} \)).
+
+- The point corresponding to \( \frac{\pi}{2} - \theta \) will have coordinates:
+
+\[
+(\cos\left( \frac{\pi}{2} - \theta \right), \sin\left( \frac{\pi}{2} - \theta \right))
+\]
+
+Since these are cofunctions, the sine and cosine of \( \theta \) correspond to each other in this complementary angle:
+
+\[
+\cos\left( \frac{\pi}{2} - \theta \right) = \sin(\theta)
+\]
+\[
+\sin\left( \frac{\pi}{2} - \theta \right) = \cos(\theta)
+\]
+
+**Step 3: Verifying with Specific Angles**
+
+Let's test this identity with specific angle values:
+
+1. **Case 1:** \( \theta = 0^\circ \)
+
+   \[
+   \cos\left( \frac{\pi}{2} - 0 \right) = \cos\left( \frac{\pi}{2} \right) = 0
+   \]
+   
+   \[
+   \sin(0^\circ) = 0
+   \]
+   
+   Both sides equal \( 0 \).
+
+2. **Case 2:** \( \theta = 30^\circ \)
+
+   \[
+   \cos\left( \frac{\pi}{2} - 30^\circ \right) = \cos\left( 60^\circ \right) = \frac{1}{2}
+   \]
+   
+   \[
+   \sin(30^\circ) = \frac{1}{2}
+   \]
+   
+   Both sides equal \( \frac{1}{2} \).
+
+3. **Case 3:** \( \theta = 45^\circ \)
+
+   \[
+   \cos\left( \frac{\pi}{2} - 45^\circ \right) = \cos\left( 45^\circ \right) = \frac{\sqrt{2}}{2}
+   \]
+   
+   \[
+   \sin(45^\circ) = \frac{\sqrt{2}}{2}
+   \]
+   
+   Both sides equal \( \frac{\sqrt{2}}{2} \).
+
+**Step 4: Conclusion**
+
+Through the co-function relationship, unit circle visualization, and verification with specific angles, we have shown that:
+
+\[
+\boxed{ \cos\left( \frac{\pi}{2} - \theta \right) = \sin(\theta) }
+\]

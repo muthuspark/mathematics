@@ -1,0 +1,51 @@
+---
+title: "cos(2θ) = cos²(θ) - sin²(θ) = 2cos²(θ) - 1 = 1 - 2sin²(θ)"
+tags: ["Trignometry", "Double Angle Formulas"]
+showTags: true
+math: true
+---
+
+
+
+To prove the trigonometric identities for cos(2θ), we can follow these steps:
+
+1. **Start with the angle addition formula:**
+   \[
+   \cos(A + B) = \cos A \cos B - \sin A \sin B
+   \]
+   
+2. **Set both angles equal to θ:**
+   \[
+   \cos(θ + θ) = \cos²θ - sin²θ
+   \]
+   
+3. **Simplify the left side:**
+   \[
+   \cos(2θ) = cos²θ - sin²θ
+   \]
+   
+4. **Express in terms of power-reduction formulas:**
+   - From \( \sin²θ + cos²θ = 1 \), solve for cos²θ:
+     \[
+     cos²θ = 1 - sin²θ
+     \]
+   - Substitute into the double-angle formula:
+     \[
+     cos(2θ) = (1 - sin²θ) - sin²θ = 1 - 2sin²θ
+     \]
+   
+5. **Similarly, solve for sin²θ:**
+   \[
+   sin²θ = 1 - cos²θ
+   \]
+   
+6. **Substitute into the double-angle formula:
+   \[
+   cos(2θ) = cos²θ - (1 - cos²θ) = 2cos²θ - 1
+   \]
+
+Thus, we have derived all three forms of the double-angle identity for cosine:
+
+\[
+cos(2θ) = cos²θ - sin²θ = 1 - 2sin²θ = 2cos²θ - 1
+\]

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cofunction Identities on Everything Mathematics</title>
+    <link>http://localhost:46803/tags/cofunction-identities/</link>
+    <description>Recent content in Cofunction Identities on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:46803/tags/cofunction-identities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cos(π/2 - θ) = sin(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/cos2-----sin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/cos2-----sin/</guid>
+      <description>&lt;p&gt;To prove that \( \cos\left(\frac{\pi}{2} - \theta\right) = \sin(\theta) \), we&amp;rsquo;ll explore this using several approaches, including trigonometric identities and a unit circle perspective.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understanding the Relationship Between Cosine and Sine&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Trigonometric functions have reciprocal relationships. Specifically, sine and cosine are co-functions. This means that:&lt;/p&gt;&#xA;\[&#xA;\sin(\theta) = \cos\left( \frac{\pi}{2} - \theta \right)&#xA;\]&lt;p&gt;and&lt;/p&gt;&#xA;\[&#xA;\cos(\theta) = \sin\left( \frac{\pi}{2} - \theta \right)&#xA;\]&lt;p&gt;This relationship is derived from the fact that sine and cosine are cofunctions, meaning they are supplementary functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cot(π/2 - θ) = tan(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/cot2-----tan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/cot2-----tan/</guid>
+      <description>&lt;p&gt;To prove that \( \cot\left(\frac{\pi}{2} - \theta\right) = \tan\theta \), we can follow these steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cot\left(\frac{\pi}{2} - \theta\right) = \frac{\cos\left(\frac{\pi}{2} - \theta\right)}{\sin\left(\frac{\pi}{2} - \theta\right)}&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos\left(\frac{\pi}{2} - \theta\right) = \cos\left(\frac{\pi}{2}\right)\cos\theta + \sin\left(\frac{\pi}{2}\right)\sin\theta&#xA;   \]\[&#xA;   \sin\left(\frac{\pi}{2} - \theta\right) = \sin\left(\frac{\pi}{2}\right)\cos\theta - \cos\left(\frac{\pi}{2}\right)\sin\theta&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos\left(\frac{\pi}{2}\right) = 0, \quad \sin\left(\frac{\pi}{2}\right) = 1&#xA;   \]\[&#xA;   \cos\left(\frac{\pi}{2} - \theta\right) = 0 \cdot \cos\theta + 1 \cdot \sin\theta = \sin\theta&#xA;   \]\[&#xA;   \sin\left(\frac{\pi}{2} - \theta\right) = 1 \cdot \cos\theta - 0 \cdot \sin\theta = \cos\theta&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cot\left(\frac{\pi}{2} - \theta\right) = \frac{\sin\theta}{\cos\theta} = \tan\theta&#xA;   \]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Thus, we have proven that \( \cot\left(\frac{\pi}{2} - \theta\right) = \tan\theta \).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>csc(π/2 - θ) = sec(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/csc2-----sec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/csc2-----sec/</guid>
+      <description>&lt;p&gt;To prove that \(\csc\left(\frac{\pi}{2} - \theta\right) = \sec\theta\), we can proceed step by step as follows:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Definitions&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cosecant (csc)&lt;/strong&gt; is defined as the reciprocal of sine:&lt;/p&gt;&#xA;\[&#xA;  \csc(x) = \frac{1}{\sin(x)}&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Secant (sec)&lt;/strong&gt; is defined as the reciprocal of cosine:&lt;/p&gt;&#xA;\[&#xA;  \sec(x) = \frac{1}{\cos(x)}&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Apply the Cosecant Function to the Angle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We start with:&lt;/p&gt;&#xA;\[&#xA;\csc\left(\frac{\pi}{2} - \theta\right)&#xA;\]&lt;p&gt;Using the definition of cosecant, this becomes:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sec(π/2 - θ) = csc(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/sec2-----csc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/sec2-----csc/</guid>
+      <description>&lt;p&gt;To prove that \(\sec\left(\frac{\pi}{2} - \theta\right) = \csc\theta\), follow these steps:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Definitions&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Secant Function:&lt;/strong&gt; The secant of an angle is the reciprocal of the cosine function. Mathematically,&lt;/p&gt;&#xA;\[&#xA;  \sec x = \frac{1}{\cos x}&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cosecant Function:&lt;/strong&gt; The cosecant of an angle is the reciprocal of the sine function. Mathematically,&lt;/p&gt;&#xA;\[&#xA;  \csc x = \frac{1}{\sin x}&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Express secant as a Reciprocal&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Start with the left-hand side (LHS) of the equation:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(π/2 - θ) = cos(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/sin2-----cos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/sin2-----cos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation and Proof&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin\left(\frac{\pi}{2} - \theta\right) = \cos(\theta)&#xA;\]&lt;p&gt;&lt;strong&gt;1. Understanding Radians and Degrees:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Recall that \( \pi \) radians is equivalent to 180 degrees.&lt;/li&gt;&#xA;&lt;li&gt;Therefore, \( \frac{\pi}{2} \) radians equals 90 degrees.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. Rewriting the Equation Using Degrees:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Substitute \( \frac{\pi}{2} \) with 90° in the original equation:&#xA;\[&#xA;     \sin\left(90^\circ - \theta\right) = \cos(\theta)&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;3. Applying the Co-function Identity:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;strong&gt;co-function identity&lt;/strong&gt; states that for any angle \( A \):&#xA;\[&#xA;     \sin(A) = \cos\left(90^\circ - A\right)&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;Let’s set \( A = 90^\circ - \theta \). Substituting into the co-function identity:&#xA;\[&#xA;     \sin\left(90^\circ - \theta\right) = \cos\left(90^\circ - (90^\circ - \theta)\right)&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;Simplifying inside the cosine function:&#xA;\[&#xA;     \sin\left(90^\circ - \theta\right) = \cos(\theta)&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;4. Conclusion:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan(π/2 - θ) = cot(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/tan2-----cot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/tan2-----cot/</guid>
+      <description>&lt;p&gt;To prove that \(\tan\left(\frac{\pi}{2} - \theta\right) = \cot(\theta)\), let&amp;rsquo;s proceed step by step.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Relationship to Complementary Angles&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We know that in trigonometry, two angles are complementary if their measures add up to \(\frac{\pi}{2}\) radians (or 90 degrees). Specifically:&lt;/p&gt;&#xA;\[&#xA;\left(\frac{\pi}{2} - \theta\right) + \theta = \frac{\pi}{2}&#xA;\]&lt;p&gt;This means that the angle \(\frac{\pi}{2} - \theta\) is complementary to \(\theta\).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Use the Tangent of a Difference Identity&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

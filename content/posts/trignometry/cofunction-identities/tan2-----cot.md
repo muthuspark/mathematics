@@ -1,0 +1,103 @@
+---
+title: "tan(π/2 - θ) = cot(θ)"
+tags: ["Trignometry", "Cofunction Identities"]
+showTags: true
+math: true
+---
+
+
+
+To prove that \(\tan\left(\frac{\pi}{2} - \theta\right) = \cot(\theta)\), let's proceed step by step.
+
+**Step 1: Understand the Relationship to Complementary Angles**
+
+We know that in trigonometry, two angles are complementary if their measures add up to \(\frac{\pi}{2}\) radians (or 90 degrees). Specifically:
+
+\[
+\left(\frac{\pi}{2} - \theta\right) + \theta = \frac{\pi}{2}
+\]
+
+This means that the angle \(\frac{\pi}{2} - \theta\) is complementary to \(\theta\).
+
+**Step 2: Use the Tangent of a Difference Identity**
+
+The tangent of a difference identity states:
+
+\[
+\tan(A - B) = \frac{\tan A - \tan B}{1 + \tan A \tan B}
+\]
+
+Applying this identity to \(A = \frac{\pi}{2}\) and \(B = \theta\):
+
+\[
+\tan\left(\frac{\pi}{2} - \theta\right) = \frac{\tan\left(\frac{\pi}{2}\right) - \tan \theta}{1 + \tan\left(\frac{\pi}{2}\right) \tan \theta}
+\]
+
+However, \(\tan\left(\frac{\pi}{2}\right)\) is undefined because the cosine of \(\frac{\pi}{2}\) is zero, making the tangent undefined (infinite). Therefore, we need a different approach.
+
+**Step 3: Use Complementary Angle Identities**
+
+For complementary angles \(A\) and \(B\):
+
+\[
+\tan(A + B) = \tan\left(\frac{\pi}{2}\right)
+\]
+
+But since \(A + B = \frac{\pi}{2}\), this expression is undefined. Instead, consider the relationship between sine and cosine for complementary angles:
+
+\[
+\sin\left(\frac{\pi}{2} - \theta\right) = \cos \theta
+\]
+\[
+\cos\left(\frac{\pi}{2} - \theta\right) = \sin \theta
+\]
+
+**Step 4: Express Tangent in Terms of Sine and Cosine**
+
+Using the definitions:
+
+\[
+\tan x = \frac{\sin x}{\cos x}
+\]
+
+Apply this to \(x = \frac{\pi}{2} - \theta\):
+
+\[
+\tan\left(\frac{\pi}{2} - \theta\right) = \frac{\sin\left(\frac{\pi}{2} - \theta\right)}{\cos\left(\frac{\pi}{2} - \theta\right)}
+\]
+
+Substitute the complementary angle identities:
+
+\[
+\tan\left(\frac{\pi}{2} - \theta\right) = \frac{\cos \theta}{\sin \theta}
+\]
+
+**Step 5: Recognize Cotangent**
+
+Recall that cotangent is the reciprocal of tangent:
+
+\[
+\cot x = \frac{1}{\tan x}
+\]
+
+Therefore:
+
+\[
+\cot(\theta) = \frac{1}{\tan \theta} = \frac{\cos \theta}{\sin \theta}
+\]
+
+**Step 6: Conclude the Proof**
+
+From Step 4 and Step 5, we have:
+
+\[
+\tan\left(\frac{\pi}{2} - \theta\right) = \frac{\cos \theta}{\sin \theta} = \cot(\theta)
+\]
+
+Thus,
+
+\[
+\tan\left(\frac{\pi}{2} - \theta\right) = \cot(\theta)
+\]
+
+This completes the proof.

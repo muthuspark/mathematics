@@ -1,0 +1,65 @@
+---
+title: "sin(A)sin(B) = [cos(A-B) - cos(A+B)]/2"
+tags: ["Trignometry" , "Product-to-Sum Formulas"]
+showTags: true
+math: true
+---
+
+
+
+**Step-by-Step Explanation and Proof**
+
+We aim to prove that:
+
+\[ \sin A \cdot \sin B = \frac{\cos(A - B) - \cos(A + B)}{2} \]
+
+This is a standard trigonometric identity derived from sum-to-product identities. Let's break down the proof step by step.
+
+---
+
+**Step 1: Recall Sum-to-Product Identities**
+
+The sum-to-product identities relate sums or differences of sines and cosines to products:
+
+1. **Sum of Sines:**
+   \[ \sin A + \sin B = 2\sin\left(\frac{A + B}{2}\right)\cos\left(\frac{A - B}{2}\right) \]
+   
+2. **Difference of Sines:**
+   \[ \sin A - \sin B = 2\cos\left(\frac{A + B}{2}\right)\sin\left(\frac{A - B}{2}\right) \]
+
+3. **Sum of Cosines:**
+   \[ \cos A + \cos B = 2\cos\left(\frac{A + B}{2}\right)\cos\left(\frac{A - B}{2}\right) \]
+   
+4. **Difference of Cosines:**
+   \[ \cos A - \cos B = -2\sin\left(\frac{A + B}{2}\right)\sin\left(\frac{A - B}{2}\right) \]
+
+---
+
+**Step 2: Derive the Expression for sin A sin B Using Sum-to-Product Identities**
+
+We can express sin A and sin B using sum-to-product identities. However, a more straightforward approach is to use a different identity.
+
+Recall that:
+
+\[ \cos(A - B) + \cos(A + B) = 2\cos A \cos B \]
+\[ \cos(A - B) - \cos(A + B) = 2\sin A \sin B \]
+
+**Step 3: Derive sin A sin B**
+
+Let's derive the expression for sin A sin B using the second identity:
+
+Starting with:
+
+\[ \cos(A - B) - \cos(A + B) = 2\sin A \sin B \]
+
+Divide both sides by 2 to solve for sin A sin B:
+
+\[ \sin A \cdot \sin B = \frac{\cos(A - B) - \cos(A + B)}{2} \]
+
+**Conclusion:**
+
+Therefore, we have proven that:
+
+\[ \sin A \cdot \sin B = \frac{\cos(A - B) - \cos(A + B)}{2} \]
+
+This identity is often used in various areas of mathematics and physics to simplify expressions involving products of sine functions.

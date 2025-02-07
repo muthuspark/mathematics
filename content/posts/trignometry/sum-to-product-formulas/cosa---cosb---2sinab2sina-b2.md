@@ -1,0 +1,45 @@
+---
+title: "cos(A) - cos(B) = -2sin((A+B)/2)sin((A-B)/2)"
+tags: ["Trignometry", "Sum-to-Product Formulas"]
+showTags: true
+math: true
+---
+
+
+
+To prove the identity \(\cos A - \cos B = -2 \sin \left( \frac{A+B}{2} \right) \sin \left( \frac{A-B}{2} \right)\), we can use trigonometric identities and angle complement properties.
+
+1. Express \(\cos A\) and \(\cos B\) as sines of complementary angles:
+   \[
+   \cos A = \sin\left(\frac{\pi}{2} - A\right) \quad \text{and} \quad \cos B = \sin\left(\frac{\pi}{2} - B\right)
+   \]
+
+2. Use the identity for the difference of sines:
+   \[
+   \sin x - \sin y = 2 \cos\left( \frac{x + y}{2} \right) \sin\left( \frac{x - y}{2} \right)
+   \]
+   Let \(x = \frac{\pi}{2} - A\) and \(y = \frac{\pi}{2} - B\).
+
+3. Substitute these values into the sine difference identity:
+   \[
+   \sin\left(\frac{\pi}{2} - A\right) - \sin\left(\frac{\pi}{2} - B\right) = 2 \cos\left( \frac{(\frac{\pi}{2} - A) + (\frac{\pi}{2} - B)}{2} \right) \sin\left( \frac{(\frac{\pi}{2} - A) - (\frac{\pi}{2} - B)}{2} \right)
+   \]
+
+4. Simplify the arguments:
+   \[
+   \cos\left( \frac{\pi - (A + B)}{2} \right) = \sin\left( \frac{A + B}{2} \right)
+   \]
+   \[
+   \sin\left( \frac{(B - A)}{2} \right) = \sin\left( \frac{-(A - B)}{2} \right) = -\sin\left( \frac{A - B}{2} \right)
+   \]
+
+5. Putting it all together:
+   \[
+   \cos A - \cos B = 2 \sin\left( \frac{A + B}{2} \right) (-\sin\left( \frac{A - B}{2} \right)) = -2 \sin\left( \frac{A + B}{2} \right) \sin\left( \frac{A - B}{2} \right)
+   \]
+
+Thus, the identity is proven as:
+
+\[
+\boxed{\cos A - \cos B = -2 \sin \left( \frac{A+B}{2} \right) \sin \left( \frac{A-B}{2} \right)}
+\]

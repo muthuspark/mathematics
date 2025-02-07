@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sum-to-Product Formulas on Everything Mathematics</title>
+    <link>http://localhost:46803/tags/sum-to-product-formulas/</link>
+    <description>Recent content in Sum-to-Product Formulas on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:46803/tags/sum-to-product-formulas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cos(A) - cos(B) = -2sin((A&#43;B)/2)sin((A-B)/2)</title>
+      <link>http://localhost:46803/posts/trignometry/sum-to-product-formulas/cosa---cosb---2sinab2sina-b2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/sum-to-product-formulas/cosa---cosb---2sinab2sina-b2/</guid>
+      <description>&lt;p&gt;To prove the identity \(\cos A - \cos B = -2 \sin \left( \frac{A+B}{2} \right) \sin \left( \frac{A-B}{2} \right)\), we can use trigonometric identities and angle complement properties.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos A = \sin\left(\frac{\pi}{2} - A\right) \quad \text{and} \quad \cos B = \sin\left(\frac{\pi}{2} - B\right)&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \sin x - \sin y = 2 \cos\left( \frac{x + y}{2} \right) \sin\left( \frac{x - y}{2} \right)&#xA;   \]&lt;p&gt;&#xA;Let \(x = \frac{\pi}{2} - A\) and \(y = \frac{\pi}{2} - B\).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cos(A) &#43; cos(B) = 2cos((A&#43;B)/2)cos((A-B)/2)</title>
+      <link>http://localhost:46803/posts/trignometry/sum-to-product-formulas/cosa--cosb--2cosab2cosa-b2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/sum-to-product-formulas/cosa--cosb--2cosab2cosa-b2/</guid>
+      <description>&lt;p&gt;To prove the trigonometric identity \(\cos A + \cos B = 2\cos\left(\frac{A+B}{2}\right)\cos\left(\frac{A-B}{2}\right)\), we can use Euler&amp;rsquo;s formula and properties of complex numbers or product-to-sum identities. Here, we will use the product-to-sum identity approach.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos A = \text{Re}(e^{iA}) \quad \text{and} \quad \cos B = \text{Re}(e^{iB})&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos A + \cos B = \text{Re}(e^{iA}) + \text{Re}(e^{iB}) = \text{Re}(e^{iA} + e^{iB})&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   e^{iA} + e^{iB} = e^{i(A+B)/2} \left(e^{-i(A-B)/2} + e^{i(A-B)/2}\right)&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   e^{-i(A-B)/2} + e^{i(A-B)/2} = 2\cos\left(\frac{A - B}{2}\right)&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \text{Re}(e^{iA} + e^{iB}) = \text{Re}\left(e^{i(A+B)/2} \cdot 2\cos\left(\frac{A - B}{2}\right)\right) = 2\cos\left(\frac{A + B}{2}\right)\cos\left(\frac{A - B}{2}\right)&#xA;   \]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;\[&#xA;\cos A + \cos B = 2\cos\left(\frac{A+B}{2}\right)\cos\left(\frac{A-B}{2}\right)&#xA;\]&lt;p&gt;The identity is proven. The final answer is:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(A) - sin(B) = 2cos((A&#43;B)/2)sin((A-B)/2)</title>
+      <link>http://localhost:46803/posts/trignometry/sum-to-product-formulas/sina---sinb--2cosab2sina-b2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/sum-to-product-formulas/sina---sinb--2cosab2sina-b2/</guid>
+      <description>&lt;p&gt;To prove the identity \( \sin A - \sin B = 2\cos\left(\frac{A+B}{2}\right)\sin\left(\frac{A-B}{2}\right) \), we can use sum-to-product identities and angle addition formulas.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Express Sines Using Sum and Difference Formulas:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Let \( C = \frac{A + B}{2} \) and \( D = \frac{A - B}{2} \).&lt;/li&gt;&#xA;&lt;li&gt;Then, we can write:&#xA;\[&#xA;     \sin A = \sin(C + D)&#xA;     \]&#xA;\[&#xA;     \sin B = \sin(C - D)&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Expand Using Angle Addition Formulas:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(A) &#43; sin(B) = 2sin((A&#43;B)/2)cos((A-B)/2)</title>
+      <link>http://localhost:46803/posts/trignometry/sum-to-product-formulas/sina--sinb--2sinab2cosa-b2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/sum-to-product-formulas/sina--sinb--2sinab2cosa-b2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation and Proof&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We aim to prove the trigonometric identity:&lt;/p&gt;&#xA;\[&#xA;\sin(A) + \sin(B) = 2\sin\left(\frac{A+B}{2}\right)\cos\left(\frac{A-B}{2}\right)&#xA;\]&lt;p&gt;&lt;strong&gt;1. Recall the Sum-to-Product Identity for Sines&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;One of the sum-to-product identities in trigonometry is:&lt;/p&gt;&#xA;\[&#xA;\sin(x) + \sin(y) = 2\sin\left(\frac{x+y}{2}\right)\cos\left(\frac{x-y}{2}\right)&#xA;\]&lt;p&gt;&lt;strong&gt;2. Substitute Variables with \(A\) and \(B\)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Let’s substitute \(x = A\) and \(y = B\) into the identity:&lt;/p&gt;&#xA;\[&#xA;\sin(A) + \sin(B) = 2\sin\left(\frac{A+B}{2}\right)\cos\left(\frac{A-B}{2}\right)&#xA;\]&lt;p&gt;&lt;strong&gt;3. Conclusion&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;After substitution, we directly obtain the desired identity:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

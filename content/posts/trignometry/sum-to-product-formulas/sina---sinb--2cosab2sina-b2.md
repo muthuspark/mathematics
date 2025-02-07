@@ -1,0 +1,62 @@
+---
+title: "sin(A) - sin(B) = 2cos((A+B)/2)sin((A-B)/2)"
+tags: ["Trignometry" , "Sum-to-Product Formulas"]
+showTags: true
+math: true
+---
+
+
+
+To prove the identity \( \sin A - \sin B = 2\cos\left(\frac{A+B}{2}\right)\sin\left(\frac{A-B}{2}\right) \), we can use sum-to-product identities and angle addition formulas.
+
+**Step-by-Step Explanation:**
+
+1. **Express Sines Using Sum and Difference Formulas:**
+   - Let \( C = \frac{A + B}{2} \) and \( D = \frac{A - B}{2} \).
+   - Then, we can write:
+     \[
+     \sin A = \sin(C + D)
+     \]
+     \[
+     \sin B = \sin(C - D)
+     \]
+
+2. **Expand Using Angle Addition Formulas:**
+   - For \( \sin(C + D) \):
+     \[
+     \sin(C + D) = \sin C \cos D + \cos C \sin D
+     \]
+   - For \( \sin(C - D) \):
+     \[
+     \sin(C - D) = \sin C \cos D - \cos C \sin D
+     \]
+
+3. **Subtract the Two Expanded Sines:**
+   \[
+   \sin A - \sin B = [\sin C \cos D + \cos C \sin D] - [\sin C \cos D - \cos C \sin D]
+   \]
+
+4. **Simplify the Expression:**
+   - Subtract term by term:
+     \[
+     (\sin C \cos D - \sin C \cos D) + (\cos C \sin D + \cos C \sin D)
+     \]
+   - This simplifies to:
+     \[
+     0 + 2\cos C \sin D = 2\cos C \sin D
+     \]
+
+5. **Substitute Back \( C \) and \( D \):**
+   - Recall that \( C = \frac{A + B}{2} \) and \( D = \frac{A - B}{2} \).
+   - Therefore:
+     \[
+     2\cos\left(\frac{A+B}{2}\right)\sin\left(\frac{A-B}{2}\right)
+     \]
+
+6. **Conclusion:**
+   - Thus, we have shown that:
+     \[
+     \sin A - \sin B = 2\cos\left(\frac{A+B}{2}\right)\sin\left(\frac{A-B}{2}\right)
+     \]
+   
+This completes the proof using sum-to-product identities and angle addition formulas.

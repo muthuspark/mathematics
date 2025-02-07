@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Half Angle Formulas on Everything Mathematics</title>
+    <link>http://localhost:46803/tags/half-angle-formulas/</link>
+    <description>Recent content in Half Angle Formulas on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:46803/tags/half-angle-formulas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cos²(θ/2) = (1 &#43; cos(θ))/2</title>
+      <link>http://localhost:46803/posts/trignometry/half-angle-formulas/cos2--1--cos2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/half-angle-formulas/cos2--1--cos2/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s prove the identity step by step.&lt;/p&gt;&#xA;\[ \cos^2\left(\frac{\theta}{2}\right) = \frac{1 + \cos\theta}{2} \]&lt;p&gt;&lt;strong&gt;Step 1: Start with the Double-Angle Identity&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \cos(2\alpha) = 2\cos^2\alpha - 1 \]\[ \cos(2 \times \frac{\theta}{2}) = 2\cos^2\left(\frac{\theta}{2}\right) - 1 \]&lt;p&gt;&lt;strong&gt;Step 2: Simplify the Left Side&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \cos\theta = 2\cos^2\left(\frac{\theta}{2}\right) - 1 \]&lt;p&gt;&lt;strong&gt;Step 3: Isolate \( \cos^2\left(\frac{\theta}{2}\right) \)&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \cos\theta + 1 = 2\cos^2\left(\frac{\theta}{2}\right) \]\[ \cos^2\left(\frac{\theta}{2}\right) = \frac{1 + \cos\theta}{2} \]&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \cos^2\left(\frac{\theta}{2}\right) = \frac{1 + \cos\theta}{2} \]&lt;p&gt;&#xA;This identity is useful in various applications of trigonometry, particularly when dealing with half-angle formulas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin²(θ/2) = (1 - cos(θ))/2</title>
+      <link>http://localhost:46803/posts/trignometry/half-angle-formulas/sin2--1---cos2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/half-angle-formulas/sin2--1---cos2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Proof&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin^{2}\left(\frac{\theta}{2}\right) = \frac{1 - \cos(\theta)}{2}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 1: Recall the Double-Angle Identity for Cosine&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\cos(2\alpha) = 1 - 2\sin^{2}(\alpha)&#xA;\]\[&#xA;\cos(2\alpha) = 2\cos^{2}(\alpha) - 1&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Apply the Double-Angle Identity to \(\theta\) and \(2\theta/2\)&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\alpha = \frac{\theta}{2}&#xA;\]&lt;p&gt;&#xA;Then, \(2\alpha = \theta\). Substituting into the double-angle identity:&lt;/p&gt;&#xA;\[&#xA;\cos(\theta) = 1 - 2\sin^{2}\left(\frac{\theta}{2}\right)&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Solve for \( \sin^{2}\left(\frac{\theta}{2}\right) \)&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\cos(\theta) = 1 - 2\sin^{2}\left(\frac{\theta}{2}\right)&#xA;\]\[&#xA;\cos(\theta) - 1 = -2\sin^{2}\left(\frac{\theta}{2}\right)&#xA;\]\[&#xA;1 - \cos(\theta) = 2\sin^{2}\left(\frac{\theta}{2}\right)&#xA;\]&lt;p&gt;&lt;strong&gt;Step 4: Divide Both Sides by 2&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan²(θ/2) = (1 - cos(θ))/(1 &#43; cos(θ))</title>
+      <link>http://localhost:46803/posts/trignometry/half-angle-formulas/tan2--1---cos1--cos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/half-angle-formulas/tan2--1---cos1--cos/</guid>
+      <description>&lt;p&gt;To prove the identity \(\tan^2\left(\frac{\theta}{2}\right) = \frac{1 - \cos\theta}{1 + \cos\theta}\), we can use the half-angle formulas for sine and cosine. Here&amp;rsquo;s a step-by-step explanation:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \tan\left(\frac{\theta}{2}\right) = \frac{\sin\left(\frac{\theta}{2}\right)}{\cos\left(\frac{\theta}{2}\right)}&#xA;   \]\[&#xA;   \tan^2\left(\frac{\theta}{2}\right) = \left(\frac{\sin\left(\frac{\theta}{2}\right)}{\cos\left(\frac{\theta}{2}\right)}\right)^2 = \frac{\sin^2\left(\frac{\theta}{2}\right)}{\cos^2\left(\frac{\theta}{2}\right)}&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Use the half-angle identities for sine and cosine:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;For sine:&#xA;\[&#xA;     \sin\left(\frac{\theta}{2}\right) = \sqrt{\frac{1 - \cos\theta}{2}}&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;For cosine:&#xA;\[&#xA;     \cos\left(\frac{\theta}{2}\right) = \sqrt{\frac{1 + \cos\theta}{2}}&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \sin^2\left(\frac{\theta}{2}\right) = \frac{1 - \cos\theta}{2}&#xA;   \]\[&#xA;   \cos^2\left(\frac{\theta}{2}\right) = \frac{1 + \cos\theta}{2}&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \tan^2\left(\frac{\theta}{2}\right) = \frac{\frac{1 - \cos\theta}{2}}{\frac{1 + \cos\theta}{2}}&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \tan^2\left(\frac{\theta}{2}\right) = \frac{1 - \cos\theta}{1 + \cos\theta}&#xA;   \]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;This completes the proof that \(\tan^2\left(\frac{\theta}{2}\right)\) equals \(\frac{1 - \cos\theta}{1 + \cos\theta}\).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

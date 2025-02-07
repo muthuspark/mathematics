@@ -1,0 +1,44 @@
+---
+title: "cos(A)cos(B) = [cos(A-B) + cos(A+B)]/2"
+tags: ["Trignometry", "Product-to-Sum Formulas"]
+showTags: true
+math: true
+---
+
+
+
+To derive the expression for \(\cos A \cos B\), we can use Euler's formula, which states that \(e^{i\theta} = \cos \theta + i \sin \theta\). By applying this to both angles \(A\) and \(B\), we get:
+
+\[ e^{iA} = \cos A + i \sin A \]
+\[ e^{-iB} = \cos B - i \sin B \]
+
+Adding these equations, we obtain:
+
+\[ e^{iA} + e^{-iB} = (\cos A + \cos B) + i(\sin A - \sin B) \]
+
+Similarly, subtracting these equations gives us:
+
+\[ e^{iA} - e^{-iB} = (\cos A - \cos B) + i(\sin A + \sin B) \]
+
+By considering the sum of \(e^{i(A+B)}\) and \(e^{-i(A-B)}\), we can use Euler's formula for exponentials:
+
+\[ e^{iA} + e^{-iB} = (\cos A + \cos B) + i(\sin A - \sin B) \]
+\[ e^{iB} + e^{-iA} = (\cos B + \cos A) + i(\sin B - \sin A) \]
+
+Adding these two results, we get:
+
+\[ e^{iA} + e^{-iB} + e^{iB} + e^{-iA} = 2(\cos A + \cos B) \]
+
+This simplifies to:
+
+\[ e^{i(A+B)} + e^{-i(A-B)} + e^{i(A-B)} + e^{-i(A+B)} = 4\cos A \cos B \]
+
+Dividing both sides by 4, we obtain:
+
+\[ \cos A \cos B = \frac{1}{2} [\cos(A + B) + \cos(A - B)] \]
+
+Thus, the expression for \(\cos A \cos B\) is:
+
+\[
+\boxed{\frac{1}{2} [\cos(A + B) + \cos(A - B)]}
+\]

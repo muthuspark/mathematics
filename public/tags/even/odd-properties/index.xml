@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Even/Odd Properties on Everything Mathematics</title>
+    <link>http://localhost:46803/tags/even/odd-properties/</link>
+    <description>Recent content in Even/Odd Properties on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:46803/tags/even/odd-properties/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cos(-θ) = cos(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/cos---cos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/cos---cos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Proof of \(\cos(-\theta) = \cos(\theta)\)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Understand Cosine on the Unit Circle:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Consider a unit circle (a circle with radius \(r = 1\)) centered at the origin of a coordinate system.&lt;/li&gt;&#xA;&lt;li&gt;For an angle \(\theta\), a point \(P\) on the unit circle is represented as \((x, y)\).&lt;/li&gt;&#xA;&lt;li&gt;By definition:&#xA;\[&#xA;     x = \cos(\theta) \quad \text{and} \quad y = \sin(\theta)&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Reflecting an Angle by \(-\theta\):&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A negative angle \(-\theta\) represents a rotation in the clockwise direction instead of counterclockwise.&lt;/li&gt;&#xA;&lt;li&gt;The point corresponding to \(-\theta\) is also on the unit circle, but it&amp;rsquo;s located at \( (x, -y) \).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Expressing \(\cos(-\theta)\):&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cot(-θ) = -cot(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/cot----cot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/cot----cot/</guid>
+      <description>&lt;p&gt;To prove that \(\cot(-\theta) = -\cot(\theta)\), we&amp;rsquo;ll use the definitions of the trigonometric functions and their properties.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Definition of Cotangent&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Apply Negative Angle Identities to Cosine and Sine&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\cos(-\theta) = \cos(\theta)&#xA;\]\[&#xA;\sin(-\theta) = -\sin(\theta)&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Compute cot(-θ)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Using the definitions and identities from Steps 1 and 2:&lt;/p&gt;&#xA;\[&#xA;\cot(-\theta) = \frac{\cos(-\theta)}{\sin(-\theta)} = \frac{\cos(\theta)}{-\sin(\theta)} = -\frac{\cos(\theta)}{\sin(\theta)} = -\cot(\theta)&#xA;\]&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>csc(-θ) = -csc(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/csc----csc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/csc----csc/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s provide a clear and step-by-step proof for the identity \( \csc(-\theta) = -\csc(\theta) \).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Recall the Definition of Cosecant&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \csc(\theta) = \frac{1}{\sin(\theta)} \]&lt;p&gt;&lt;strong&gt;Step 2: Understand the Property of Sine for Negative Angles&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \sin(-\theta) = -\sin(\theta) \]&lt;p&gt;&#xA;In other words, when you input a negative angle into the sine function, it outputs the negative of what it would have outputted for the positive angle.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 3: Apply the Sine Function to Negative Angle&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sec(-θ) = sec(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/sec---sec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/sec---sec/</guid>
+      <description>&lt;p&gt;To determine why cosine is an even function, we start by considering the unit circle concept where each angle corresponds to a point (x, y) on the circle with radius 1. The x-coordinate of this point is defined as cosine: \( \cos(\theta) = x \). Similarly, the y-coordinate is sine: \( \sin(\theta) = y \).&lt;/p&gt;&#xA;&lt;p&gt;For an angle \( -\theta \), its coordinates are \( (\cos(-\theta), \sin(-\theta)) \) due to reflection properties on the unit circle. Since cosine depends only on the x-coordinate and both points for \( \theta \) and \( -\theta \) have the same x-coordinate (because reflecting over the x-axis does not change the x-coordinate), it follows that \( \cos(\theta) = \cos(-\theta) \).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(-θ) = -sin(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/sin----sin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/sin----sin/</guid>
+      <description>&lt;p&gt;To prove that \(\sin(-\theta) = -\sin(\theta)\), we can use multiple approaches:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. Using Even and Odd Functions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt; A function \(f(x)\) is even if \(f(-x) = f(x)\) for all \(x\) in its domain, and odd if \(f(-x) = -f(x)\) for all \(x\).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sine Function:&lt;/strong&gt; Sine is an odd function because \(\sin(-\theta) = -\sin(\theta)\).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. Using the Unit Circle:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;On the unit circle, rotating counterclockwise by \(\theta\) radians gives a point with coordinates \((\cos(\theta), \sin(\theta))\).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan(-θ) = -tan(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/tan----tan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/tan----tan/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s provide a clear, step-by-step proof of the identity \(\tan(-\theta) = -\tan(\theta)\).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Definition of Tangent&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}&#xA;\]\[&#xA;\tan(-\theta) = \frac{\sin(-\theta)}{\cos(-\theta)}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Use the Odd-Even Properties of Sine and Cosine&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin(-\theta) = -\sin(\theta)&#xA;\]\[&#xA;\cos(-\theta) = \cos(\theta)&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Substitute the Odd and Even Properties into the Tangent Function&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\tan(-\theta) = \frac{\sin(-\theta)}{\cos(-\theta)} = \frac{-\sin(\theta)}{\cos(\theta)}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 4: Simplify the Expression&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\tan(-\theta) = -\frac{\sin(\theta)}{\cos(\theta)} = -\tan(\theta)&#xA;\]\[&#xA;\tan(-\theta) = -\tan(\theta)&#xA;\]&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

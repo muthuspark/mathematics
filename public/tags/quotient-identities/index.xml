@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quotient Identities on Everything Mathematics</title>
+    <link>http://localhost:46803/tags/quotient-identities/</link>
+    <description>Recent content in Quotient Identities on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:46803/tags/quotient-identities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cot θ = cos θ/sin θ</title>
+      <link>http://localhost:46803/posts/trignometry/quotient-identities/cot---cos-sin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/quotient-identities/cot---cos-sin/</guid>
+      <description>&lt;p&gt;To prove that \(\cot \theta = \frac{\cos \theta}{\sin \theta}\), let&amp;rsquo;s follow these easy-to-understand steps:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Definition of Cotangent&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Cotangent, often written as \(\cot \theta\), is one of the reciprocal trigonometric functions. It is defined as:&lt;/p&gt;&#xA;\[&#xA;\cot \theta = \frac{1}{\tan \theta}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Recall the Definition of Tangent&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tangent (\(\tan \theta\)) is another trigonometric function and is also known to be the ratio of cosine (\(\cos \theta\)) to sine (\(\sin \theta\)). Specifically:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan θ = sin θ/cos θ</title>
+      <link>http://localhost:46803/posts/trignometry/quotient-identities/tan---sin-cos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/quotient-identities/tan---sin-cos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation and Proof&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Understand the Definitions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Consider a right triangle with an acute angle θ.&lt;/li&gt;&#xA;&lt;li&gt;In such a triangle:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;strong&gt;opposite side&lt;/strong&gt; is labeled as \( \text{opp} \).&lt;/li&gt;&#xA;&lt;li&gt;The &lt;strong&gt;adjacent side&lt;/strong&gt; is labeled as \( \text{adj} \).&lt;/li&gt;&#xA;&lt;li&gt;The &lt;strong&gt;hypotenuse&lt;/strong&gt; is labeled as \( \text{hyp} \).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Express Sine and Cosine:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;By definition:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;\(\sin{\theta} = \frac{\text{opp}}{\text{hyp}}\)&lt;/li&gt;&#xA;&lt;li&gt;\(\cos{\theta} = \frac{\text{adj}}{\text{hyp}}\)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Form the Ratio for Tangent:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The tangent of an angle in a right triangle is defined as:&#xA;\[&#xA;     \tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}}&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \tan{\theta} = \frac{\frac{\text{opp}}{\text{hyp}}}{\frac{\text{adj}}{\text{hyp}}} = \frac{\text{opp}}{\text{hyp}} \times \frac{\text{hyp}}{\text{adj}} = \frac{\text{opp}}{\text{adj}}&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Final Expression:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

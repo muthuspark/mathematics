@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trignometry on Everything Mathematics</title>
+    <link>http://localhost:46803/tags/trignometry/</link>
+    <description>Recent content in Trignometry on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:46803/tags/trignometry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cos θ = 1/sec θ and sec θ = 1/cos θ</title>
+      <link>http://localhost:46803/posts/trignometry/reciprocal-identities/cos---1sec--and-sec---1cos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/reciprocal-identities/cos---1sec--and-sec---1cos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We start by recalling the definition of the &lt;strong&gt;secant function&lt;/strong&gt;, which is one of the trigonometric functions. The secant of an angle θ (written as \(\sec{\theta}\)) is defined as the reciprocal of the cosine of the same angle:&lt;/p&gt;&#xA;\[&#xA;\sec{\theta} = \frac{1}{\cos{\theta}}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 1: Understanding the Definition&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sec{\theta} = \frac{1}{\cos{\theta}}&#xA;\]&lt;p&gt;&#xA;This equation expresses the relationship between the secant and cosine functions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Solving for \(\cos{\theta}\)&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\cos{\theta} = \frac{1}{\sec{\theta}}&#xA;\]\[&#xA;\cos{\theta} = \frac{1}{\sec{\theta}}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Conclusion for the First Identity&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cos(-θ) = cos(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/cos---cos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/cos---cos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Proof of \(\cos(-\theta) = \cos(\theta)\)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Understand Cosine on the Unit Circle:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Consider a unit circle (a circle with radius \(r = 1\)) centered at the origin of a coordinate system.&lt;/li&gt;&#xA;&lt;li&gt;For an angle \(\theta\), a point \(P\) on the unit circle is represented as \((x, y)\).&lt;/li&gt;&#xA;&lt;li&gt;By definition:&#xA;\[&#xA;     x = \cos(\theta) \quad \text{and} \quad y = \sin(\theta)&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Reflecting an Angle by \(-\theta\):&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A negative angle \(-\theta\) represents a rotation in the clockwise direction instead of counterclockwise.&lt;/li&gt;&#xA;&lt;li&gt;The point corresponding to \(-\theta\) is also on the unit circle, but it&amp;rsquo;s located at \( (x, -y) \).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Expressing \(\cos(-\theta)\):&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cos(2θ) = cos²(θ) - sin²(θ) = 2cos²(θ) - 1 = 1 - 2sin²(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/double-angle-formulas/cos2--cos---sin--2cos---1--1---2sin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/double-angle-formulas/cos2--cos---sin--2cos---1--1---2sin/</guid>
+      <description>&lt;p&gt;To prove the trigonometric identities for cos(2θ), we can follow these steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos(A + B) = \cos A \cos B - \sin A \sin B&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos(θ + θ) = \cos²θ - sin²θ&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos(2θ) = cos²θ - sin²θ&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Express in terms of power-reduction formulas:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;From \( \sin²θ + cos²θ = 1 \), solve for cos²θ:&#xA;\[&#xA;     cos²θ = 1 - sin²θ&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;Substitute into the double-angle formula:&#xA;\[&#xA;     cos(2θ) = (1 - sin²θ) - sin²θ = 1 - 2sin²θ&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   sin²θ = 1 - cos²θ&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   cos(2θ) = cos²θ - (1 - cos²θ) = 2cos²θ - 1&#xA;   \]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Thus, we have derived all three forms of the double-angle identity for cosine:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cos(A ± B) = cos(A)cos(B) ∓ sin(A)sin(B)</title>
+      <link>http://localhost:46803/posts/trignometry/addition-and-subtraction-formulas/cosa--b--cosacosb--sinasinb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/addition-and-subtraction-formulas/cosa--b--cosacosb--sinasinb/</guid>
+      <description>&lt;p&gt;To prove the trigonometric identity:&lt;/p&gt;&#xA;\[&#xA;\cos(A \pm B) = \cos A \cos B \mp \sin A \sin B&#xA;\]&lt;p&gt;we will use Euler&amp;rsquo;s formula, which connects complex exponentials to sine and cosine. Here are the detailed steps:&lt;/p&gt;&#xA;&lt;h3 class=&#34;heading&#34; id=&#34;step-1-recall-eulers-formula&#34;&gt;&#xA;  Step 1: Recall Euler&amp;rsquo;s Formula&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#step-1-recall-eulers-formula&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Euler&amp;rsquo;s formula states that for any real number θ:&lt;/p&gt;&#xA;\[&#xA;e^{i\theta} = \cos \theta + i \sin \theta&#xA;\]&lt;p&gt;This formula allows us to represent trigonometric functions in terms of complex exponentials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cos(A) - cos(B) = -2sin((A&#43;B)/2)sin((A-B)/2)</title>
+      <link>http://localhost:46803/posts/trignometry/sum-to-product-formulas/cosa---cosb---2sinab2sina-b2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/sum-to-product-formulas/cosa---cosb---2sinab2sina-b2/</guid>
+      <description>&lt;p&gt;To prove the identity \(\cos A - \cos B = -2 \sin \left( \frac{A+B}{2} \right) \sin \left( \frac{A-B}{2} \right)\), we can use trigonometric identities and angle complement properties.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos A = \sin\left(\frac{\pi}{2} - A\right) \quad \text{and} \quad \cos B = \sin\left(\frac{\pi}{2} - B\right)&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \sin x - \sin y = 2 \cos\left( \frac{x + y}{2} \right) \sin\left( \frac{x - y}{2} \right)&#xA;   \]&lt;p&gt;&#xA;Let \(x = \frac{\pi}{2} - A\) and \(y = \frac{\pi}{2} - B\).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cos(A) &#43; cos(B) = 2cos((A&#43;B)/2)cos((A-B)/2)</title>
+      <link>http://localhost:46803/posts/trignometry/sum-to-product-formulas/cosa--cosb--2cosab2cosa-b2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/sum-to-product-formulas/cosa--cosb--2cosab2cosa-b2/</guid>
+      <description>&lt;p&gt;To prove the trigonometric identity \(\cos A + \cos B = 2\cos\left(\frac{A+B}{2}\right)\cos\left(\frac{A-B}{2}\right)\), we can use Euler&amp;rsquo;s formula and properties of complex numbers or product-to-sum identities. Here, we will use the product-to-sum identity approach.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos A = \text{Re}(e^{iA}) \quad \text{and} \quad \cos B = \text{Re}(e^{iB})&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos A + \cos B = \text{Re}(e^{iA}) + \text{Re}(e^{iB}) = \text{Re}(e^{iA} + e^{iB})&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   e^{iA} + e^{iB} = e^{i(A+B)/2} \left(e^{-i(A-B)/2} + e^{i(A-B)/2}\right)&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   e^{-i(A-B)/2} + e^{i(A-B)/2} = 2\cos\left(\frac{A - B}{2}\right)&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \text{Re}(e^{iA} + e^{iB}) = \text{Re}\left(e^{i(A+B)/2} \cdot 2\cos\left(\frac{A - B}{2}\right)\right) = 2\cos\left(\frac{A + B}{2}\right)\cos\left(\frac{A - B}{2}\right)&#xA;   \]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;\[&#xA;\cos A + \cos B = 2\cos\left(\frac{A+B}{2}\right)\cos\left(\frac{A-B}{2}\right)&#xA;\]&lt;p&gt;The identity is proven. The final answer is:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cos(A)cos(B) = [cos(A-B) &#43; cos(A&#43;B)]/2</title>
+      <link>http://localhost:46803/posts/trignometry/product-to-sum-formulas/cosacosb--cosa-b--cosab2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/product-to-sum-formulas/cosacosb--cosa-b--cosab2/</guid>
+      <description>&lt;p&gt;To derive the expression for \(\cos A \cos B\), we can use Euler&amp;rsquo;s formula, which states that \(e^{i\theta} = \cos \theta + i \sin \theta\). By applying this to both angles \(A\) and \(B\), we get:&lt;/p&gt;&#xA;\[ e^{iA} = \cos A + i \sin A \]\[ e^{-iB} = \cos B - i \sin B \]&lt;p&gt;Adding these equations, we obtain:&lt;/p&gt;&#xA;\[ e^{iA} + e^{-iB} = (\cos A + \cos B) + i(\sin A - \sin B) \]&lt;p&gt;Similarly, subtracting these equations gives us:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cos(π/2 - θ) = sin(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/cos2-----sin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/cos2-----sin/</guid>
+      <description>&lt;p&gt;To prove that \( \cos\left(\frac{\pi}{2} - \theta\right) = \sin(\theta) \), we&amp;rsquo;ll explore this using several approaches, including trigonometric identities and a unit circle perspective.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understanding the Relationship Between Cosine and Sine&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Trigonometric functions have reciprocal relationships. Specifically, sine and cosine are co-functions. This means that:&lt;/p&gt;&#xA;\[&#xA;\sin(\theta) = \cos\left( \frac{\pi}{2} - \theta \right)&#xA;\]&lt;p&gt;and&lt;/p&gt;&#xA;\[&#xA;\cos(\theta) = \sin\left( \frac{\pi}{2} - \theta \right)&#xA;\]&lt;p&gt;This relationship is derived from the fact that sine and cosine are cofunctions, meaning they are supplementary functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cos²(θ/2) = (1 &#43; cos(θ))/2</title>
+      <link>http://localhost:46803/posts/trignometry/half-angle-formulas/cos2--1--cos2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/half-angle-formulas/cos2--1--cos2/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s prove the identity step by step.&lt;/p&gt;&#xA;\[ \cos^2\left(\frac{\theta}{2}\right) = \frac{1 + \cos\theta}{2} \]&lt;p&gt;&lt;strong&gt;Step 1: Start with the Double-Angle Identity&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \cos(2\alpha) = 2\cos^2\alpha - 1 \]\[ \cos(2 \times \frac{\theta}{2}) = 2\cos^2\left(\frac{\theta}{2}\right) - 1 \]&lt;p&gt;&lt;strong&gt;Step 2: Simplify the Left Side&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \cos\theta = 2\cos^2\left(\frac{\theta}{2}\right) - 1 \]&lt;p&gt;&lt;strong&gt;Step 3: Isolate \( \cos^2\left(\frac{\theta}{2}\right) \)&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \cos\theta + 1 = 2\cos^2\left(\frac{\theta}{2}\right) \]\[ \cos^2\left(\frac{\theta}{2}\right) = \frac{1 + \cos\theta}{2} \]&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \cos^2\left(\frac{\theta}{2}\right) = \frac{1 + \cos\theta}{2} \]&lt;p&gt;&#xA;This identity is useful in various applications of trigonometry, particularly when dealing with half-angle formulas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cot θ = cos θ/sin θ</title>
+      <link>http://localhost:46803/posts/trignometry/quotient-identities/cot---cos-sin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/quotient-identities/cot---cos-sin/</guid>
+      <description>&lt;p&gt;To prove that \(\cot \theta = \frac{\cos \theta}{\sin \theta}\), let&amp;rsquo;s follow these easy-to-understand steps:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Definition of Cotangent&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Cotangent, often written as \(\cot \theta\), is one of the reciprocal trigonometric functions. It is defined as:&lt;/p&gt;&#xA;\[&#xA;\cot \theta = \frac{1}{\tan \theta}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Recall the Definition of Tangent&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tangent (\(\tan \theta\)) is another trigonometric function and is also known to be the ratio of cosine (\(\cos \theta\)) to sine (\(\sin \theta\)). Specifically:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cot(-θ) = -cot(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/cot----cot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/cot----cot/</guid>
+      <description>&lt;p&gt;To prove that \(\cot(-\theta) = -\cot(\theta)\), we&amp;rsquo;ll use the definitions of the trigonometric functions and their properties.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Definition of Cotangent&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\cot(\theta) = \frac{\cos(\theta)}{\sin(\theta)}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Apply Negative Angle Identities to Cosine and Sine&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\cos(-\theta) = \cos(\theta)&#xA;\]\[&#xA;\sin(-\theta) = -\sin(\theta)&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Compute cot(-θ)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Using the definitions and identities from Steps 1 and 2:&lt;/p&gt;&#xA;\[&#xA;\cot(-\theta) = \frac{\cos(-\theta)}{\sin(-\theta)} = \frac{\cos(\theta)}{-\sin(\theta)} = -\frac{\cos(\theta)}{\sin(\theta)} = -\cot(\theta)&#xA;\]&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cot(π/2 - θ) = tan(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/cot2-----tan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/cot2-----tan/</guid>
+      <description>&lt;p&gt;To prove that \( \cot\left(\frac{\pi}{2} - \theta\right) = \tan\theta \), we can follow these steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cot\left(\frac{\pi}{2} - \theta\right) = \frac{\cos\left(\frac{\pi}{2} - \theta\right)}{\sin\left(\frac{\pi}{2} - \theta\right)}&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos\left(\frac{\pi}{2} - \theta\right) = \cos\left(\frac{\pi}{2}\right)\cos\theta + \sin\left(\frac{\pi}{2}\right)\sin\theta&#xA;   \]\[&#xA;   \sin\left(\frac{\pi}{2} - \theta\right) = \sin\left(\frac{\pi}{2}\right)\cos\theta - \cos\left(\frac{\pi}{2}\right)\sin\theta&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos\left(\frac{\pi}{2}\right) = 0, \quad \sin\left(\frac{\pi}{2}\right) = 1&#xA;   \]\[&#xA;   \cos\left(\frac{\pi}{2} - \theta\right) = 0 \cdot \cos\theta + 1 \cdot \sin\theta = \sin\theta&#xA;   \]\[&#xA;   \sin\left(\frac{\pi}{2} - \theta\right) = 1 \cdot \cos\theta - 0 \cdot \sin\theta = \cos\theta&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cot\left(\frac{\pi}{2} - \theta\right) = \frac{\sin\theta}{\cos\theta} = \tan\theta&#xA;   \]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Thus, we have proven that \( \cot\left(\frac{\pi}{2} - \theta\right) = \tan\theta \).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cot²θ &#43; 1 = csc²θ</title>
+      <link>http://localhost:46803/posts/trignometry/pythagorean-identities/cot--1--csc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/pythagorean-identities/cot--1--csc/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s prove the identity step by step.&lt;/p&gt;&#xA;\[ \cot^2{\theta} + 1 = \csc^2{\theta} \]&lt;p&gt;&lt;strong&gt;Step-by-Step Proof:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Express in Terms of Sine and Cosine:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Recall that:&#xA;\[ \cot{\theta} = \frac{\cos{\theta}}{\sin{\theta}} \]&#xA;\[ \csc{\theta} = \frac{1}{\sin{\theta}} \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \cot^2{\theta} = \left(\frac{\cos{\theta}}{\sin{\theta}}\right)^2 = \frac{\cos^2{\theta}}{\sin^2{\theta}} \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \cot^2{\theta} + 1 = \frac{\cos^2{\theta}}{\sin^2{\theta}} + 1 \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Find a Common Denominator to Combine Terms:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To add \( \frac{\cos^2{\theta}}{\sin^2{\theta}} \) and 1, express 1 as \( \frac{\sin^2{\theta}}{\sin^2{\theta}} \):&#xA;\[ \frac{\cos^2{\theta}}{\sin^2{\theta}} + 1 = \frac{\cos^2{\theta}}{\sin^2{\theta}} + \frac{\sin^2{\theta}}{\sin^2{\theta}} \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \frac{\cos^2{\theta} + \sin^2{\theta}}{\sin^2{\theta}} \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Apply the Pythagorean Identity:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>csc(-θ) = -csc(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/csc----csc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/csc----csc/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s provide a clear and step-by-step proof for the identity \( \csc(-\theta) = -\csc(\theta) \).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Recall the Definition of Cosecant&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \csc(\theta) = \frac{1}{\sin(\theta)} \]&lt;p&gt;&lt;strong&gt;Step 2: Understand the Property of Sine for Negative Angles&lt;/strong&gt;&lt;/p&gt;&#xA;\[ \sin(-\theta) = -\sin(\theta) \]&lt;p&gt;&#xA;In other words, when you input a negative angle into the sine function, it outputs the negative of what it would have outputted for the positive angle.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 3: Apply the Sine Function to Negative Angle&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>csc(π/2 - θ) = sec(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/csc2-----sec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/csc2-----sec/</guid>
+      <description>&lt;p&gt;To prove that \(\csc\left(\frac{\pi}{2} - \theta\right) = \sec\theta\), we can proceed step by step as follows:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Definitions&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cosecant (csc)&lt;/strong&gt; is defined as the reciprocal of sine:&lt;/p&gt;&#xA;\[&#xA;  \csc(x) = \frac{1}{\sin(x)}&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Secant (sec)&lt;/strong&gt; is defined as the reciprocal of cosine:&lt;/p&gt;&#xA;\[&#xA;  \sec(x) = \frac{1}{\cos(x)}&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Apply the Cosecant Function to the Angle&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We start with:&lt;/p&gt;&#xA;\[&#xA;\csc\left(\frac{\pi}{2} - \theta\right)&#xA;\]&lt;p&gt;Using the definition of cosecant, this becomes:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sec(-θ) = sec(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/sec---sec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/sec---sec/</guid>
+      <description>&lt;p&gt;To determine why cosine is an even function, we start by considering the unit circle concept where each angle corresponds to a point (x, y) on the circle with radius 1. The x-coordinate of this point is defined as cosine: \( \cos(\theta) = x \). Similarly, the y-coordinate is sine: \( \sin(\theta) = y \).&lt;/p&gt;&#xA;&lt;p&gt;For an angle \( -\theta \), its coordinates are \( (\cos(-\theta), \sin(-\theta)) \) due to reflection properties on the unit circle. Since cosine depends only on the x-coordinate and both points for \( \theta \) and \( -\theta \) have the same x-coordinate (because reflecting over the x-axis does not change the x-coordinate), it follows that \( \cos(\theta) = \cos(-\theta) \).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sec(π/2 - θ) = csc(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/sec2-----csc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/sec2-----csc/</guid>
+      <description>&lt;p&gt;To prove that \(\sec\left(\frac{\pi}{2} - \theta\right) = \csc\theta\), follow these steps:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Definitions&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Secant Function:&lt;/strong&gt; The secant of an angle is the reciprocal of the cosine function. Mathematically,&lt;/p&gt;&#xA;\[&#xA;  \sec x = \frac{1}{\cos x}&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cosecant Function:&lt;/strong&gt; The cosecant of an angle is the reciprocal of the sine function. Mathematically,&lt;/p&gt;&#xA;\[&#xA;  \csc x = \frac{1}{\sin x}&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Express secant as a Reciprocal&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Start with the left-hand side (LHS) of the equation:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin θ = 1/csc θ and csc θ = 1/sin θ</title>
+      <link>http://localhost:46803/posts/trignometry/reciprocal-identities/sin---1csc--and-csc---1sin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/reciprocal-identities/sin---1csc--and-csc---1sin/</guid>
+      <description>&lt;p&gt;To prove that \(\sin \theta = \frac{1}{\csc \theta}\) and \(\csc \theta = \frac{1}{\sin \theta}\), let&amp;rsquo;s proceed step by step.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Definitions&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sine Function (\(\sin \theta\))&lt;/strong&gt;: In a right triangle, it represents the ratio of the length of the side opposite to an angle θ (relative to the hypotenuse).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;  \csc \theta = \frac{1}{\sin \theta}&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Prove \(\sin \theta = \frac{1}{\csc \theta}\)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;  \csc \theta = \frac{1}{\sin \theta}&#xA;  \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;  \sin \theta = \frac{1}{\csc \theta}&#xA;  \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;\[&#xA;\sin \theta = \frac{1}{\csc \theta} \quad \text{and} \quad \csc \theta = \frac{1}{\sin \theta}&#xA;\]&lt;p&gt;This completes the proof of both equalities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(-θ) = -sin(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/sin----sin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/sin----sin/</guid>
+      <description>&lt;p&gt;To prove that \(\sin(-\theta) = -\sin(\theta)\), we can use multiple approaches:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. Using Even and Odd Functions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt; A function \(f(x)\) is even if \(f(-x) = f(x)\) for all \(x\) in its domain, and odd if \(f(-x) = -f(x)\) for all \(x\).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sine Function:&lt;/strong&gt; Sine is an odd function because \(\sin(-\theta) = -\sin(\theta)\).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. Using the Unit Circle:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;On the unit circle, rotating counterclockwise by \(\theta\) radians gives a point with coordinates \((\cos(\theta), \sin(\theta))\).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(2θ) = 2sin(θ)cos(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/double-angle-formulas/sin2--2sincos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/double-angle-formulas/sin2--2sincos/</guid>
+      <description>&lt;p&gt;Sure! Let&amp;rsquo;s provide a step-by-step proof for the identity \(\sin(2\theta) = 2\sin(\theta)\cos(\theta)\).&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Recall the Angle Addition Formula&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The sine of the sum of two angles can be expressed using the following formula:&lt;/p&gt;&#xA;\[&#xA;\sin(A + B) = \sin A \cos B + \cos A \sin B&#xA;\]&lt;p&gt;This formula allows us to expand the sine of a sum into simpler terms involving sines and cosines of individual angles.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Apply the Formula to \( \sin(2\theta) \)&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(A ± B) = sin(A)cos(B) ± cos(A)sin(B)</title>
+      <link>http://localhost:46803/posts/trignometry/addition-and-subtraction-formulas/sina--b--sinacosb--cosasinb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/addition-and-subtraction-formulas/sina--b--sinacosb--cosasinb/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s provide a detailed step-by-step proof of the sine addition formula:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Statement to Prove:&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin(A + B) = \sin A \cos B + \cos A \sin B&#xA;\]&lt;p&gt;&lt;strong&gt;Step 1: Use Euler&amp;rsquo;s Formula&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Euler&amp;rsquo;s formula states that for any real number θ:&lt;/p&gt;&#xA;\[&#xA;e^{i\theta} = \cos \theta + i \sin \theta&#xA;\]&lt;p&gt;where \(i\) is the imaginary unit.&lt;/p&gt;&#xA;&lt;p&gt;We can express sine and cosine in terms of complex exponentials:&lt;/p&gt;&#xA;\[&#xA;\sin \theta = \frac{e^{i\theta} - e^{-i\theta}}{2i}&#xA;\]\[&#xA;\cos \theta = \frac{e^{i\theta} + e^{-i\theta}}{2}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Express \(\sin(A)\) and \(\sin(B)\)&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(A) - sin(B) = 2cos((A&#43;B)/2)sin((A-B)/2)</title>
+      <link>http://localhost:46803/posts/trignometry/sum-to-product-formulas/sina---sinb--2cosab2sina-b2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/sum-to-product-formulas/sina---sinb--2cosab2sina-b2/</guid>
+      <description>&lt;p&gt;To prove the identity \( \sin A - \sin B = 2\cos\left(\frac{A+B}{2}\right)\sin\left(\frac{A-B}{2}\right) \), we can use sum-to-product identities and angle addition formulas.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Express Sines Using Sum and Difference Formulas:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Let \( C = \frac{A + B}{2} \) and \( D = \frac{A - B}{2} \).&lt;/li&gt;&#xA;&lt;li&gt;Then, we can write:&#xA;\[&#xA;     \sin A = \sin(C + D)&#xA;     \]&#xA;\[&#xA;     \sin B = \sin(C - D)&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Expand Using Angle Addition Formulas:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(A) &#43; sin(B) = 2sin((A&#43;B)/2)cos((A-B)/2)</title>
+      <link>http://localhost:46803/posts/trignometry/sum-to-product-formulas/sina--sinb--2sinab2cosa-b2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/sum-to-product-formulas/sina--sinb--2sinab2cosa-b2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation and Proof&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We aim to prove the trigonometric identity:&lt;/p&gt;&#xA;\[&#xA;\sin(A) + \sin(B) = 2\sin\left(\frac{A+B}{2}\right)\cos\left(\frac{A-B}{2}\right)&#xA;\]&lt;p&gt;&lt;strong&gt;1. Recall the Sum-to-Product Identity for Sines&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;One of the sum-to-product identities in trigonometry is:&lt;/p&gt;&#xA;\[&#xA;\sin(x) + \sin(y) = 2\sin\left(\frac{x+y}{2}\right)\cos\left(\frac{x-y}{2}\right)&#xA;\]&lt;p&gt;&lt;strong&gt;2. Substitute Variables with \(A\) and \(B\)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Let’s substitute \(x = A\) and \(y = B\) into the identity:&lt;/p&gt;&#xA;\[&#xA;\sin(A) + \sin(B) = 2\sin\left(\frac{A+B}{2}\right)\cos\left(\frac{A-B}{2}\right)&#xA;\]&lt;p&gt;&lt;strong&gt;3. Conclusion&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;After substitution, we directly obtain the desired identity:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(A)cos(B) = [sin(A&#43;B) &#43; sin(A-B)]/2</title>
+      <link>http://localhost:46803/posts/trignometry/product-to-sum-formulas/sinacosb--sinab--sina-b2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/product-to-sum-formulas/sinacosb--sinab--sina-b2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin(A)\cos(B) = \frac{\sin(A+B) + \sin(A-B)}{2}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 1: Recall the Sine Addition and Subtraction Formulas&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin(A + B) = \sin A \cos B + \cos A \sin B&#xA;\]\[&#xA;\sin(A - B) = \sin A \cos B - \cos A \sin B&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Add the Two Equations Together&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin(A + B) + \sin(A - B) = (\sin A \cos B + \cos A \sin B) + (\sin A \cos B - \cos A \sin B)&#xA;\]\[&#xA;= 2 \sin A \cos B&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Divide Both Sides by 2&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(A)sin(B) = [cos(A-B) - cos(A&#43;B)]/2</title>
+      <link>http://localhost:46803/posts/trignometry/product-to-sum-formulas/sinasinb--cosa-b---cosab2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/product-to-sum-formulas/sinasinb--cosa-b---cosab2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation and Proof&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We aim to prove that:&lt;/p&gt;&#xA;\[ \sin A \cdot \sin B = \frac{\cos(A - B) - \cos(A + B)}{2} \]&lt;p&gt;This is a standard trigonometric identity derived from sum-to-product identities. Let&amp;rsquo;s break down the proof step by step.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Recall Sum-to-Product Identities&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The sum-to-product identities relate sums or differences of sines and cosines to products:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[ \sin A + \sin B = 2\sin\left(\frac{A + B}{2}\right)\cos\left(\frac{A - B}{2}\right) \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \sin A - \sin B = 2\cos\left(\frac{A + B}{2}\right)\sin\left(\frac{A - B}{2}\right) \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \cos A + \cos B = 2\cos\left(\frac{A + B}{2}\right)\cos\left(\frac{A - B}{2}\right) \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \cos A - \cos B = -2\sin\left(\frac{A + B}{2}\right)\sin\left(\frac{A - B}{2}\right) \]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Derive the Expression for sin A sin B Using Sum-to-Product Identities&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin(π/2 - θ) = cos(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/sin2-----cos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/sin2-----cos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation and Proof&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin\left(\frac{\pi}{2} - \theta\right) = \cos(\theta)&#xA;\]&lt;p&gt;&lt;strong&gt;1. Understanding Radians and Degrees:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Recall that \( \pi \) radians is equivalent to 180 degrees.&lt;/li&gt;&#xA;&lt;li&gt;Therefore, \( \frac{\pi}{2} \) radians equals 90 degrees.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2. Rewriting the Equation Using Degrees:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Substitute \( \frac{\pi}{2} \) with 90° in the original equation:&#xA;\[&#xA;     \sin\left(90^\circ - \theta\right) = \cos(\theta)&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;3. Applying the Co-function Identity:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;strong&gt;co-function identity&lt;/strong&gt; states that for any angle \( A \):&#xA;\[&#xA;     \sin(A) = \cos\left(90^\circ - A\right)&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;Let’s set \( A = 90^\circ - \theta \). Substituting into the co-function identity:&#xA;\[&#xA;     \sin\left(90^\circ - \theta\right) = \cos\left(90^\circ - (90^\circ - \theta)\right)&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;Simplifying inside the cosine function:&#xA;\[&#xA;     \sin\left(90^\circ - \theta\right) = \cos(\theta)&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;4. Conclusion:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin²(θ/2) = (1 - cos(θ))/2</title>
+      <link>http://localhost:46803/posts/trignometry/half-angle-formulas/sin2--1---cos2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/half-angle-formulas/sin2--1---cos2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Proof&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin^{2}\left(\frac{\theta}{2}\right) = \frac{1 - \cos(\theta)}{2}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 1: Recall the Double-Angle Identity for Cosine&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\cos(2\alpha) = 1 - 2\sin^{2}(\alpha)&#xA;\]\[&#xA;\cos(2\alpha) = 2\cos^{2}(\alpha) - 1&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Apply the Double-Angle Identity to \(\theta\) and \(2\theta/2\)&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\alpha = \frac{\theta}{2}&#xA;\]&lt;p&gt;&#xA;Then, \(2\alpha = \theta\). Substituting into the double-angle identity:&lt;/p&gt;&#xA;\[&#xA;\cos(\theta) = 1 - 2\sin^{2}\left(\frac{\theta}{2}\right)&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Solve for \( \sin^{2}\left(\frac{\theta}{2}\right) \)&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\cos(\theta) = 1 - 2\sin^{2}\left(\frac{\theta}{2}\right)&#xA;\]\[&#xA;\cos(\theta) - 1 = -2\sin^{2}\left(\frac{\theta}{2}\right)&#xA;\]\[&#xA;1 - \cos(\theta) = 2\sin^{2}\left(\frac{\theta}{2}\right)&#xA;\]&lt;p&gt;&lt;strong&gt;Step 4: Divide Both Sides by 2&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sin²θ &#43; cos²θ = 1</title>
+      <link>http://localhost:46803/posts/trignometry/pythagorean-identities/sin--cos--1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/pythagorean-identities/sin--cos--1/</guid>
+      <description>&lt;p&gt;To prove the identity \(\sin^2\theta + \cos^2\theta = 1\), we can use the unit circle definition of sine and cosine:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Unit Circle Approach&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;On the unit circle (radius \( r = 1 \)), any point is represented as \( (\cos\theta, \sin\theta) \).&lt;/li&gt;&#xA;&lt;li&gt;The distance from this point to the origin is calculated using the Pythagorean theorem:&#xA;\[&#xA;     (\cos\theta)^2 + (\sin\theta)^2 = 1^2&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;Simplifying, we get:&#xA;\[&#xA;     \sin^2\theta + \cos^2\theta = 1&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Euler&amp;rsquo;s Formula&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan θ = 1/cot θ and cot θ = 1/tan θ</title>
+      <link>http://localhost:46803/posts/trignometry/reciprocal-identities/tan---1cot--and-cot---1tan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/reciprocal-identities/tan---1cot--and-cot---1tan/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation and Proof:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Let’s explore why \(\tan{\theta} = \frac{1}{\cot{\theta}}\) for an angle \(\theta\).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;To establish that \(\tan{\theta}\) is the reciprocal of \(\cot{\theta}\), we can use their definitions in terms of sine and cosine.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Definitions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The tangent of an angle \(\theta\) (written as \(\tan{\theta}\)) is defined as:&#xA;\[&#xA;     \tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}}&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;The cotangent of an angle \(\theta\) (written as \(\cot{\theta}\)) is the reciprocal of tangent, and it can be expressed in terms of sine and cosine:&#xA;\[&#xA;     \cot{\theta} = \frac{1}{\tan{\theta}} = \frac{\cos{\theta}}{\sin{\theta}}&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Expressing \(\tan{\theta}\) as a Reciprocal:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan θ = sin θ/cos θ</title>
+      <link>http://localhost:46803/posts/trignometry/quotient-identities/tan---sin-cos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/quotient-identities/tan---sin-cos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation and Proof&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Understand the Definitions:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Consider a right triangle with an acute angle θ.&lt;/li&gt;&#xA;&lt;li&gt;In such a triangle:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;strong&gt;opposite side&lt;/strong&gt; is labeled as \( \text{opp} \).&lt;/li&gt;&#xA;&lt;li&gt;The &lt;strong&gt;adjacent side&lt;/strong&gt; is labeled as \( \text{adj} \).&lt;/li&gt;&#xA;&lt;li&gt;The &lt;strong&gt;hypotenuse&lt;/strong&gt; is labeled as \( \text{hyp} \).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Express Sine and Cosine:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;By definition:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;\(\sin{\theta} = \frac{\text{opp}}{\text{hyp}}\)&lt;/li&gt;&#xA;&lt;li&gt;\(\cos{\theta} = \frac{\text{adj}}{\text{hyp}}\)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Form the Ratio for Tangent:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The tangent of an angle in a right triangle is defined as:&#xA;\[&#xA;     \tan{\theta} = \frac{\sin{\theta}}{\cos{\theta}}&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \tan{\theta} = \frac{\frac{\text{opp}}{\text{hyp}}}{\frac{\text{adj}}{\text{hyp}}} = \frac{\text{opp}}{\text{hyp}} \times \frac{\text{hyp}}{\text{adj}} = \frac{\text{opp}}{\text{adj}}&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Final Expression:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan(-θ) = -tan(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/evenodd-properties/tan----tan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/evenodd-properties/tan----tan/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s provide a clear, step-by-step proof of the identity \(\tan(-\theta) = -\tan(\theta)\).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Definition of Tangent&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}&#xA;\]\[&#xA;\tan(-\theta) = \frac{\sin(-\theta)}{\cos(-\theta)}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Use the Odd-Even Properties of Sine and Cosine&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin(-\theta) = -\sin(\theta)&#xA;\]\[&#xA;\cos(-\theta) = \cos(\theta)&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Substitute the Odd and Even Properties into the Tangent Function&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\tan(-\theta) = \frac{\sin(-\theta)}{\cos(-\theta)} = \frac{-\sin(\theta)}{\cos(\theta)}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 4: Simplify the Expression&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\tan(-\theta) = -\frac{\sin(\theta)}{\cos(\theta)} = -\tan(\theta)&#xA;\]\[&#xA;\tan(-\theta) = -\tan(\theta)&#xA;\]&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan(2θ) = 2tan(θ)/(1 - tan²(θ))</title>
+      <link>http://localhost:46803/posts/trignometry/double-angle-formulas/tan2--2tan1---tan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/double-angle-formulas/tan2--2tan1---tan/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Proof of \(\tan(2\theta) = \frac{2\tan(\theta)}{1 - \tan^2(\theta)}\)&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\tan(2\theta) = \frac{2\tan(\theta)}{1 - \tan^2(\theta)}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 1: Recall the Tangent Addition Formula&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\tan(a + b) = \frac{\tan a + \tan b}{1 - \tan a \tan b}&#xA;\]&lt;p&gt;&#xA;where \(a\) and \(b\) are any real numbers for which the denominator is not zero.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Apply the Addition Formula to \(\tan(2\theta)\)&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\tan(2\theta) = \tan(\theta + \theta)&#xA;\]\[&#xA;\tan(2\theta) = \frac{\tan \theta + \tan \theta}{1 - (\tan \theta)(\tan \theta)}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Simplify the Expression&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan(A ± B) = (tan(A) ± tan(B))/(1 ∓ tan(A)tan(B))</title>
+      <link>http://localhost:46803/posts/trignometry/addition-and-subtraction-formulas/tana--b--tana--tanb1--tanatanb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/addition-and-subtraction-formulas/tana--b--tana--tanb1--tanatanb/</guid>
+      <description>&lt;p&gt;To prove that \(\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A \tan B}\), we can use the sine and cosine addition formulas.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Recall the Sine Addition Formula&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin(A + B) = \sin A \cos B + \cos A \sin B&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Recall the Cosine Addition Formula&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\cos(A + B) = \cos A \cos B - \sin A \sin B&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Express Tangent as a Ratio of Sine to Cosine&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan(π/2 - θ) = cot(θ)</title>
+      <link>http://localhost:46803/posts/trignometry/cofunction-identities/tan2-----cot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/cofunction-identities/tan2-----cot/</guid>
+      <description>&lt;p&gt;To prove that \(\tan\left(\frac{\pi}{2} - \theta\right) = \cot(\theta)\), let&amp;rsquo;s proceed step by step.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Understand the Relationship to Complementary Angles&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We know that in trigonometry, two angles are complementary if their measures add up to \(\frac{\pi}{2}\) radians (or 90 degrees). Specifically:&lt;/p&gt;&#xA;\[&#xA;\left(\frac{\pi}{2} - \theta\right) + \theta = \frac{\pi}{2}&#xA;\]&lt;p&gt;This means that the angle \(\frac{\pi}{2} - \theta\) is complementary to \(\theta\).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Use the Tangent of a Difference Identity&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan²(θ/2) = (1 - cos(θ))/(1 &#43; cos(θ))</title>
+      <link>http://localhost:46803/posts/trignometry/half-angle-formulas/tan2--1---cos1--cos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/half-angle-formulas/tan2--1---cos1--cos/</guid>
+      <description>&lt;p&gt;To prove the identity \(\tan^2\left(\frac{\theta}{2}\right) = \frac{1 - \cos\theta}{1 + \cos\theta}\), we can use the half-angle formulas for sine and cosine. Here&amp;rsquo;s a step-by-step explanation:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Express tan²(θ/2):&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;   \tan\left(\frac{\theta}{2}\right) = \frac{\sin\left(\frac{\theta}{2}\right)}{\cos\left(\frac{\theta}{2}\right)}&#xA;   \]\[&#xA;   \tan^2\left(\frac{\theta}{2}\right) = \left(\frac{\sin\left(\frac{\theta}{2}\right)}{\cos\left(\frac{\theta}{2}\right)}\right)^2 = \frac{\sin^2\left(\frac{\theta}{2}\right)}{\cos^2\left(\frac{\theta}{2}\right)}&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Use the half-angle identities for sine and cosine:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;For sine:&#xA;\[&#xA;     \sin\left(\frac{\theta}{2}\right) = \sqrt{\frac{1 - \cos\theta}{2}}&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;For cosine:&#xA;\[&#xA;     \cos\left(\frac{\theta}{2}\right) = \sqrt{\frac{1 + \cos\theta}{2}}&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Square both sine and cosine expressions:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tan²θ &#43; 1 = sec²θ</title>
+      <link>http://localhost:46803/posts/trignometry/pythagorean-identities/tan--1--sec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:46803/posts/trignometry/pythagorean-identities/tan--1--sec/</guid>
+      <description>&lt;p&gt;Sure! Let&amp;rsquo;s break down the proof step by step.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Given&lt;/strong&gt;:&lt;br&gt;&#xA;We want to show that \(\tan^{2}(\theta) + 1 = \sec^{2}(\theta)\).&lt;/p&gt;&#xA;\[&#xA;\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) = \left(\frac{\sin(\theta)}{\cos(\theta)}\right)^{2} = \frac{\sin^{2}(\theta)}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \frac{\sin^{2}(\theta)}{\cos^{2}(\theta)} + 1&#xA;\]\[&#xA;1 = \frac{\cos^{2}(\theta)}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \frac{\sin^{2}(\theta) + \cos^{2}(\theta)}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \frac{1}{\cos^{2}(\theta)} &#xA;\]\[&#xA;\left(\frac{1}{\cos(\theta)}\right)^{2} = \frac{1}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \sec^{2}(\theta)&#xA;\]&lt;p&gt;This completes the proof that \(\tan^{2}(\theta) + 1\) equals \(\sec^{2}(\theta)\).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
