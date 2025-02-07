@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Product-to-Sum Formulas on Everything Mathematics</title>
-    <link>http://localhost:46803/tags/product-to-sum-formulas/</link>
+    <link>http://localhost:38469/tags/product-to-sum-formulas/</link>
     <description>Recent content in Product-to-Sum Formulas on Everything Mathematics</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:46803/tags/product-to-sum-formulas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:38469/tags/product-to-sum-formulas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cos(A)cos(B) = [cos(A-B) &#43; cos(A&#43;B)]/2</title>
-      <link>http://localhost:46803/posts/trignometry/product-to-sum-formulas/cosacosb--cosa-b--cosab2/</link>
+      <link>http://localhost:38469/posts/trignometry/product-to-sum-formulas/cosacosb--cosa-b--cosab2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/posts/trignometry/product-to-sum-formulas/cosacosb--cosa-b--cosab2/</guid>
+      <guid>http://localhost:38469/posts/trignometry/product-to-sum-formulas/cosacosb--cosa-b--cosab2/</guid>
       <description>&lt;p&gt;To derive the expression for \(\cos A \cos B\), we can use Euler&amp;rsquo;s formula, which states that \(e^{i\theta} = \cos \theta + i \sin \theta\). By applying this to both angles \(A\) and \(B\), we get:&lt;/p&gt;&#xA;\[ e^{iA} = \cos A + i \sin A \]\[ e^{-iB} = \cos B - i \sin B \]&lt;p&gt;Adding these equations, we obtain:&lt;/p&gt;&#xA;\[ e^{iA} + e^{-iB} = (\cos A + \cos B) + i(\sin A - \sin B) \]&lt;p&gt;Similarly, subtracting these equations gives us:&lt;/p&gt;</description>
     </item>
     <item>
       <title>sin(A)cos(B) = [sin(A&#43;B) &#43; sin(A-B)]/2</title>
-      <link>http://localhost:46803/posts/trignometry/product-to-sum-formulas/sinacosb--sinab--sina-b2/</link>
+      <link>http://localhost:38469/posts/trignometry/product-to-sum-formulas/sinacosb--sinab--sina-b2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/posts/trignometry/product-to-sum-formulas/sinacosb--sinab--sina-b2/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin(A)\cos(B) = \frac{\sin(A+B) + \sin(A-B)}{2}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 1: Recall the Sine Addition and Subtraction Formulas&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin(A + B) = \sin A \cos B + \cos A \sin B&#xA;\]\[&#xA;\sin(A - B) = \sin A \cos B - \cos A \sin B&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Add the Two Equations Together&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\sin(A + B) + \sin(A - B) = (\sin A \cos B + \cos A \sin B) + (\sin A \cos B - \cos A \sin B)&#xA;\]\[&#xA;= 2 \sin A \cos B&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Divide Both Sides by 2&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:38469/posts/trignometry/product-to-sum-formulas/sinacosb--sinab--sina-b2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Proof:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We aim to prove that:&lt;/p&gt;&#xA;\[&#xA;\sin(A)\cos(B) = \frac{\sin(A+B) + \sin(A-B)}{2}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 1: Recall the Sine Addition and Subtraction Formulas&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The sine addition formula states:&lt;/p&gt;&#xA;\[&#xA;\sin(A + B) = \sin A \cos B + \cos A \sin B&#xA;\]&lt;p&gt;The sine subtraction formula states:&lt;/p&gt;&#xA;\[&#xA;\sin(A - B) = \sin A \cos B - \cos A \sin B&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Add the Two Equations Together&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Add \(\sin(A + B)\) and \(\sin(A - B)\):&lt;/p&gt;</description>
     </item>
     <item>
       <title>sin(A)sin(B) = [cos(A-B) - cos(A&#43;B)]/2</title>
-      <link>http://localhost:46803/posts/trignometry/product-to-sum-formulas/sinasinb--cosa-b---cosab2/</link>
+      <link>http://localhost:38469/posts/trignometry/product-to-sum-formulas/sinasinb--cosa-b---cosab2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/posts/trignometry/product-to-sum-formulas/sinasinb--cosa-b---cosab2/</guid>
+      <guid>http://localhost:38469/posts/trignometry/product-to-sum-formulas/sinasinb--cosa-b---cosab2/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation and Proof&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We aim to prove that:&lt;/p&gt;&#xA;\[ \sin A \cdot \sin B = \frac{\cos(A - B) - \cos(A + B)}{2} \]&lt;p&gt;This is a standard trigonometric identity derived from sum-to-product identities. Let&amp;rsquo;s break down the proof step by step.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Recall Sum-to-Product Identities&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The sum-to-product identities relate sums or differences of sines and cosines to products:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[ \sin A + \sin B = 2\sin\left(\frac{A + B}{2}\right)\cos\left(\frac{A - B}{2}\right) \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \sin A - \sin B = 2\cos\left(\frac{A + B}{2}\right)\sin\left(\frac{A - B}{2}\right) \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \cos A + \cos B = 2\cos\left(\frac{A + B}{2}\right)\cos\left(\frac{A - B}{2}\right) \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \cos A - \cos B = -2\sin\left(\frac{A + B}{2}\right)\sin\left(\frac{A - B}{2}\right) \]&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 2: Derive the Expression for sin A sin B Using Sum-to-Product Identities&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>

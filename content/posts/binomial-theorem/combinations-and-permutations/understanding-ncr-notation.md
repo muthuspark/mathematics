@@ -1,0 +1,51 @@
+---
+title: "Understanding nCr notation"
+tags: ["Binomial Theorem", "Combinations and Permutations"]
+showTags: true
+math: true
+---
+
+
+
+Certainly! Here's a clear, step-by-step explanation of how to understand and use combinations in the context of the binomial theorem:
+
+1. **Understanding nCr Notation:**
+   - nCr represents "n choose r," which is the number of ways to select r elements from a set of n without considering order.
+   - The formula for nCr is:
+     \[
+     C(n, k) = \frac{n!}{k!(n - k)!}
+     \]
+     where "!" denotes factorial.
+
+2. **Expansion in Binomial Theorem:**
+   - The binomial theorem allows us to expand expressions of the form (a + b)^n.
+   - Each term in the expansion is given by:
+     \[
+     C(n, k) \cdot a^{n-k} \cdot b^k
+     \]
+     where k ranges from 0 to n.
+
+3. **Example with Combinations:**
+   - Consider expanding (a + b)^3.
+     - The expansion is:
+       \[
+       a^3 + 3a^2b + 3ab^2 + b^3
+       \]
+     - Coefficients are C(3,0)=1, C(3,1)=3, C(3,2)=3, and C(3,3)=1.
+
+4. **Connecting to Permutations:**
+   - Since nCr counts combinations (without order), it aligns with how terms in the expansion are formed.
+   - For each term, we're choosing k factors of b from n total factors, which is why C(n,k) applies.
+
+5. **Another Example:**
+   - Expand (x + y)^4:
+     \[
+     x^4 + 4x^3y + 6x^2y^2 + 4xy^3 + y^4
+     \]
+     Coefficients are C(4,0)=1, C(4,1)=4, C(4,2)=6, C(4,3)=4, and C(4,4)=1.
+
+6. **Conclusion:**
+   - Each term in the expansion of (a + b)^n uses nCr to determine coefficients.
+   - This ties into combinations, counting ways to select items without considering order, aligning with the binomial theorem's combinatorial nature.
+
+Understanding this connects the concepts of combinations and permutations to algebraic expansions, providing a foundational link between probability theory and polynomial expansions.

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basic Inverse Functions on Everything Mathematics</title>
+    <link>http://localhost:38469/tags/basic-inverse-functions/</link>
+    <description>Recent content in Basic Inverse Functions on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:38469/tags/basic-inverse-functions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cos⁻¹(x) = cos⁻¹(x)</title>
+      <link>http://localhost:38469/posts/trignometry/basic-inverse-functions/cosx--cosx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38469/posts/trignometry/basic-inverse-functions/cosx--cosx/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a clear step-by-step explanation:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Understand Definitions&lt;/strong&gt;: Both &lt;code&gt;cos⁻¹(x)&lt;/code&gt; and &lt;code&gt;arccosine(x)&lt;/code&gt; refer to the inverse cosine function, denoted as arccosine.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Domain and Range&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The domain of arccosine is [-1, 1].&lt;/li&gt;&#xA;&lt;li&gt;Its range is [0, π], ensuring each input maps to a unique angle in this interval.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Function Property&lt;/strong&gt;: Arccosine is the inverse function of cosine on its domain. Therefore, applying arccosine to an x within [-1, 1] yields the angle whose cosine is x.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,98 @@
+---
+title: "Laws of indices"
+tags: ["Binomial Theorem", "Fundamental Prerequisites"]
+showTags: true
+math: true
+---
+
+
+
+**Laws of Indices: A Fundamental Guide for Binomial Theorem**
+
+In the realm of algebra, mastering the **laws of indices** is crucial for success in topics like the **Binomial Theorem**. These laws simplify complex expressions involving exponents and provide a systematic approach to problem-solving.
+
+### 1. Multiplication of Exponents with the Same Base
+
+When multiplying two exponents that share the same base, you add their exponents:
+
+\[ a^m \times a^n = a^{m+n} \]
+
+**Example:**  
+\[ 2^3 \times 2^4 = 2^{3+4} = 2^7 = 128 \]
+
+### 2. Division of Exponents with the Same Base
+
+When dividing two exponents with the same base, subtract their exponents:
+
+\[ a^m / a^n = a^{m-n} \]
+
+**Example:**  
+\[ \frac{2^5}{2^3} = 2^{5-3} = 2^2 = 4 \]
+
+### 3. Power of a Power
+
+When raising an exponent to another power, multiply the exponents:
+
+\[ (a^m)^n = a^{m \times n} \]
+
+**Example:**  
+\[ (2^3)^4 = 2^{3 \times 4} = 2^{12} = 4096 \]
+
+### 4. Negative Exponents
+
+A negative exponent indicates the reciprocal:
+
+\[ a^{-n} = \frac{1}{a^n} \]
+
+**Example:**  
+\[ 5^{-2} = \frac{1}{5^2} = \frac{1}{25} \]
+
+### 5. Zero Exponent
+
+Any non-zero number raised to the power of zero is 1:
+
+\[ a^0 = 1 \quad (\text{for } a \neq 0) \]
+
+**Example:**  
+\[ 7^0 = 1 \]
+\[ (x + y)^0 = 1 \] (provided \( x + y \neq 0 \))
+
+### 6. Coefficients and Variables with Exponents
+
+When both coefficients and variables are raised to a power, apply the exponent to each separately:
+
+\[ (a^m b^n)^p = a^{mp} b^{np} \]
+
+**Example:**  
+\[ (2x)^3 = 2^3 x^3 = 8x^3 \]
+
+### 7. Negative Sign Inside Exponents
+
+The negative sign can be inside the exponentiation:
+- If raised to an even power, it becomes positive.
+- If raised to an odd power, it remains negative.
+
+**Example:**  
+\[ (-2)^3 = -8 \]
+\[ (-2)^4 = 16 \]
+
+### 8. Fractions with Negative Exponents
+
+A fraction can be expressed as a negative exponent:
+
+\[ \frac{a}{b}^n = a^n b^{-n} \]
+
+**Example:**  
+\[ \left(\frac{3}{x}\right)^2 = \frac{3^2}{x^2} = \frac{9}{x^2} \]
+
+### 9. Exponents with Decimals
+
+Decimals can be converted to fractions and then raised to exponents:
+
+\[ (0.125)^2 = \left(\frac{1}{8}\right)^2 = \frac{1}{64} = 0.015625 \]
+
+### Summary
+
+Understanding these laws is essential for manipulating algebraic expressions efficiently. They apply universally to exponents of variables, coefficients, and even fractions, ensuring that mathematical operations remain consistent and reliable.
+
+By mastering these principles, you can confidently tackle more complex topics like the Binomial Theorem with confidence, unlocking a broader understanding of algebraic structures.

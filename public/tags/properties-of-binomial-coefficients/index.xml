@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Properties of Binomial Coefficients on Everything Mathematics</title>
+    <link>http://localhost:38469/tags/properties-of-binomial-coefficients/</link>
+    <description>Recent content in Properties of Binomial Coefficients on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:38469/tags/properties-of-binomial-coefficients/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Symmetry property</title>
+      <link>http://localhost:38469/posts/binomial-theorem/properties-of-binomial-coefficients/symmetry-property/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38469/posts/binomial-theorem/properties-of-binomial-coefficients/symmetry-property/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Symmetry Property of Binomial Coefficients&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the realm of algebra, particularly within the context of the Binomial Theorem, one of the most fascinating properties is the symmetry inherent in binomial coefficients. This property reveals a beautiful and elegant aspect of combinatorics, where certain terms in an expansion mirror each other.&lt;/p&gt;&#xA;\[&#xA;(a + b)^n = \sum_{k=0}^{n} C(n, k) \cdot a^{n-k} \cdot b^k&#xA;\]&lt;p&gt;&#xA;where \(C(n, k)\), or &amp;ldquo;n choose k,&amp;rdquo; represents the number of ways to select k elements from a set of n elements.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

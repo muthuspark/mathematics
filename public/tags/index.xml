@@ -2,86 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Everything Mathematics</title>
-    <link>http://localhost:46803/tags/</link>
+    <link>http://localhost:38469/tags/</link>
     <description>Recent content in Tags on Everything Mathematics</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:46803/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:38469/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Addition and Subtraction Formulas</title>
-      <link>http://localhost:46803/tags/addition-and-subtraction-formulas/</link>
+      <link>http://localhost:38469/tags/addition-and-subtraction-formulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/tags/addition-and-subtraction-formulas/</guid>
+      <guid>http://localhost:38469/tags/addition-and-subtraction-formulas/</guid>
       <description></description>
     </item>
     <item>
       <title>Cofunction Identities</title>
-      <link>http://localhost:46803/tags/cofunction-identities/</link>
+      <link>http://localhost:38469/tags/cofunction-identities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/tags/cofunction-identities/</guid>
+      <guid>http://localhost:38469/tags/cofunction-identities/</guid>
       <description></description>
     </item>
     <item>
       <title>Double Angle Formulas</title>
-      <link>http://localhost:46803/tags/double-angle-formulas/</link>
+      <link>http://localhost:38469/tags/double-angle-formulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/tags/double-angle-formulas/</guid>
+      <guid>http://localhost:38469/tags/double-angle-formulas/</guid>
       <description></description>
     </item>
     <item>
       <title>Even/Odd Properties</title>
-      <link>http://localhost:46803/tags/even/odd-properties/</link>
+      <link>http://localhost:38469/tags/even/odd-properties/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/tags/even/odd-properties/</guid>
+      <guid>http://localhost:38469/tags/even/odd-properties/</guid>
       <description></description>
     </item>
     <item>
       <title>Half Angle Formulas</title>
-      <link>http://localhost:46803/tags/half-angle-formulas/</link>
+      <link>http://localhost:38469/tags/half-angle-formulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/tags/half-angle-formulas/</guid>
+      <guid>http://localhost:38469/tags/half-angle-formulas/</guid>
       <description></description>
     </item>
     <item>
       <title>Product-to-Sum Formulas</title>
-      <link>http://localhost:46803/tags/product-to-sum-formulas/</link>
+      <link>http://localhost:38469/tags/product-to-sum-formulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/tags/product-to-sum-formulas/</guid>
+      <guid>http://localhost:38469/tags/product-to-sum-formulas/</guid>
       <description></description>
     </item>
     <item>
       <title>Pythagorean Identities</title>
-      <link>http://localhost:46803/tags/pythagorean-identities/</link>
+      <link>http://localhost:38469/tags/pythagorean-identities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/tags/pythagorean-identities/</guid>
+      <guid>http://localhost:38469/tags/pythagorean-identities/</guid>
       <description></description>
     </item>
     <item>
       <title>Quotient Identities</title>
-      <link>http://localhost:46803/tags/quotient-identities/</link>
+      <link>http://localhost:38469/tags/quotient-identities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/tags/quotient-identities/</guid>
+      <guid>http://localhost:38469/tags/quotient-identities/</guid>
       <description></description>
     </item>
     <item>
       <title>Reciprocal Identities</title>
-      <link>http://localhost:46803/tags/reciprocal-identities/</link>
+      <link>http://localhost:38469/tags/reciprocal-identities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/tags/reciprocal-identities/</guid>
+      <guid>http://localhost:38469/tags/reciprocal-identities/</guid>
       <description></description>
     </item>
     <item>
       <title>Sum-to-Product Formulas</title>
-      <link>http://localhost:46803/tags/sum-to-product-formulas/</link>
+      <link>http://localhost:38469/tags/sum-to-product-formulas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/tags/sum-to-product-formulas/</guid>
+      <guid>http://localhost:38469/tags/sum-to-product-formulas/</guid>
       <description></description>
     </item>
     <item>
       <title>Trignometry</title>
-      <link>http://localhost:46803/tags/trignometry/</link>
+      <link>http://localhost:38469/tags/trignometry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/tags/trignometry/</guid>
+      <guid>http://localhost:38469/tags/trignometry/</guid>
       <description></description>
     </item>
   </channel>

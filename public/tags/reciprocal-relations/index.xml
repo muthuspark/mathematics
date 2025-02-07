@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reciprocal Relations on Everything Mathematics</title>
+    <link>http://localhost:38469/tags/reciprocal-relations/</link>
+    <description>Recent content in Reciprocal Relations on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:38469/tags/reciprocal-relations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tan⁻¹(x) = cot⁻¹(1/x)</title>
+      <link>http://localhost:38469/posts/trignometry/reciprocal-relations/tanx--cot1x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38469/posts/trignometry/reciprocal-relations/tanx--cot1x/</guid>
+      <description>&lt;p&gt;To prove that \(\tan^{-1}(x) = \cot^{-1}\left(\frac{1}{x}\right)\), let&amp;rsquo;s proceed step by step.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step 1: Define the Inverse Tangent&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\theta = \tan^{-1}(x)&#xA;\]\[&#xA;\tan\theta = x&#xA;\]&lt;p&gt;&lt;strong&gt;Step 2: Express the Cotangent of Another Angle&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\phi = \cot^{-1}\left(\frac{1}{x}\right)&#xA;\]\[&#xA;\cot\phi = \frac{1}{x}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 3: Use Reciprocal Identity of Tangent and Cotangent&lt;/strong&gt;&lt;/p&gt;&#xA;\[&#xA;\tan\theta = x \quad \Rightarrow \quad \tan\theta = \frac{\text{opposite}}{\text{adjacent}}&#xA;\]\[&#xA;\cot\phi = \frac{\text{adjacent}}{\text{opposite}} = \frac{1}{x}&#xA;\]&lt;p&gt;&lt;strong&gt;Step 4: Relate θ and φ Using the Reciprocal Identity&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

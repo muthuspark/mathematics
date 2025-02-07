@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Special Cases and Forms on Everything Mathematics</title>
+    <link>http://localhost:38469/tags/special-cases-and-forms/</link>
+    <description>Recent content in Special Cases and Forms on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:38469/tags/special-cases-and-forms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>(1 &#43; x)ⁿ expansion</title>
+      <link>http://localhost:38469/posts/binomial-theorem/special-cases-and-forms/1--x-expansion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38469/posts/binomial-theorem/special-cases-and-forms/1--x-expansion/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Binomial Expansion: A Comprehensive Guide&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this article, we explore the binomial expansion, which is a fundamental concept in algebra and calculus. The expansion allows us to express powers of binomials (expressions with two terms) in a simplified polynomial form. This guide delves into special cases and forms within the binomial theorem, providing detailed explanations and examples.&lt;/p&gt;&#xA;&lt;h3 class=&#34;heading&#34; id=&#34;introduction-to-binomial-expansion&#34;&gt;&#xA;  Introduction to Binomial Expansion&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#introduction-to-binomial-expansion&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;The binomial theorem is a formula that describes how to expand expressions of the form \((a + b)^n\), where \(n\) is a non-negative integer. The expansion results in a sum of terms involving combinations of \(a\) and \(b\) raised to various powers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(x - 1)ⁿ expansion</title>
+      <link>http://localhost:38469/posts/binomial-theorem/special-cases-and-forms/x---1-expansion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38469/posts/binomial-theorem/special-cases-and-forms/x---1-expansion/</guid>
+      <description>&lt;p&gt;The expansion of \((x - 1)^n\) can be written using the binomial theorem, which states:&lt;/p&gt;&#xA;\[&#xA;(x + y)^n = \sum_{k=0}^{n} C(n,k) x^{n-k} y^k&#xA;\]&lt;p&gt;In our case, \(y = -1\), so substituting we get:&lt;/p&gt;&#xA;\[&#xA;(x - 1)^n = \sum_{k=0}^{n} C(n,k) x^{n - k} (-1)^k&#xA;\]&lt;p&gt;This simplifies to:&lt;/p&gt;&#xA;\[&#xA;\sum_{k=0}^{n} (-1)^k C(n, k) x^{n - k}&#xA;\]&lt;p&gt;The expansion is a sum of terms where each term is given by \((-1)^k\) multiplied by the binomial coefficient \(C(n,k)\), with the power of \(x\) decreasing from \(n\) to \(0\). The sign alternates for each subsequent term because of the factor \((-1)^k\).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(x &#43; a)ⁿ where a is constant</title>
+      <link>http://localhost:38469/posts/binomial-theorem/special-cases-and-forms/x--a-where-a-is-constant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38469/posts/binomial-theorem/special-cases-and-forms/x--a-where-a-is-constant/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Expanding (x + a)^n Using the Binomial Theorem&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;In algebra, the binomial theorem is a powerful tool for expanding expressions of the form (x + y)^n. Here, we focus on the special case where one term is a constant &amp;lsquo;a&amp;rsquo;, resulting in the expansion of (x + a)^n.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Step-by-Step Explanation:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   (x + y)^n = \sum_{k=0}^{n} C(n, k) \cdot x^{n-k} \cdot y^k&#xA;   \]&lt;p&gt;&#xA;where \( C(n, k) \) is the binomial coefficient.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Expansion of (x &#43; 1/x)ⁿ</title>
+      <link>http://localhost:38469/posts/binomial-theorem/special-cases-and-forms/expansion-of-x--1x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38469/posts/binomial-theorem/special-cases-and-forms/expansion-of-x--1x/</guid>
+      <description>&lt;p&gt;The binomial expansion of \((x + 1/x)^n\) results in terms where each term can be expressed as:&lt;/p&gt;&#xA;\[&#xA;(x + 1/x)^n = \sum_{k=0}^{n} C(n,k) x^{n - k} \cdot (1/x)^k&#xA;\]&lt;p&gt;Simplifying, each term becomes:&lt;/p&gt;&#xA;\[&#xA;C(n,k) x^{n - 2k}&#xA;\]&lt;p&gt;This results in a sum of terms where the exponents are \(n, n-2, n-4, \ldots, -n\), all multiples of 2. The coefficients are given by the binomial coefficients \(C(n,k)\).&lt;/p&gt;&#xA;&lt;h3 class=&#34;heading&#34; id=&#34;detailed-steps&#34;&gt;&#xA;  Detailed Steps:&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#detailed-steps&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Apply Binomial Theorem&lt;/strong&gt;: Start with the expansion \((x + y)^n = \sum_{k=0}^{n} C(n,k) x^{n - k} y^k\).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Negative and fractional indices</title>
+      <link>http://localhost:38469/posts/binomial-theorem/special-cases-and-forms/negative-and-fractional-indices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38469/posts/binomial-theorem/special-cases-and-forms/negative-and-fractional-indices/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Exploring Negative and Fractional Indices in the Binomial Theorem&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The binomial theorem is a fundamental concept in algebra that allows us to expand expressions of the form \((a + b)^n\) where \(n\) can be any real number, including negative integers and fractional exponents. This expansion is not limited to positive integers but extends to various forms, each requiring different handling and understanding.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. Integer Exponents&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;When \(n\) is a non-negative integer, the binomial theorem provides a finite expansion:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

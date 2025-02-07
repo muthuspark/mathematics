@@ -1,0 +1,56 @@
+---
+title: "tan(tan⁻¹(x)) = x, for all x"
+tags: ["Trignometry","Basic Inverse Relations"]
+showTags: true
+math: true
+---
+
+
+
+Let's break down the proof step by step.
+
+**Step 1: Understand the Functions Involved**
+
+We are dealing with two main inverse trigonometric functions:
+1. **Inverse Tangent (tan⁻¹)**: This function returns an angle whose tangent is a given number.
+2. **Tangent (tan)**: This function takes an angle and gives the ratio of the length of the opposite side to the adjacent side in a right-angled triangle.
+
+**Step 2: Define the Relationship**
+
+Let’s consider an angle θ such that:
+
+\[ \theta = \tan^{-1}(x) \]
+
+By definition, this means:
+
+\[ \tan(\theta) = x \]
+
+**Step 3: Apply Tangent to Both Sides**
+
+Now, we take the tangent of both sides of the equation:
+
+\[ \tan(\tan^{-1}(x)) = \tan(x) \]
+
+However, notice that on the right side, we have an angle θ inside the tangent function. But since tan(θ) = x, applying tangent to both sides gives:
+
+\[ \tan(\theta) = x \]
+But from step 2, we also know that:
+
+\[ \tan(\theta) = x \]
+
+So, substituting back:
+
+\[ \tan(\tan^{-1}(x)) = x \]
+
+**Step 4: Conclusion**
+
+Therefore, applying the inverse tangent function to x and then taking the tangent of the result cancels out these operations, leaving us with:
+
+\[ \tan(\tan^{-1}(x)) = x \]
+
+This holds true for all real numbers x. 
+
+**Final Answer:**
+\[
+\boxed{\tan(\tan^{-1}(x)) = x}
+\]

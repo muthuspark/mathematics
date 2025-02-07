@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pythagorean Identities on Everything Mathematics</title>
-    <link>http://localhost:46803/tags/pythagorean-identities/</link>
+    <link>http://localhost:38469/tags/pythagorean-identities/</link>
     <description>Recent content in Pythagorean Identities on Everything Mathematics</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:46803/tags/pythagorean-identities/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:38469/tags/pythagorean-identities/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cot²θ &#43; 1 = csc²θ</title>
-      <link>http://localhost:46803/posts/trignometry/pythagorean-identities/cot--1--csc/</link>
+      <link>http://localhost:38469/posts/trignometry/pythagorean-identities/cot--1--csc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/posts/trignometry/pythagorean-identities/cot--1--csc/</guid>
+      <guid>http://localhost:38469/posts/trignometry/pythagorean-identities/cot--1--csc/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s prove the identity step by step.&lt;/p&gt;&#xA;\[ \cot^2{\theta} + 1 = \csc^2{\theta} \]&lt;p&gt;&lt;strong&gt;Step-by-Step Proof:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Express in Terms of Sine and Cosine:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Recall that:&#xA;\[ \cot{\theta} = \frac{\cos{\theta}}{\sin{\theta}} \]&#xA;\[ \csc{\theta} = \frac{1}{\sin{\theta}} \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \cot^2{\theta} = \left(\frac{\cos{\theta}}{\sin{\theta}}\right)^2 = \frac{\cos^2{\theta}}{\sin^2{\theta}} \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \cot^2{\theta} + 1 = \frac{\cos^2{\theta}}{\sin^2{\theta}} + 1 \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Find a Common Denominator to Combine Terms:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;To add \( \frac{\cos^2{\theta}}{\sin^2{\theta}} \) and 1, express 1 as \( \frac{\sin^2{\theta}}{\sin^2{\theta}} \):&#xA;\[ \frac{\cos^2{\theta}}{\sin^2{\theta}} + 1 = \frac{\cos^2{\theta}}{\sin^2{\theta}} + \frac{\sin^2{\theta}}{\sin^2{\theta}} \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[ \frac{\cos^2{\theta} + \sin^2{\theta}}{\sin^2{\theta}} \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Apply the Pythagorean Identity:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>sin²θ &#43; cos²θ = 1</title>
-      <link>http://localhost:46803/posts/trignometry/pythagorean-identities/sin--cos--1/</link>
+      <link>http://localhost:38469/posts/trignometry/pythagorean-identities/sin--cos--1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/posts/trignometry/pythagorean-identities/sin--cos--1/</guid>
+      <guid>http://localhost:38469/posts/trignometry/pythagorean-identities/sin--cos--1/</guid>
       <description>&lt;p&gt;To prove the identity \(\sin^2\theta + \cos^2\theta = 1\), we can use the unit circle definition of sine and cosine:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Unit Circle Approach&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;On the unit circle (radius \( r = 1 \)), any point is represented as \( (\cos\theta, \sin\theta) \).&lt;/li&gt;&#xA;&lt;li&gt;The distance from this point to the origin is calculated using the Pythagorean theorem:&#xA;\[&#xA;     (\cos\theta)^2 + (\sin\theta)^2 = 1^2&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;Simplifying, we get:&#xA;\[&#xA;     \sin^2\theta + \cos^2\theta = 1&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Euler&amp;rsquo;s Formula&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>tan²θ &#43; 1 = sec²θ</title>
-      <link>http://localhost:46803/posts/trignometry/pythagorean-identities/tan--1--sec/</link>
+      <link>http://localhost:38469/posts/trignometry/pythagorean-identities/tan--1--sec/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:46803/posts/trignometry/pythagorean-identities/tan--1--sec/</guid>
-      <description>&lt;p&gt;Sure! Let&amp;rsquo;s break down the proof step by step.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Given&lt;/strong&gt;:&lt;br&gt;&#xA;We want to show that \(\tan^{2}(\theta) + 1 = \sec^{2}(\theta)\).&lt;/p&gt;&#xA;\[&#xA;\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) = \left(\frac{\sin(\theta)}{\cos(\theta)}\right)^{2} = \frac{\sin^{2}(\theta)}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \frac{\sin^{2}(\theta)}{\cos^{2}(\theta)} + 1&#xA;\]\[&#xA;1 = \frac{\cos^{2}(\theta)}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \frac{\sin^{2}(\theta) + \cos^{2}(\theta)}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \frac{1}{\cos^{2}(\theta)} &#xA;\]\[&#xA;\left(\frac{1}{\cos(\theta)}\right)^{2} = \frac{1}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \sec^{2}(\theta)&#xA;\]&lt;p&gt;This completes the proof that \(\tan^{2}(\theta) + 1\) equals \(\sec^{2}(\theta)\).&lt;/p&gt;</description>
+      <guid>http://localhost:38469/posts/trignometry/pythagorean-identities/tan--1--sec/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s break down the proof step by step.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Given&lt;/strong&gt;:&lt;br&gt;&#xA;We want to show that \(\tan^{2}(\theta) + 1 = \sec^{2}(\theta)\).&lt;/p&gt;&#xA;\[&#xA;\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) = \left(\frac{\sin(\theta)}{\cos(\theta)}\right)^{2} = \frac{\sin^{2}(\theta)}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \frac{\sin^{2}(\theta)}{\cos^{2}(\theta)} + 1&#xA;\]\[&#xA;1 = \frac{\cos^{2}(\theta)}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \frac{\sin^{2}(\theta) + \cos^{2}(\theta)}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \frac{1}{\cos^{2}(\theta)} &#xA;\]\[&#xA;\left(\frac{1}{\cos(\theta)}\right)^{2} = \frac{1}{\cos^{2}(\theta)}&#xA;\]\[&#xA;\tan^{2}(\theta) + 1 = \sec^{2}(\theta)&#xA;\]&lt;p&gt;This completes the proof that \(\tan^{2}(\theta) + 1\) equals \(\sec^{2}(\theta)\).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

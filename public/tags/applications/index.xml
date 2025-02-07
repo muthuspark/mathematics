@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Applications on Everything Mathematics</title>
+    <link>http://localhost:38469/tags/applications/</link>
+    <description>Recent content in Applications on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:38469/tags/applications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finding coefficients</title>
+      <link>http://localhost:38469/posts/binomial-theorem/applications/finding-coefficients/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38469/posts/binomial-theorem/applications/finding-coefficients/</guid>
+      <description>&lt;p&gt;To expand expressions using the binomial theorem, follow these steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Identify the Binomials&lt;/strong&gt;: Recognize the two terms that will be expanded (e.g., \(a + b\)).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   (A + B)^n = \sum_{k=0}^{n} \binom{n}{k} A^{n-k} B^k&#xA;   \]&lt;p&gt;&#xA;where \( \binom{n}{k} \) is the binomial coefficient.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Calculate Each Term&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Compute each binomial coefficient.&lt;/li&gt;&#xA;&lt;li&gt;Raise one term (\(A\)) to the power of \( (n - k) \).&lt;/li&gt;&#xA;&lt;li&gt;Raise the other term (\(B\)) to the power of \( k \).&lt;/li&gt;&#xA;&lt;li&gt;Multiply these results and include the appropriate sign from the original expression.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sum All Terms&lt;/strong&gt;: Combine all calculated terms to form the complete expansion.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

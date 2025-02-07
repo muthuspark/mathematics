@@ -1,0 +1,42 @@
+---
+title: "tan⁻¹(x) + cot⁻¹(x) = π/2"
+tags: ["Trignometry", "Complementary Relations"]
+showTags: true
+math: true
+---
+
+
+
+To prove that \(\tan^{-1}x + \cot^{-1}x = \frac{\pi}{2}\), we can use several approaches:
+
+1. **Calculus Approach:**
+   - Consider the function \(f(x) = \tan^{-1}(x) + \cot^{-1}(x)\).
+   - Compute the derivative \(f'(x)\):
+     \[
+     f'(x) = \frac{1}{1 + x^2} - \frac{1}{1 + x^2} = 0
+     \]
+   - Since the derivative is zero, \(f(x)\) is a constant function.
+   - Evaluate \(f(0)\):
+     \[
+     f(0) = \tan^{-1}(0) + \cot^{-1}(0) = 0 + \frac{\pi}{2} = \frac{\pi}{2}
+     \]
+   - Therefore, for all real numbers \(x\), \(f(x) = \frac{\pi}{2}\).
+
+2. **Algebraic Approach:**
+   - Let \(\theta = \tan^{-1}(x)\). Then \(x = \tan(\theta)\).
+   - Since \(\cot(\phi) = x\), we have \(\phi = \cot^{-1}(x)\).
+   - Note that \(\cot(\phi) = \frac{1}{\tan(\phi)} = x\).
+   - For any real \(x\), it holds that:
+     \[
+     \theta + ( \frac{\pi}{2} - \theta ) = \frac{\pi}{2}
+     \]
+   - Therefore, \(\tan^{-1}(x) + \cot^{-1}(x) = \frac{\pi}{2}\).
+
+3. **Conclusion:**
+   - Both the calculus and algebraic approaches confirm that \(\tan^{-1}x + \cot^{-1}x\) is a constant function equal to \(\frac{\pi}{2}\).
+
+Thus, the final answer is:
+
+\[
+\boxed{\dfrac{\pi}{2}}
+\]

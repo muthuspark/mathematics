@@ -1,0 +1,100 @@
+---
+title: "cot⁻¹(-x) = π - cot⁻¹(x)"
+tags: ["Trignometry", "Negative Argument Relations"]
+showTags: true
+math: true
+---
+
+
+
+**Step-by-Step Explanation and Proof:**
+
+We aim to prove the following identity:
+
+\[
+\cot^{-1}(-x) = \pi - \cot^{-1}(x)
+\]
+
+**Step 1:** Let’s define a variable \( y \) such that:
+
+\[
+y = \cot^{-1}(x)
+\]
+This means that:
+
+\[
+x = \cot(y)
+\]
+Since \( \cot(\theta) = \frac{1}{\tan(\theta)} \), we can also write:
+
+\[
+x = \frac{1}{\tan(y)}
+\]
+
+**Step 2:** Substitute \( x \) into the original equation. We have:
+
+\[
+\cot^{-1}(-x) = \pi - y
+\]
+But since \( x = \frac{1}{\tan(y)} \), substitute this in:
+
+\[
+\cot^{-1}\left(-\frac{1}{\tan(y)}\right) = \pi - y
+\]
+
+**Step 3:** Simplify the left side. Recognize that:
+
+\[
+-\frac{1}{\tan(y)} = \tan\left(\frac{\pi}{2} - y\right)
+\]
+So, we can rewrite the equation as:
+
+\[
+\cot^{-1}\left(\tan\left(\frac{\pi}{2} - y\right)\right) = \pi - y
+\]
+
+**Step 4:** Recall that \( \cot^{-1}(z) + \tan^{-1}(z) = \frac{\pi}{2} \) for any real number \( z \). However, in this case, since we have a negative inside the cotangent inverse, we adjust accordingly.
+
+**Step 5:** Since:
+
+\[
+\tan\left(\frac{\pi}{2} - y\right) = \cot(y)
+\]
+Taking the reciprocal of both sides (since \( x = \cot(y) \)):
+
+\[
+\cot\left(\frac{\pi}{2} - y\right) = \tan(y)
+\]
+
+**Step 6:** Now, take the cotangent inverse on both sides:
+
+\[
+\frac{\pi}{2} - y = \cot^{-1}\left(\tan(y)\right)
+\]
+But \( \tan(y) = x \), so:
+
+\[
+\frac{\pi}{2} - y = \cot^{-1}(x)
+\]
+
+**Step 7:** Solve for \( y \):
+
+\[
+y = \frac{\pi}{2} - \cot^{-1}(x)
+\]
+Recall that \( y = \cot^{-1}(x) \), so:
+
+\[
+\cot^{-1}(x) = \frac{\pi}{2} - \cot^{-1}\left(-x\right)
+\]
+
+**Step 8:** Rearranging the equation gives us:
+
+\[
+\cot^{-1}(-x) = \pi - \cot^{-1}(x)
+\]
+This completes the proof.
+
+\[
+\boxed{\cot^{-1}(-x) = \pi - \cot^{-1}(x)}
+\]

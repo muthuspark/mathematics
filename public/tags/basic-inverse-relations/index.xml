@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basic Inverse Relations on Everything Mathematics</title>
+    <link>http://localhost:38469/tags/basic-inverse-relations/</link>
+    <description>Recent content in Basic Inverse Relations on Everything Mathematics</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:38469/tags/basic-inverse-relations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cos(cos⁻¹(x)) = x, for -1 ≤ x ≤ 1</title>
+      <link>http://localhost:38469/posts/trignometry/basic-inverse-relations/coscosx--x-for--1--x--1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:38469/posts/trignometry/basic-inverse-relations/coscosx--x-for--1--x--1/</guid>
+      <description>&lt;p&gt;To prove that \(\cos(\cos^{-1}(x)) = x\) for all \( -1 \leq x \leq 1 \), we can follow these steps:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos(\theta) = x&#xA;   \]\[&#xA;   0 \leq \theta \leq \pi&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos(\cos^{-1}(x))&#xA;   \]\[&#xA;   \cos(\cos^{-1}(x)) = \cos(\theta) = x&#xA;   \]&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Verification with Specific Values&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;For \( x = 0.5 \), we have:&#xA;\[&#xA;     \cos^{-1}(0.5) = \frac{\pi}{3} \quad \text{and} \quad \cos\left(\frac{\pi}{3}\right) = 0.5&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;For \( x = 1 \):&#xA;\[&#xA;     \cos^{-1}(1) = 0 \quad \text{and} \quad \cos(0) = 1&#xA;     \]&lt;/li&gt;&#xA;&lt;li&gt;For \( x = -1 \):&#xA;\[&#xA;     \cos^{-1}(-1) = \pi \quad \text{and} \quad \cos(\pi) = -1&#xA;     \]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;\[&#xA;   \cos(\cos^{-1}(x)) = x&#xA;   \]&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>
