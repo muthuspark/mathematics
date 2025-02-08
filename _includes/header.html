@@ -1,0 +1,81 @@
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/14.0.1/math.min.js"></script>
+<script type="text/javascript">
+
+function plotFunction(expresion) {
+    const expression = expresion.trim();
+    if (!expression) {
+        console.error("Please enter a valid trigonometric function.");
+        return;
+    }
+
+    const xValues = [];
+    const yValues = [];
+
+    // Define the range and step size for x
+    const startX = -10;
+    const endX = 10;
+    const step = 0.1;
+
+    for (let x = startX; x <= endX; x += step) {
+        try {
+        // Use math.js to evaluate the expression
+        const scope = { x };
+        const y = math.evaluate(expression, scope);
+        xValues.push(x);
+        yValues.push(y);
+        } catch (error) {
+        console.error("Error evaluating function:", error);
+        console.error("Invalid function. Please enter a valid trigonometric function.");
+        return;
+        }
+    }
+
+    // Create a new chart
+    const ctx = document.getElementById('expressionChart').getContext('2d');
+    myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+        labels: xValues,
+        datasets: [{
+            label: `Plot for ${expression}`,
+            data: yValues,
+            borderColor: 'blue',
+            borderWidth: 2,
+            fill: false,
+        }],
+        },
+        options: {
+        scales: {
+            x: {
+            type: 'linear',
+            position: 'bottom',
+            title: {
+                display: true,
+                text: 'x',
+            },
+            },
+            y: {
+            title: {
+                display: true,
+                text: 'y',
+            },
+            },
+        },
+        responsive: false,
+        maintainAspectRatio: false,
+        },
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const preChart = document.querySelector('#quarto-document-content > pre.chart');
+    const chartText = preChart.innerText;
+    const canvas = document.createElement('canvas');
+    canvas.id = 'expressionChart';
+    canvas.height = 500;
+    canvas.style.width = '100%';
+    preChart.replaceWith(canvas);
+    plotFunction(chartText);
+});
+</script>

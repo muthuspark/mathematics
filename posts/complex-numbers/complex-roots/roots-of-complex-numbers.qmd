@@ -1,0 +1,51 @@
+---
+title: "Roots of complex numbers"
+categories: ["Complex Numbers", "Complex Roots"]
+---
+
+
+
+**Roots of Complex Numbers: A Comprehensive Explanation**
+
+1. **Understanding Complex Numbers:**
+   - A complex number is expressed as $z = a + bi$, where $a$ (real part) and $b$ (imaginary part) are real numbers, and $i$ is the square root of -1.
+
+2. **Defining Roots in Context:**
+   - When discussing roots of complex numbers, we focus on solving equations where the unknowns are complex numbers. For example, finding roots for $z^n = w$, where $w$ is a given complex number and $n$ is an integer.
+
+3. **Representation in Polar Form:**
+   - Any complex number can be represented in polar form as $re^{i\theta}$, where $r$ is the modulus ($|z| = \sqrt{a^2 + b^2}$) and $θ$ is the argument (angle from the positive real axis).
+
+4. **De Moivre's Theorem:**
+   - This theorem states that for a complex number in polar form:
+     
+$$
+     (r(\cosθ + i\sinθ))^n = r^n (\cos(nθ) + i\sin(nθ))
+     $$
+
+     When finding the $n$-th roots of a complex number $z$, the formula becomes:
+     
+$$
+     z^{1/n} = r^{1/n} \left[ \cos\left( \frac{θ + 2πk}{n} \right) + i \sin\left( \frac{θ + 2πk}{n} \right) \right] \quad \text{for } k = 0, 1, ..., n-1
+     $$
+
+     This gives all $n$ distinct roots.
+
+5. **Application to Polynomials:**
+   - For polynomials with complex coefficients, the quadratic formula can be extended using De Moivre's theorem or Euler's formula. The discriminant might be negative or complex, leading to complex roots.
+
+6. **Example: Finding Square Root of -1:**
+   - Expressing $-1$ in polar form as $e^{iπ}$, its square roots are:
+     
+$$
+     (-1)^{1/2} = 1^{1/2} \left[ \cos\left( \frac{π + 2πk}{2} \right) + i \sin\left( \frac{π + 2πk}{2} \right) \right] \quad \text{for } k = 0, 1
+     $$
+
+     This gives roots $i$ and $-i$.
+
+7. **Higher-Order Roots:**
+   - For higher-order roots like cube or fourth, the angle increases by $2π/n$ each time, ensuring all possible roots are found.
+
+**Conclusion:**
+
+Understanding roots of complex numbers involves representing them in polar form and using De Moivre's theorem to find all possible roots. This method is fundamental for solving equations with complex coefficients and finding all roots, whether simple or multiple.

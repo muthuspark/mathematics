@@ -1,0 +1,48 @@
+---
+title: "Wave functions in quantum mechanics"
+categories: ["Complex Numbers", "Applications"]
+---
+
+
+
+**Wave Functions in Quantum Mechanics: A Deep Dive**
+
+In quantum mechanics, wave functions serve as the mathematical backbone that encapsulates the probabilistic nature of particles at a fundamental level. Unlike classical physics where objects have definite positions and momenta, quantum mechanics introduces the concept of probabilities associated with various outcomes due to the inherent uncertainty principle.
+
+**1. Definition of Wave Function:**
+A wave function ψ(x,t) is a complex-valued function that describes the state of a quantum system at position x and time t. It provides a complete description of the system, encapsulating all possible information about it.
+
+**2. Probability Interpretation:**
+The square of the magnitude |ψ|² represents the probability density of finding the particle at position x. This means the total probability of finding the particle anywhere in space is 1, ensuring normalization:
+
+∫ |ψ(x,t)|² dx = 1
+
+This interpretation ties the wave function to real physical probabilities, despite ψ itself being complex.
+
+**3. Time Evolution:**
+Quantum systems evolve with time according to Schrödinger's equation:
+
+iℏ ∂ψ/∂t = Hψ
+
+where H is the Hamiltonian operator, representing the total energy of the system. This equation shows that wave functions change in phase over time, leading to observable interference effects seen in experiments like the double-slit experiment.
+
+**4. Superposition Principle:**
+Wave functions can be superpositions of other states. If ψ = ψ₁ + ψ₂, where ψ₁ and ψ₂ are individual wave functions, the particle may exist in either state upon measurement, leading to probabilities determined by |ψ₁|² and |ψ₂|².
+
+**5. Operators and Observables:**
+ observables (like position or momentum) are represented by Hermitian operators. The eigenvalues of these operators correspond to measurable quantities. When an observable is measured, the system collapses into the corresponding eigenstate, providing definite values for the quantity being observed.
+
+**6. Expectation Values:**
+The expected value ⟨A⟩ of an observable A is calculated as:
+
+⟨A⟩ = ∫ ψ* A ψ dx
+
+This integral involves complex conjugates and gives a real result, representing the average outcome over many measurements.
+
+**7. Entanglement:**
+Quantum systems can become entangled, where the state of one depends on the other, even if they are far apart. This phenomenon arises from combined wave functions (product states) or superpositions that link individual parts.
+
+**8. Normalization and Physical Relevance:**
+Wave functions must be normalizable to ensure |ψ|² integrates to 1, representing a valid probability distribution. This constraint is essential for the physical consistency of quantum solutions.
+
+In summary, wave functions in quantum mechanics are complex-valued functions that describe probabilities through their squared magnitudes. They evolve over time, support superpositions, and allow measurements corresponding to Hermitian operators. Entanglement adds complexity by linking systems' states, while normalization ensures proper probabilistic interpretation. These principles underpin the deterministic yet inherently uncertain nature of quantum mechanics.

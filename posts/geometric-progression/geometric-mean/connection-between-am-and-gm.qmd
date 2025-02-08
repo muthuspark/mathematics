@@ -1,0 +1,23 @@
+---
+title: "Connection between AM and GM"
+categories: ["Geometric Progression", "Geometric Mean"]
+
+
+---
+
+
+
+In a geometric progression (GP), the relationship between the Arithmetic Mean (AM) and Geometric Mean (GM) can be explained as follows:
+
+1. **Arithmetic Mean (AM):** For terms $a$, $ar$, $ar^2$, ..., $ar^{n-1}$in a GP, the AM is given by:$$\text{AM} = \frac{a + ar + ar^2 + \ldots + ar^{n-1}}{n}$$2. **Geometric Mean (GM):** For the same terms, the GM is:$$\text{GM} = \sqrt[n]{a \cdot ar \cdot ar^2 \cdot \ldots \cdot ar^{n-1}} = a^{(n-1)/n} r^{(n-2)/n}$$
+
+3. **Key Relationship:** It is established that for any set of positive numbers, the AM is always greater than or equal to the GM (AM ≥ GM), with equality if and only if all the numbers are equal.
+
+4. **Application in GP:** In a GP where $r = 1$, all terms are equal ($a$), thus:
+   $$\text{AM} = \frac{n \cdot a}{n} = a$$$$\text{GM} = \sqrt[n]{a^n} = a$$
+   Hence, AM equals GM.
+
+5. **General Case:** For any GP where $r \neq 1$, the progression is not constant, and it can be shown that:
+   $$\text{AM} > \text{GM}$$**Conclusion:** In a geometric progression, except when all terms are equal (i.e.,$r = 1$), the Arithmetic Mean is greater than the Geometric Mean. When $r = 1$, both means are equal.
+
+ANSWER: The Arithmetic Mean is greater than or equal to the Geometric Mean in a geometric progression with $r \neq 1$. When all terms are equal (i.e., $r = 1$), they are equal, and thus AM equals GM.

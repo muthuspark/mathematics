@@ -1,0 +1,71 @@
+---
+title: "Complex trigonometric functions"
+categories: ["Complex Numbers", "Special Functions"]
+---
+
+
+
+To find the real and imaginary parts of $\tan(x + iy)$, we start by expressing $x + iy$ in terms of its hyperbolic trigonometric functions. We use the identities:
+
+
+$$
+\tan(iz) = i \dfrac{e^{z} - e^{-z}}{e^{z} + e^{-z}} = i \tanh z
+$$
+
+
+However, we need to express $\tan(x + iy)$ directly. Using the addition formula for tangent and substituting $y$ with $iy$, we get:
+
+
+$$
+\tan(x + iy) = \frac{\tan x + i \tanh y}{1 - i \tan x \tanh y}
+$$
+
+
+To separate this into real and imaginary parts, we multiply the numerator and denominator by the conjugate of the denominator:
+
+
+$$
+\frac{(\tan x + i \tanh y)(1 + i \tan x \tanh y)}{(1 - \tan^2 x \tanh^2 y) + (\tan x \tanh y)^2}
+$$
+
+
+Expanding and simplifying both the numerator and the denominator, we get:
+
+For the real part:
+- Numerator: $\tan x (1 - \tanh^2 x)$
+- Denominator: $1 + \tan^2 x \tanh^2 x$
+
+Thus, the real part is:
+
+
+$$
+\text{Re}[\tan(x + iy)] = \frac{\tan x (1 - \tanh^2 x)}{1 + \tan^2 x \tanh^2 x}
+$$
+
+
+For the imaginary part:
+- Numerator: $\tanh y (1 + \tan^2 x)$
+- Denominator: $1 + \tan^2 x \tanh^2 x$
+
+Thus, the imaginary part is:
+
+
+$$
+\text{Im}[\tan(x + iy)] = \frac{\tanh y (1 + \tan^2 x)}{1 + \tan^2 x \tanh^2 x}
+$$
+
+
+### Final Answer
+The real part of $\tan(x + iy)$ is:
+
+$$
+\boxed{\dfrac{\tan x (1 - \tanh^2 x)}{1 + \tan^2 x \tanh^2 x}}
+$$
+
+
+The imaginary part of $\tan(x + iy)$ is:
+
+$$
+\boxed{\dfrac{\tanh y (1 + \tan^2 x)}{1 + \tan^2 x \tanh^2 x}}
+$$
+

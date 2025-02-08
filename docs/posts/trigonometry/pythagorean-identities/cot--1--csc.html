@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>cot²θ + 1 = csc²θ – Everything Mathematics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../posts/trigonometry/pythagorean-identities/sinx--tanx1-x.html" rel="next">
+<link href="../../../posts/trigonometry/reciprocal-identities/cos---1sec--and-sec---1cos.html" rel="prev">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-8b2975e1950e27371390fa444370b2f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Everything Mathematics</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/muthuspark/mathematics"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Trigonometry</li><li class="breadcrumb-item"><a href="../../../posts/trigonometry/pythagorean-identities/cot--1--csc.html">Pythagorean Identities</a></li><li class="breadcrumb-item"><a href="../../../posts/trigonometry/pythagorean-identities/cot--1--csc.html">cot²θ + 1 = csc²θ</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Trigonometry</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Reciprocal Identities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-identities/tan---1cot--and-cot---1tan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan θ = 1/cot θ and cot θ = 1/tan θ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-identities/sin---1csc--and-csc---1sin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin θ = 1/csc θ and csc θ = 1/sin θ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-identities/cos---1sec--and-sec---1cos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos θ = 1/sec θ and sec θ = 1/cos θ</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Pythagorean Identities</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/cot--1--csc.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">cot²θ + 1 = csc²θ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/sinx--tanx1-x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) = tan⁻¹(x/√(1-x²))</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/cosx--2---sinx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(x) = π/2 - sin⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/sinx--2---cosx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) = π/2 - cos⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/cosx--tan1-xx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(x) = tan⁻¹(√(1-x²)/x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/tan--1--sec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan²θ + 1 = sec²θ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/sin--cos--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin²θ + cos²θ = 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Quotient Identities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/quotient-identities/cot---cos-sin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot θ = cos θ/sin θ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/quotient-identities/tan---sin-cos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan θ = sin θ/cos θ</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Evenodd Properties</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/sin----sin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(-θ) = -sin(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/csc----csc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc(-θ) = -csc(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/sec---sec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sec(-θ) = sec(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/tan----tan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan(-θ) = -tan(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/cot----cot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot(-θ) = -cot(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/cos---cos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(-θ) = cos(θ)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Cofunction Identities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/cos2-----sin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(π/2 - θ) = sin(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/sin2-----cos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(π/2 - θ) = cos(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/cot2-----tan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot(π/2 - θ) = tan(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/tan2-----cot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan(π/2 - θ) = cot(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/sec2-----csc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sec(π/2 - θ) = csc(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/csc2-----sec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc(π/2 - θ) = sec(θ)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Addition And Subtraction Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/addition-and-subtraction-formulas/tana--b--tana--tanb1--tanatanb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan(A ± B) = (tan(A) ± tan(B))/(1 ∓ tan(A)tan(B))</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/addition-and-subtraction-formulas/sina--b--sinacosb--cosasinb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(A ± B) = sin(A)cos(B) ± cos(A)sin(B)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/addition-and-subtraction-formulas/cosa--b--cosacosb--sinasinb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(A ± B) = cos(A)cos(B) ∓ sin(A)sin(B)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">Double Angle Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/double-angle-formulas/sin2--2sincos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(2θ) = 2sin(θ)cos(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/double-angle-formulas/cos2--cos---sin--2cos---1--1---2sin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(2θ) = cos²(θ) - sin²(θ) = 2cos²(θ) - 1 = 1 - 2sin²(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/double-angle-formulas/tan2--2tan1---tan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan(2θ) = 2tan(θ)/(1 - tan²(θ))</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+ <span class="menu-text">Half Angle Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/half-angle-formulas/cos2--1--cos2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos²(θ/2) = (1 + cos(θ))/2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/half-angle-formulas/tan2--1---cos1--cos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan²(θ/2) = (1 - cos(θ))/(1 + cos(θ))</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/half-angle-formulas/sin2--1---cos2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin²(θ/2) = (1 - cos(θ))/2</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+ <span class="menu-text">Product To Sum Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/product-to-sum-formulas/cosacosb--cosa-b--cosab2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(A)cos(B) = [cos(A-B) + cos(A+B)]/2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/product-to-sum-formulas/sinacosb--sinab--sina-b2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(A)cos(B) = [sin(A+B) + sin(A-B)]/2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/product-to-sum-formulas/sinasinb--cosa-b---cosab2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(A)sin(B) = [cos(A-B) - cos(A+B)]/2</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
+ <span class="menu-text">Sum To Product Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-to-product-formulas/sina--sinb--2sinab2cosa-b2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(A) + sin(B) = 2sin((A+B)/2)cos((A-B)/2)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-to-product-formulas/cosa--cosb--2cosab2cosa-b2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(A) + cos(B) = 2cos((A+B)/2)cos((A-B)/2)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-to-product-formulas/cosa---cosb---2sinab2sina-b2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(A) - cos(B) = -2sin((A+B)/2)sin((A-B)/2)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-to-product-formulas/sina---sinb--2cosab2sina-b2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(A) - sin(B) = 2cos((A+B)/2)sin((A-B)/2)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Basic Inverse Functions</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/sinx--sinx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) = sin⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/tanx--tanx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(x) = tan⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/cosx--cosx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(x) = cos⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/cotx--cotx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot⁻¹(x) = cot⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/secx--secx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sec⁻¹(x) = sec⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/cscx--cscx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc⁻¹(x) = csc⁻¹(x)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+ <span class="menu-text">Complementary Relations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/complementary-relations/cscx--secx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc⁻¹(x) + sec⁻¹(x) = π</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/complementary-relations/tanx--cotx--2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(x) + cot⁻¹(x) = π/2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/complementary-relations/sinx--cosx--2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) + cos⁻¹(x) = π/2</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false">
+ <span class="menu-text">Basic Inverse Relations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/cotcotx--x-for-all-x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot(cot⁻¹(x)) = x, for all x</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/csccscx--x-for-x--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc(csc⁻¹(x)) = x, for |x| ≥ 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/tantanx--x-for-all-x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan(tan⁻¹(x)) = x, for all x</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/coscosx--x-for--1--x--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(cos⁻¹(x)) = x, for -1 ≤ x ≤ 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/sinsinx--x-for--1--x--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(sin⁻¹(x)) = x, for -1 ≤ x ≤ 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/secsecx--x-for-x--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sec(sec⁻¹(x)) = x, for |x| ≥ 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false">
+ <span class="menu-text">Reciprocal Relations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-relations/sinx--csc1x-for-x--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) = csc⁻¹(1/x), for |x| ≥ 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-relations/cosx--sec1x-for-x--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(x) = sec⁻¹(1/x), for |x| ≥ 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-relations/tanx--cot1x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(x) = cot⁻¹(1/x)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false">
+ <span class="menu-text">Negative Argument Relations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/cot-x-----cotx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot⁻¹(-x) = π - cot⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/sin-x---sinx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(-x) = -sin⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/csc-x---cscx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc⁻¹(-x) = -csc⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/tan-x---tanx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(-x) = -tan⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/sec-x-----secx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sec⁻¹(-x) = π - sec⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/cos-x-----cosx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(-x) = π - cos⁻¹(x)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false">
+ <span class="menu-text">Sum And Difference Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-and-difference-formulas/sinx--siny--sinx1-y--y1-x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) + sin⁻¹(y) = sin⁻¹(x√(1-y²) + y√(1-x²))</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-and-difference-formulas/tanx--tany--tanxy1xy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(x) ± tan⁻¹(y) = tan⁻¹((x±y)/(1∓xy))</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="false">
+ <span class="menu-text">Composite Function Identities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/composite-function-identities/tansinx--sintanx1tanx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(sin(x)) = sin⁻¹(tan(x)/(√(1+tan²(x))))</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/composite-function-identities/sincosx--2---x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(cos(x)) = π/2 - x</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/composite-function-identities/cossinx--x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(sin(x)) = x</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true">
+ <span class="menu-text">Binomial Theorem</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="false">
+ <span class="menu-text">Binomial Expansion Core Concepts</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/binomial-expansion-core-concepts/general-form-a--b.qmd/general-form-a--b.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/binomial-expansion-core-concepts/term-independent-of-x.qmd/term-independent-of-x.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/binomial-expansion-core-concepts/terms-in-expansion.qmd/terms-in-expansion.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/binomial-expansion-core-concepts/middle-terms.qmd/middle-terms.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/binomial-expansion-core-concepts/binomial-coefficients.qmd/binomial-coefficients.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/binomial-expansion-core-concepts/general-term-rth-term.qmd/general-term-rth-term.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/binomial-expansion-core-concepts/maximum-term.qmd/maximum-term.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="false">
+ <span class="menu-text">Problem Solving Strategies</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/problem-solving-strategies/pattern-recognition.qmd/pattern-recognition.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/problem-solving-strategies/expansion-shortcuts.qmd/expansion-shortcuts.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/problem-solving-strategies/term-identification.qmd/term-identification.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/problem-solving-strategies/coefficient-comparison.qmd/coefficient-comparison.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/problem-solving-strategies/middle-term-problems.qmd/middle-term-problems.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="false">
+ <span class="menu-text">Fundamental Prerequisites</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/fundamental-prerequisites/factorial-notation-n.qmd/factorial-notation-n.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/fundamental-prerequisites/basic-exponent-rules-and-laws.qmd/basic-exponent-rules-and-laws.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/fundamental-prerequisites/understanding-of-sequences-and-series.qmd/understanding-of-sequences-and-series.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/fundamental-prerequisites/basic-algebraic-operations-and-expansions.qmd/basic-algebraic-operations-and-expansions.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/fundamental-prerequisites/laws-of-indices.qmd/laws-of-indices.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" role="navigation" aria-expanded="false">
+ <span class="menu-text">Properties Of Binomial Coefficients</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-23" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-23" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/properties-of-binomial-coefficients/sum-property.qmd/sum-property.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/properties-of-binomial-coefficients/symmetry-property.qmd/symmetry-property.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/properties-of-binomial-coefficients/recursive-property.qmd/recursive-property.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/properties-of-binomial-coefficients/relationship-with-fibonacci-numbers.qmd/relationship-with-fibonacci-numbers.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" role="navigation" aria-expanded="false">
+ <span class="menu-text">Combinations And Permutations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-24" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-24" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/combinations-and-permutations/properties-of-combinations.qmd/properties-of-combinations.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/combinations-and-permutations/pascals-triangle-and-its-properties.qmd/pascals-triangle-and-its-properties.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/combinations-and-permutations/understanding-ncr-notation.qmd/understanding-ncr-notation.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/combinations-and-permutations/combinatorial-mathematics-basics.qmd/combinatorial-mathematics-basics.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/combinations-and-permutations/relationship-between-ncr-and-npr.qmd/relationship-between-ncr-and-npr.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" role="navigation" aria-expanded="false">
+ <span class="menu-text">Pascals Triangle Properties</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-25" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-25" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/pascals-triangle-properties/relationship-with-combinations.qmd/relationship-with-combinations.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/pascals-triangle-properties/patterns-within-the-triangle.qmd/patterns-within-the-triangle.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/pascals-triangle-properties/sum-of-elements-in-each-row.qmd/sum-of-elements-in-each-row.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/pascals-triangle-properties/applications-in-expansions.qmd/applications-in-expansions.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/pascals-triangle-properties/construction-method.qmd/construction-method.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-26" role="navigation" aria-expanded="false">
+ <span class="menu-text">Related Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-26" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-26" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/related-formulas/nc--nc----nc--2.qmd/nc--nc----nc--2.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/related-formulas/sum-of-squares-of-binomial-coefficients.qmd/sum-of-squares-of-binomial-coefficients.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/related-formulas/relationships-between-consecutive-terms.qmd/relationships-between-consecutive-terms.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/related-formulas/multinomial-expansions.qmd/multinomial-expansions.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-27" role="navigation" aria-expanded="false">
+ <span class="menu-text">Advanced Topics</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-27" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-27" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/advanced-topics/binomial-series.qmd/binomial-series.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/advanced-topics/relationship-with-calculus.qmd/relationship-with-calculus.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/advanced-topics/complex-number-applications.qmd/complex-number-applications.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/advanced-topics/infinite-series-expansions.qmd/infinite-series-expansions.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/advanced-topics/application-to-probability.qmd/application-to-probability.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" role="navigation" aria-expanded="false">
+ <span class="menu-text">Special Cases And Forms</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-28" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-28" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/special-cases-and-forms/negative-and-fractional-indices.qmd/negative-and-fractional-indices.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/special-cases-and-forms/x---1-expansion.qmd/x---1-expansion.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/special-cases-and-forms/1--x-expansion.qmd/1--x-expansion.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/special-cases-and-forms/x--a-where-a-is-constant.qmd/x--a-where-a-is-constant.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/special-cases-and-forms/expansion-of-x--1x.qmd/expansion-of-x--1x.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" role="navigation" aria-expanded="false">
+ <span class="menu-text">Applications</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-29" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-29" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/applications/sum-of-coefficients.qmd/sum-of-coefficients.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/applications/finding-specific-terms-without-full-expansion.qmd/finding-specific-terms-without-full-expansion.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/applications/number-of-terms.qmd/number-of-terms.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/applications/finding-coefficients.qmd/finding-coefficients.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/binomial-theorem/applications/term-with-maximum-value.qmd/term-with-maximum-value.qmd</span>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" role="navigation" aria-expanded="true">
+ <span class="menu-text">Arithmetic Progression</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-30" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-30" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-31" role="navigation" aria-expanded="false">
+ <span class="menu-text">Fundamentals</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-31" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-31" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/fundamentals/finding-position-of-a-term.qmd/finding-position-of-a-term.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/fundamentals/finding-common-difference.qmd/finding-common-difference.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/fundamentals/definition-and-basic-concepts.qmd/definition-and-basic-concepts.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/fundamentals/finding-the-nth-term-an--a--n-1d.qmd/finding-the-nth-term-an--a--n-1d.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/fundamentals/recognition-of-patterns-in-sequences.qmd/recognition-of-patterns-in-sequences.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/fundamentals/consecutive-terms-in-ap.qmd/consecutive-terms-in-ap.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-32" role="navigation" aria-expanded="false">
+ <span class="menu-text">Problem Solving Strategies</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-32" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-32" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/problem-solving-strategies/pattern-recognition.qmd/pattern-recognition.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/problem-solving-strategies/expansion-shortcuts.qmd/expansion-shortcuts.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/problem-solving-strategies/term-identification.qmd/term-identification.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/problem-solving-strategies/coefficient-comparison.qmd/coefficient-comparison.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/problem-solving-strategies/middle-term-problems.qmd/middle-term-problems.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-33" role="navigation" aria-expanded="false">
+ <span class="menu-text">Harmonic Mean</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-33" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-33" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/harmonic-mean/special-cases-like-sum-of-first-n-natural-numbers.qmd/special-cases-like-sum-of-first-n-natural-numbers.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/harmonic-mean/inserting-harmonic-means-between-two-numbers.qmd/inserting-harmonic-means-between-two-numbers.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/harmonic-mean/definition-and-properties-of-harmonic-mean.qmd/definition-and-properties-of-harmonic-mean.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/harmonic-mean/alternative-formula-sn--n2first-term--last-term.qmd/alternative-formula-sn--n2first-term--last-term.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/harmonic-mean/relationship-between-terms-and-harmonic-means.qmd/relationship-between-terms-and-harmonic-means.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/harmonic-mean/sum-of-n-terms-sn--n22a--n-1d.qmd/sum-of-n-terms-sn--n22a--n-1d.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-34" role="navigation" aria-expanded="false">
+ <span class="menu-text">Arithmetic Mean</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-34" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-34" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/arithmetic-mean/relationship-between-terms-and-arithmetic-means.qmd/relationship-between-terms-and-arithmetic-means.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/arithmetic-mean/special-cases-like-sum-of-first-n-natural-numbers.qmd/special-cases-like-sum-of-first-n-natural-numbers.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/arithmetic-mean/alternative-formula-sn--n2first-term--last-term.qmd/alternative-formula-sn--n2first-term--last-term.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/arithmetic-mean/sum-of-n-terms-sn--n22a--n-1d.qmd/sum-of-n-terms-sn--n22a--n-1d.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/arithmetic-mean/definition-and-properties-of-arithmetic-mean.qmd/definition-and-properties-of-arithmetic-mean.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/arithmetic-mean/inserting-arithmetic-means-between-two-numbers.qmd/inserting-arithmetic-means-between-two-numbers.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-35" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geometric Mean</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-35" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-35" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/geometric-mean/definition-and-properties-of-geometric-mean.qmd/definition-and-properties-of-geometric-mean.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/geometric-mean/inserting-geometric-means-between-two-numbers.qmd/inserting-geometric-means-between-two-numbers.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/geometric-mean/special-cases-like-sum-of-first-n-natural-numbers.qmd/special-cases-like-sum-of-first-n-natural-numbers.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/geometric-mean/alternative-formula-sn--n2first-term--last-term.qmd/alternative-formula-sn--n2first-term--last-term.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/geometric-mean/relationship-between-terms-and-geometric-means.qmd/relationship-between-terms-and-geometric-means.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/arithmetic-progression/geometric-mean/sum-of-n-terms-sn--n22a--n-1d.qmd/sum-of-n-terms-sn--n22a--n-1d.qmd</span>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-36" role="navigation" aria-expanded="true">
+ <span class="menu-text">Geometric Progression</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-36" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-36" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-37" role="navigation" aria-expanded="false">
+ <span class="menu-text">Fundamentals</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-37" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-37" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/fundamentals/relationship-between-consecutive-terms.qmd/relationship-between-consecutive-terms.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/fundamentals/finding-the-nth-term-an--arn-1.qmd/finding-the-nth-term-an--arn-1.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/fundamentals/properties-of-gp-terms.qmd/properties-of-gp-terms.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/fundamentals/finding-position-of-a-term.qmd/finding-position-of-a-term.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/fundamentals/definition-and-basic-concepts.qmd/definition-and-basic-concepts.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/fundamentals/finding-common-ratio.qmd/finding-common-ratio.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-38" role="navigation" aria-expanded="false">
+ <span class="menu-text">Product Of Terms</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-38" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-38" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/product-of-terms/relationship-with-powers.qmd/relationship-with-powers.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/product-of-terms/product-of-n-terms.qmd/product-of-n-terms.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/product-of-terms/properties-of-products.qmd/properties-of-products.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/product-of-terms/special-products-in-gp.qmd/special-products-in-gp.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-39" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geometric Mean</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-39" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-39" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/geometric-mean/inserting-geometric-means-between-two-numbers.qmd/inserting-geometric-means-between-two-numbers.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/geometric-mean/connection-between-am-and-gm.qmd/connection-between-am-and-gm.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/geometric-mean/relationship-between-terms-and-geometric-means.qmd/relationship-between-terms-and-geometric-means.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/geometric-mean/definition-and-properties.qmd/definition-and-properties.qmd</span>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-40" role="navigation" aria-expanded="false">
+ <span class="menu-text">Geometric Progression</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-40" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-40" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/geometric-progression/special-cases-and-variations.qmd/special-cases-and-variations.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/geometric-progression/sum-of-n-terms-sn--a1-rn1-r-when-r1.qmd/sum-of-n-terms-sn--a1-rn1-r-when-r1.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/geometric-progression/sum-to-infinity-formula-s--a1-r.qmd/sum-to-infinity-formula-s--a1-r.qmd</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">posts/geometric-progression/geometric-progression/sum-of-infinite-gp-when-r1.qmd/sum-of-infinite-gp-when-r1.qmd</span>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Trigonometry</li><li class="breadcrumb-item"><a href="../../../posts/trigonometry/pythagorean-identities/cot--1--csc.html">Pythagorean Identities</a></li><li class="breadcrumb-item"><a href="../../../posts/trigonometry/pythagorean-identities/cot--1--csc.html">cot²θ + 1 = csc²θ</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">cot²θ + 1 = csc²θ</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Trignometry</div>
+    <div class="quarto-category">Pythagorean Identities</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Let’s prove the identity step by step.</p>
+<p><strong>Given Identity:</strong> <span class="math display">\[\cot^2{\theta} + 1 = \csc^2{\theta}\]</span></p>
+<p><strong>Step-by-Step Proof:</strong></p>
+<ol type="1">
+<li><strong>Express in Terms of Sine and Cosine:</strong>
+<ul>
+<li>Recall that: <span class="math display">\[\cot{\theta} = \frac{\cos{\theta}}{\sin{\theta}}\]</span><span class="math display">\[ \csc{\theta} = \frac{1}{\sin{\theta}}\]</span>2. <strong>Square the Cotangent Term:</strong><span class="math display">\[\cot^2{\theta} = \left(\frac{\cos{\theta}}{\sin{\theta}}\right)^2 = \frac{\cos^2{\theta}}{\sin^2{\theta}}\]</span>3. <strong>Substitute Back into the Left Side:</strong><span class="math display">\[\cot^2{\theta} + 1 = \frac{\cos^2{\theta}}{\sin^2{\theta}} + 1\]</span></li>
+</ul></li>
+<li><strong>Find a Common Denominator to Combine Terms:</strong>
+<ul>
+<li>To add <span class="math inline">\(\frac{\cos^2{\theta}}{\sin^2{\theta}}\)</span> and 1, express 1 as <span class="math inline">\(\frac{\sin^2{\theta}}{\sin^2{\theta}}\)</span>: <span class="math display">\[\frac{\cos^2{\theta}}{\sin^2{\theta}} + 1 = \frac{\cos^2{\theta}}{\sin^2{\theta}} + \frac{\sin^2{\theta}}{\sin^2{\theta}}\]</span>5. <strong>Combine the Fractions:</strong><span class="math display">\[\frac{\cos^2{\theta} + \sin^2{\theta}}{\sin^2{\theta}}\]</span></li>
+</ul></li>
+<li><strong>Apply the Pythagorean Identity:</strong>
+<ul>
+<li>Remember that <span class="math inline">\(\cos^2{\theta} + \sin^2{\theta} = 1\)</span>: <span class="math display">\[\frac{1}{\sin^2{\theta}}\]</span></li>
+</ul></li>
+<li><strong>Express as Cosecant Squared:</strong>
+<ul>
+<li>Since <span class="math inline">\(\csc{\theta} = \frac{1}{\sin{\theta}}\)</span>, squaring both sides gives: <span class="math display">\[\csc^2{\theta} = \left(\frac{1}{\sin{\theta}}\right)^2 = \frac{1}{\sin^2{\theta}}\]</span></li>
+</ul></li>
+<li><strong>Compare Both Sides:</strong>
+<ul>
+<li>From step 6, we have <span class="math inline">\(\frac{1}{\sin^2{\theta}}\)</span>, and from step 7, <span class="math inline">\(\csc^2{\theta} = \frac{1}{\sin^2{\theta}}\)</span>.</li>
+<li>Therefore: <span class="math display">\[\cot^2{\theta} + 1 = \csc^2{\theta}\]</span></li>
+</ul></li>
+</ol>
+<p><strong>Conclusion:</strong> By expressing cotangent and cosecant in terms of sine, squaring them, combining the fractions using a common denominator, and applying the Pythagorean identity, we have successfully proven that:</p>
+<p><span class="math display">\[\cot^2{\theta} + 1 = \csc^2{\theta}\]</span></p>
+
+
+
+</main> <!-- /main -->
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../../posts/trigonometry/reciprocal-identities/cos---1sec--and-sec---1cos.html" class="pagination-link" aria-label="cos θ = 1/sec θ and sec θ = 1/cos θ">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">cos θ = 1/sec θ and sec θ = 1/cos θ</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../../posts/trigonometry/pythagorean-identities/sinx--tanx1-x.html" class="pagination-link" aria-label="sin⁻¹(x) = tan⁻¹(x/√(1-x²))">
+        <span class="nav-page-text">sin⁻¹(x) = tan⁻¹(x/√(1-x²))</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

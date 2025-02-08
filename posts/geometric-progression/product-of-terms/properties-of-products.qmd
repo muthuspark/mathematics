@@ -1,0 +1,32 @@
+---
+title: "Properties of products"
+categories: ["Geometric Progression", "Product of Terms"]
+
+
+---
+
+
+
+The properties of products in geometric progressions reveal how multiplying several terms together can be simplified using exponents. 
+
+**Understanding Geometric Progression:**
+A geometric progression is a sequence where each term after the first is obtained by multiplying the previous term by a constant called the common ratio, 'r'. For example, if the first term is 'a' and the common ratio is 'r', the terms are: a, ar, ar², ar³, ..., ar^{n-1}.
+
+**Product of Terms in Geometric Progression:**
+When considering the product P of the first n terms of this progression:
+P = a * ar * ar² * ... * ar^{n-1}
+
+**Simplifying the Product:**
+Each term contributes to both 'a' and 'r'. Multiplying them together results in:
+
+P = a^n * r^{0 + 1 + 2 + ... + (n-1)}.
+
+The exponent on 'r' is the sum of the first (n-1) natural numbers, which is given by the formula n(n-1)/2. Therefore:
+
+P = a^n * r^{n(n-1)/2}.
+
+**Example Verification:**
+- For n=3 terms: P = a³ * r^(3*2/2) = a³r³.
+- For n=4 terms: P = a⁴ * r^(4*3/2) = a⁴r⁶.
+
+This formula succinctly captures the product of any number of terms in a geometric progression.

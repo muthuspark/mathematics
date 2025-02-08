@@ -1,0 +1,18 @@
+---
+title: "csc⁻¹(x) + sec⁻¹(x) = π"
+categories: ["Trignometry", "Complementary Relations"]
+
+
+---
+
+
+
+Given that $\csc(\theta) = x$ and $\sec(\phi) = y$, we need to find the sum of angles $\theta$ and $\phi$.
+
+First, we recognize that:
+
+$$\csc(\theta) = x \implies \sin(\theta) = \frac{1}{x}$$$$ \sec(\phi) = y \implies \cos(\phi) = \frac{1}{y}$$To find$ \theta + \phi $, we use the formula for the sine of a sum:
+
+$$\sin(\theta + \phi) = \sin(\theta)\cos(\phi) + \cos(\theta)\sin(\phi)$$Substituting the known values:$$\sin(\theta + \phi) = \left(\frac{1}{x}\right)\left(\frac{1}{y}\right) + \sqrt{1 - \left(\frac{1}{x^2}\right)}\sqrt{1 - \left(\frac{1}{y^2}\right)}$$Simplifying the terms:$$\sin(\theta + \phi) = \frac{1}{xy} + \frac{\sqrt{(x^2 - 1)(y^2 - 1)}}{xy}$$$$ \sin(\theta + \phi) = \frac{1 + \sqrt{(x^2 - 1)(y^2 - 1)}}{xy}$$However, without additional information on$ x $and$ y $, we cannot simplify this further. Therefore, the sum of angles $\theta$ and $\phi$ can be expressed as:
+
+$$\theta + \phi = \arcsin\left(\frac{1}{x}\right) + \arccos\left(\frac{1}{y}\right)$$Thus, the final answer is:$$\boxed{\arcsin\left(\frac{1}{x}\right) + \arccos\left(\frac{1}{y}\right)}$$

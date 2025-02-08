@@ -1,0 +1,54 @@
+---
+title: "Sum of infinite GP (when |r|<1)"
+categories: ["Geometric Progression", "Geometric Progression"]
+
+
+---
+
+
+
+**The Sum of an Infinite Geometric Progression (GP)**
+
+A geometric progression (GP) is a sequence where each term is obtained by multiplying the previous term by a constant called the common ratio, denoted as r. The general form of a GP is: a, ar, ar², ar³, ..., where 'a' is the first term.
+
+For an infinite GP, we are interested in finding the sum S of all its terms when |r| < 1. This condition ensures that the series converges to a finite value as the number of terms approaches infinity.
+
+**Step-by-Step Derivation:**
+
+1. **Write the Sum of the Infinite GP:**
+   Let S be the sum of the infinite GP:
+   $$S = a + ar + ar² + ar³ + ar⁴ + \dots$$
+
+2. **Multiply Both Sides by r:**
+   To facilitate subtraction, multiply each term on both sides by r:
+   $$rS = ar + ar² + ar³ + ar⁴ + \dots$$
+
+3. **Subtract the Second Equation from the First:**
+   Subtracting the multiplied equation (rS) from the original sum S:
+   $$S - rS = a + ar + ar² + ar³ + \dots - (ar + ar² + ar³ + \dots)$$Simplifying the right side, all terms except 'a' cancel out:$$S(1 - r) = a$$
+
+4. **Solve for S:**
+   Isolate S by dividing both sides by (1 - r):
+   $$S = \frac{a}{1 - r}$$
+
+**Special Cases and Considerations:**
+
+- **When |r| < 1:** The series converges, and the formula $S = \frac{a}{1 - r}$ is valid.
+  
+- **When r = 0:** All terms after the first become zero. Thus, $S = a$.
+  
+- **When r > 1 or r < -1:** The series does not converge; the sum diverges.
+
+**Examples and Applications:**
+
+- **Example 1:** Let a = 2 and r = 0.5.
+  $$S = \frac{2}{1 - 0.5} = 4$$
+  Summing the GP: 2 + 1 + 0.5 + 0.25 + ... approaches 4.
+
+- **Example 2:** Let a = 3 and r = -0.5.
+  $$S = \frac{3}{1 - (-0.5)} = \frac{3}{1.5} = 2$$
+  Summing the GP: 3 + (-1.5) + 0.75 + (-0.375) + ... approaches 2.
+
+**Conclusion:**
+
+The sum of an infinite geometric progression, when |r| < 1, is given by $S = \frac{a}{1 - r}$. This formula is derived by subtracting a scaled version of the GP from itself, leading to cancellation of all terms except the first term 'a'. Special cases are handled, and examples illustrate the application of the formula.

@@ -1,0 +1,21 @@
+---
+title: "Middle term problems"
+categories: ["Binomial Theorem", "Problem-Solving Strategies"]
+
+
+---
+
+
+
+The detailed expansion of $(a + b)^n$can be written by summing over all possible terms$C(n,k)a^{n-k}b^k$for$k = 0$to$k = n$. Each term is unique and contributes uniquely to the overall expression due to differing powers of $a$and$b$.
+
+The final expansion is:
+
+$$(a + b)^n = \sum_{k=0}^{n} C(n,k) a^{n-k} b^k$$Each specific term can be calculated using the binomial coefficient$C(n,k)$, which counts the number of ways to choose $k$elements from a set of$n$ elements.
+
+Therefore, the expanded form is:
+
+$$(a + b)^n = \sum_{k=0}^{n} C(n,k) a^{n - k}b^k$$where each term in the sum corresponds to a unique power combination of$a$and$b$.
+
+### Final Answer:
+The detailed expansion of $(a + b)^n$is given by:$$\boxed{(a + b)^n = \sum_{k=0}^{n} C(n,k) a^{n - k} b^k}$$

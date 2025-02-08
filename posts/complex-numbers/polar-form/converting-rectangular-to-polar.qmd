@@ -1,0 +1,45 @@
+---
+title: "Converting rectangular to polar"
+categories: ["Complex Numbers", "Polar Form"]
+---
+
+
+
+To convert from rectangular (Cartesian) form \(a + bi\) to polar form for complex numbers, follow these straightforward steps:
+
+1. **Calculate the Magnitude (\(r\)):**
+   
+$$
+   r = \sqrt{a^2 + b^2}
+   $$
+
+   This is found using the Pythagorean theorem.
+
+2. **Determine the Angle (\(\theta\)) in Polar Form:**
+   - If \(a > 0\): The angle \(\theta\) lies in the first or fourth quadrant.
+   - If \(a < 0\): The angle \(\theta\) lies in the second or third quadrant.
+   - If \(a = 0\) and \(b > 0\): \(\theta = \frac{\pi}{2}\) (90 degrees).
+   - If \(a = 0\) and \(b < 0\): \(\theta = -\frac{\pi}{2}\) or \(\frac{3\pi}{2}\).
+
+3. **Write the Complex Number in Polar Form:**
+   The polar form is expressed as:
+   
+$$
+   r(\cos\theta + i\sin\theta)
+   $$
+
+   Alternatively, it can be written using Euler's formula as \(r \cdot e^{i\theta}\).
+
+**Example Conversions:**
+
+- **Rectangular to Polar:**
+  - \(3 + 4i\):
+    - \(r = \sqrt{3^2 + 4^2} = 5\)
+    - \(\theta = \arctan\left(\frac{4}{3}\right) ≈ 0.927\) radians (about 53.13 degrees)
+    - Polar Form: \(5∠0.927\)
+
+- **Polar to Rectangular:**
+  - \(\sqrt{2}∠\frac{\pi}{4}\):
+    - Real Part: \(\sqrt{2} \cdot \cos\left(\frac{\pi}{4}\right) = 1\)
+    - Imaginary Part: \(\sqrt{2} \cdot \sin\left(\frac{\pi}{4}\right) = 1\)
+    - Resulting Rectangular Form: \(1 + i\)

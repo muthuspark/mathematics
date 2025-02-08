@@ -1,0 +1,41 @@
+---
+title: "Converting polar to rectangular"
+categories: ["Complex Numbers", "Polar Form"]
+---
+
+
+
+To convert a complex number from polar form to rectangular (a + bi) form, follow these steps:
+
+1. **Identify the Given Form**: Determine if you have a complex number in polar form $r(\cos\theta + i\sin\theta)$ or another form such as rectangular $a + bi$.
+
+2. **Use Trigonometric Identities**:
+   - If converting from polar to rectangular:
+     
+$$
+     a = r \cdot \cos\theta
+     $$
+
+     
+$$
+     b = r \cdot \sin\theta
+     $$
+
+3. **Calculate Components**: Substitute the given values of $r$ and $\theta$ into the equations for $a$ and $b$.
+
+4. **Write in Rectangular Form**: Combine $a$ and $b$ to form $a + bi$.
+
+**Example**:
+Given polar form: $3\sqrt{2}(\cos45^\circ + i\sin45^\circ)$
+
+- Calculate $a = 3\sqrt{2} \cdot \cos45^\circ$
+  - $\cos45^\circ = \frac{\sqrt{2}}{2}$
+  - $a = 3\sqrt{2} \cdot \frac{\sqrt{2}}{2} = 3$
+
+- Calculate $b = 3\sqrt{2} \cdot \sin45^\circ$
+  - $\sin45^\circ = \frac{\sqrt{2}}{2}$
+  - $b = 3\sqrt{2} \cdot \frac{\sqrt{2}}{2} = 3$
+
+- **Rectangular form**: $3 + 3i$
+
+This conversion is bidirectional, allowing you to switch between forms as needed.

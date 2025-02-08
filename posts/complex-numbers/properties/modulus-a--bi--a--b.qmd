@@ -1,0 +1,71 @@
+---
+title: "Modulus: |a + bi| = √(a² + b²)"
+categories: ["Complex Numbers", "Properties"]
+---
+
+
+
+Sure! Let's break down the concept of finding the modulus of a complex number using the formula |a + bi| = √(a² + b²). 
+
+### What is a Complex Number?
+A complex number is generally written in the form **z = a + bi**, where:
+- $a$ is the real part.
+- $b$ is the imaginary part.
+- $i$ is the square root of -1, so $i^2 = -1$.
+
+### What is Modulus?
+The modulus (or absolute value) of a complex number **z** represents its distance from the origin in the complex plane. The complex plane is like a coordinate system where:
+- The **real part** corresponds to the x-axis.
+- The **imaginary part** corresponds to the y-axis.
+
+### Geometric Interpretation
+In the complex plane, if you plot the complex number **z = a + bi**, it will be represented as the point (a, b). The modulus of **z**, denoted |z|, is the distance from this point (a, b) to the origin (0, 0).
+
+To find this distance using the Pythagorean theorem:
+
+$$ \text{Distance} = \sqrt{(a - 0)^2 + (b - 0)^2} = \sqrt{a^2 + b^2} $$
+
+
+Therefore, 
+
+$$ |z| = |a + bi| = \sqrt{a^2 + b^2} $$
+
+
+### Example
+Let's compute the modulus of **z = 3 - 4i**.
+
+1. Identify $a$ and $b$:
+   - $a = 3$
+   - $b = -4$
+
+2. Plug into the formula:
+   
+$$ |z| = \sqrt{3^2 + (-4)^2} = \sqrt{9 + 16} = \sqrt{25} = 5 $$
+
+
+So, **|3 - 4i| = 5**.
+
+### Step-by-Step Explanation
+1. **Identify the Real and Imaginary Parts:**
+   - Start with a complex number in the form $z = a + bi$.
+   - Extract the real part ($a$) and the imaginary part ($b$).
+
+2. **Square Both the Real and Imaginary Parts:**
+   - Square the real part: $a^2$
+   - Square the imaginary part: $b^2$
+
+3. **Sum the Squares:**
+   - Add the squared parts together: $a^2 + b^2$
+
+4. **Take the Square Root of the Sum:**
+   - Compute the square root of the sum to get the modulus:
+     
+$$ |z| = \sqrt{a^2 + b^2} $$
+
+
+### Summary
+The modulus or absolute value of a complex number $z = a + bi$ is given by:
+
+$$ |z| = |a + bi| = \sqrt{a^2 + b^2} $$
+
+This formula calculates the distance from the origin to the point (a, b) in the complex plane, which geometrically represents the modulus.

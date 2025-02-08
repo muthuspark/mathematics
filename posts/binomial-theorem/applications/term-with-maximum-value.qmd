@@ -1,0 +1,16 @@
+---
+title: "Term with maximum value"
+categories: ["Binomial Theorem", "Applications"]
+
+
+---
+
+
+
+To determine the number of ways in which all 5 balls are picked from these 6 boxes, we consider that each pick can be made from any of the 6 boxes. This problem is equivalent to finding the number of sequences where order matters and repetition is allowed.
+
+1. For each pick (there are 5 picks), there are 6 possible choices (boxes).
+2. The total number of ways is given by raising the number of choices (6) to the power of the number of picks (5).
+
+Thus, the number of ways is calculated as:
+$$6^5 = 7776$$The final answer is:$$\boxed{7776}$$

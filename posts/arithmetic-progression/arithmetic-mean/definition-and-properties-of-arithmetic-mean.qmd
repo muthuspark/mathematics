@@ -1,0 +1,33 @@
+---
+title: "Definition and properties of Arithmetic Mean"
+categories: ["Arithmetic Progression", "Arithmetic Mean"]
+
+
+---
+
+
+
+Given two numbers that form consecutive terms in an arithmetic progression (AP), we need to explain why their mean lies exactly midway between them.
+
+1. **Understanding Arithmetic Progression**:
+   - An AP is a sequence where each term after the first is obtained by adding a constant difference, $d$.
+   - The nth term of an AP can be expressed as $a_n = a_1 + (n-1)d$, where $a_1$is the first term and$d$ is the common difference.
+
+2. **Consecutive Terms in AP**:
+   - Consider two consecutive terms $c$and$d$at positions$k$and$m$ respectively.
+   - The terms can be expressed as $c = a_1 + (k-1)d$and$d = a_1 + (m-1)d$.
+
+3. **Mean of Two Terms**:
+   - The mean of two terms $c$and$d$is given by$\frac{c + d}{2}$.
+   - Substituting the expressions for $c$and$d$:
+     $$c = a_1 + (k-1)d$$$$d = a_1 + (m-1)d$$- The mean is:$$\frac{a_1 + (k-1)d + a_1 + (m-1)d}{2}$$Simplifying this, we get:$$a_1 + d\left(\frac{k + m - 2}{2}\right)$$
+
+4. **Midway Between Two Terms**:
+   - The mean $\frac{c + d}{2}$simplifies to a term that is exactly halfway between$c$and$d$ on the number line.
+   - This is because each term in an AP is equally spaced, so moving from one term to another by adding half the common difference will land us midway.
+
+5. **General Case**:
+   - Regardless of how far apart the two terms are in the sequence, their mean will always lie exactly halfway between them on the number line.
+   - This holds true because the linear spacing and properties of averages ensure that any midpoint is exactly halfway.
+
+Therefore, the final answer is \boxed{\frac{a + b}{2}}.

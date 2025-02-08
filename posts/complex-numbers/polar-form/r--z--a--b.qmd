@@ -1,0 +1,47 @@
+---
+title: "r = |z| = √(a² + b²)"
+categories: ["Complex Numbers", "Polar Form"]
+---
+
+
+
+**Understanding the Equation r = |z| = √(a² + b²) in Polar Form**
+
+1. **Introduction to Complex Numbers:**
+   - A complex number z can be represented as z = a + ib, where a is the real part and b is the imaginary part.
+
+2. **Modulus of a Complex Number:**
+   - The modulus |z| represents the distance from the origin in the complex plane.
+   - It is calculated using the formula:
+     
+$$ |z| = \sqrt{a^2 + b^2} $$
+
+
+3. **Expressing z in Polar Form:**
+   - In polar form, a complex number can also be written as:
+     
+$$ z = r(\cos\theta + i\sin\theta) $$
+
+   - Here, r is the modulus (distance from the origin), and θ is the argument.
+
+4. **Equivalence Between Polar and Rectangular Forms:**
+   - Substitute a and b in terms of r and θ:
+     
+$$ a = r\cos\theta $$
+
+     
+$$ b = r\sin\theta $$
+
+   - Squaring both a and b and adding them gives:
+     
+$$ a^2 + b^2 = (r\cos\theta)^2 + (r\sin\theta)^2 = r^2(\cos^2\theta + \sin^2\theta) = r^2 $$
+
+   - Taking the square root yields:
+     
+$$ |z| = r $$
+
+
+5. **Conclusion:**
+   - The equation r = |z| is valid because both representations agree on the modulus, which is the radius in polar form and also calculated as √(a² + b²) in rectangular form.
+
+This relationship is fundamental for converting between different forms of complex numbers, facilitating operations like multiplication and division.

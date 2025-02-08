@@ -1,0 +1,30 @@
+---
+title: "Alternative formula (Sn = n/2[first term + last term])"
+categories: ["Arithmetic Progression", "Geometric Mean"]
+
+
+---
+
+
+
+The formula $S_n = \frac{n}{2}(a_1 + a_n)$ represents the sum of the first $n$ terms of an arithmetic progression (AP). This is because each term averages out to $\frac{a_1 + a_n}{2}$, and multiplying by $n$ gives the total sum. Geometric mean, however, does not directly relate here unless considering multiple terms in a geometric sequence (GP).
+
+**Step-by-Step Explanation:**
+
+1. **Arithmetic Progression Basics:**
+   - An AP is a sequence where each term increases by a constant difference.
+   - The $k$-th term of an AP is given by $a_k = a_1 + (k - 1)d$, where $d$ is the common difference.
+
+2. **Sum of Terms:**
+   - The sum of the first $n$ terms, $S_n$, can be expressed as:
+     $$S_n = a_1 + (a_1 + d) + (a_1 + 2d) + \dots + [a_1 + (n-1)d]$$- This is an arithmetic series where the average of the first and last term$ (a_1 + a_n)/2 $multiplied by the number of terms$ n $gives the total sum:$$S_n = \frac{n}{2}(a_1 + a_n)$$
+
+3. **Geometric Mean Context:**
+   - While geometric mean is different from arithmetic mean, it's not directly involved in calculating the sum of an AP.
+   - However, if multiple terms were considered in a geometric progression (GP), their product would relate to the nth term, but this doesn't translate into the sum formula for an AP.
+
+4. **Conclusion:**
+   - The formula $S_n = \frac{n}{2}(a_1 + a_n)$ is foundational to understanding arithmetic series.
+   - Geometric mean is distinct and not directly related unless dealing with multiple terms in a GP, which doesn't affect the sum of an AP.
+
+This explanation highlights how the given formula is derived from the properties of arithmetic progressions and notes that geometric mean isn't relevant here.

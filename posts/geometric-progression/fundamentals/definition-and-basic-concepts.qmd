@@ -1,0 +1,31 @@
+---
+title: "Definition and basic concepts"
+categories: ["Geometric Progression", "Fundamentals"]
+
+
+---
+
+
+
+**Understanding Geometric Progressions**
+
+A geometric progression is a sequence of numbers where each term after the first is found by multiplying the previous one by a constant called the common ratio. This concept is fundamental in mathematics, particularly in topics like logarithms and calculus.
+
+### Step-by-Step Explanation:
+
+1. **Definition**: A geometric progression (GP) is a sequence of terms where each subsequent term is obtained by multiplying the preceding term by a fixed, non-zero number known as the common ratio. For example, the sequence 2, 6, 18, ... has a common ratio of 3 because each term is multiplied by 3 to get the next term.
+
+2. **Example**: Consider the GP with initial term $a = 5$ and common ratio $r = 2$. The terms are: 5, 10 (5×2), 20 (10×2), 40 (20×2), etc.
+
+3. **Common Ratio Calculation**: To find the common ratio $r$, divide any term in the sequence by the preceding term. For example, in the GP 2, 6, 18, $r = \frac{6}{2} = 3$.
+
+4. **Real-World Applications**: Geometric progressions are used in finance for calculating compound interest. If you invest $1000 at an annual interest rate of 5%, the amount after each year is calculated using a GP: 1000, 1050 (1000×1.05), 1102.5 (1050×1.05), etc.
+
+5. **Logarithms and Calculus**: In logarithmic terms, the nth term of a GP forms an arithmetic progression. This relationship is crucial in calculus for understanding series convergence.
+
+6. **Historical Context**: The concept was first studied by ancient Greek mathematicians like Euclid. It has practical uses in finance, such as calculating compound interest, and theoretical applications in mathematics.
+
+7. **Infinite Series Convergence**: A geometric series converges if the absolute value of the common ratio is less than 1. For example, $\frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \dots = 1$. This demonstrates how even infinite sequences can sum to finite values.
+
+### Summary:
+Geometric progressions are essential in mathematics and have wide-ranging applications. They form the basis for understanding logarithms, calculus, and financial concepts like compound interest. Understanding this topic will provide a solid foundation for more advanced studies in various fields.

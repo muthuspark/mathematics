@@ -1,0 +1,28 @@
+---
+title: "Inserting geometric means between two numbers"
+categories: ["Geometric Progression", "Geometric Mean"]
+
+
+---
+
+
+
+Given two numbers $a = 9$and$b = 81$, we need to insert 2 means such that they form a geometric progression. 
+
+To solve this, we denote the common ratio by $r$. The sequence will be: $9, x, y, 81$. Since it is a geometric progression with four terms, we have:
+
+- $x = 9r$-$y = xr = 9r^2$-$81 = yr = 9r^3$Solving for$r$:
+
+$$r^3 = \frac{81}{9} = 9$$$$ r = \sqrt[3]{9} \approx 2.0801$$
+
+Calculating the means:
+
+- First mean: $x = 9r \approx 9 \times 2.0801 \approx 18.72$- Second mean:$y = 9r^2 \approx 9 \times (2.0801)^2 \approx 38.94$
+
+Verifying the ratios:
+
+- $x/9 \approx 2.0801$-$y/x \approx 2.0801$-$b/y \approx 2.0801$
+
+All ratios are equal to approximately 2.08, confirming the common ratio.
+
+Thus, the inserted means are $\boxed{18.72}$and$\boxed{38.94}$.

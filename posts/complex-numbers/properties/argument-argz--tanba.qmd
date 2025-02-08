@@ -1,0 +1,85 @@
+---
+title: "Argument: arg(z) = tan⁻¹(b/a)"
+categories: ["Complex Numbers", "Properties"]
+---
+
+
+
+**Understanding the Argument of a Complex Number: A Comprehensive Guide**
+
+**Introduction to Complex Numbers and Their Representation**
+
+A complex number can be expressed in the form z = x + yi, where:
+- **x** is the real part,
+- **y** is the imaginary part,
+- **i** is the imaginary unit defined by i² = -1.
+
+In the complex plane, this corresponds to a point (x, y), where:
+- The horizontal axis represents the real part (**Re(z)**).
+- The vertical axis represents the imaginary part (**Im(z)**).
+
+**What is the Argument of a Complex Number?**
+
+The argument of a complex number z, denoted as arg(z), is the angle that the line from the origin to the point (x, y) makes with the positive real axis. This angle is measured in radians and can be found using:
+
+$$ \theta = \tan^{-1}\left(\frac{y}{x}\right) $$
+
+
+**Deriving the Argument Using Right Triangle Trigonometry**
+
+In the complex plane:
+- The **modulus** (or absolute value) of z, denoted |z|, is the distance from the origin to the point: 
+
+$$ |z| = \sqrt{x^2 + y^2} $$
+
+- The argument θ can be found using the right triangle formed by x and y:
+  - Opposite side (y-axis): length y
+  - Adjacent side (x-axis): length x
+
+Using trigonometry, we find that:
+
+$$ \tan(\theta) = \frac{y}{x} $$
+
+Thus,
+
+$$ \theta = \tan^{-1}\left(\frac{y}{x}\right) $$
+
+
+**Considering Quadrants**
+
+The arctangent function returns values between -π/2 and π/2, which corresponds to the first and fourth quadrants. However, complex numbers can lie in any quadrant of the plane:
+- **First Quadrant (x > 0, y > 0):** θ is between 0 and π/2.
+- **Second Quadrant (x < 0, y > 0):** θ is between π/2 and π.
+- **Third Quadrant (x < 0, y < 0):** θ is between π and 3π/2.
+- **Fourth Quadrant (x > 0, y < 0):** θ is between 3π/2 and 2π.
+
+To adjust for these cases:
+- If both x and y are positive, θ remains as arctan(y/x).
+- If x is negative, add π to the result.
+- If y is negative, subtract π from the result.
+
+**Special Cases**
+
+1. **x = 0 (Imaginary Axis):**
+   - If z = yi > 0, then θ = π/2.
+   - If z = yi < 0, then θ = -π/2 or equivalently 3π/2.
+
+2. **y = 0 (Real Axis):**
+   - If z = x > 0, then θ = 0.
+   - If z = x < 0, then θ = π.
+
+**Applications and Relevance**
+
+The argument of a complex number has practical applications in various fields:
+- **Multiplication:** The argument of the product is the sum of the arguments. For example, if z1 = r₁e^{iθ₁} and z2 = r₂e^{iθ₂}, then z1z₂ = (r₁r₂)e^{i(θ₁+θ₂)}.
+- **Division:** The argument of the quotient is the difference between the arguments. For example, z₁/z₂ = (r₁/r₂)e^{i(θ₁ - θ₂)}.
+
+**Conclusion**
+
+The argument of a complex number z = x + yi is given by:
+
+$$ \arg(z) = \tan^{-1}\left(\frac{y}{x}\right) $$
+
+This formula accounts for the quadrant in which the point lies and can be adjusted using π. It simplifies operations like multiplication, providing a clear geometric interpretation of complex numbers.
+
+By understanding the argument, we gain insight into the direction and magnitude of complex numbers in the plane, enabling deeper exploration into their properties and applications.

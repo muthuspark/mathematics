@@ -1,0 +1,39 @@
+---
+title: "Multiplication: (a + bi)(c + di) = (ac - bd) + (ad + bc)i"
+categories: ["Complex Numbers", "Operations"]
+---
+
+
+
+To multiply two complex numbers $(a + bi)$ and $(c + di)$, follow these steps:
+
+1. **Distribute**: Multiply each term in the first complex number by each term in the second complex number:
+   
+$$
+   (a + bi)(c + di) = ac + adi + bci + bdi^2
+   $$
+
+
+2. **Combine like terms**:
+   - Real parts: $ac$
+   - Imaginary parts: $adi + bci = (ad + bc)i$
+
+3. **Remember that $i^2 = -1$**, substitute this into the equation:
+   
+$$
+   ac + (ad + bc)i + bd(-1) = (ac - bd) + (ad + bc)i
+   $$
+
+
+4. **Final result**:
+   
+$$
+   (a + bi)(c + di) = (ac - bd) + (ad + bc)i
+   $$
+
+
+Thus, the product of $(a + bi)$ and $(c + di)$ is $(ac - bd) + (ad + bc)i$.
+
+**Summary**: By systematically applying the distributive property and remembering that $i^2 = -1$, you can multiply two complex numbers efficiently. This method ensures each term is accounted for correctly, leading to an accurate result.
+
+\boxed{(a + bi)(c + di) = (ac - bd) + (ad + bc)i}

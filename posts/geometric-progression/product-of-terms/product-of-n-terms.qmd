@@ -1,0 +1,20 @@
+---
+title: "Product of n terms"
+categories: ["Geometric Progression", "Product of Terms"]
+
+
+---
+
+
+
+The product of $n$ terms in a geometric progression (GP) can be determined by recognizing that each term is formed by multiplying the previous term by a common ratio $r$. Starting with the first term $a$, the $n$ terms are $a, ar, ar^2, \ldots, ar^{n-1}$.
+
+To find their product:
+
+1. **Factor out 'a' from each term:** Each of the $n$ terms contributes an 'a', so multiplying them together gives $a^n$.
+2. **Sum the exponents of $r$:** The exponents of $r$ in each term are 0, 1, 2, ..., up to $n-1$. The sum of these exponents is the sum of the first $n-1$ integers:
+   $$0 + 1 + 2 + \ldots + (n-1) = \frac{n(n - 1)}{2}$$3. **Combine these results:** Multiply the product of 'a's by the product of$ r $raised to the sum of exponents:$$P = a^n \times r^{\frac{n(n - 1)}{2}}$$
+
+**Conclusion:**
+The product of $n$ terms in a GP with first term $a$ and common ratio $r$ is given by:
+$$P = a^n \times r^{\frac{n(n - 1)}{2}}$$

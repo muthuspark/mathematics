@@ -1,0 +1,38 @@
+---
+title: "Complex conjugate product: z·z̄ = |z|²"
+categories: ["Complex Numbers", "Properties"]
+---
+
+
+
+The multiplication of a complex number $z$ by its complex conjugate $\overline{z}$ yields the square of the modulus (absolute value) of $z$. Here's why:
+
+1. **Expressing in Standard Form**: Let $z = a + bi$, where $a$ is the real part and $b$ is the imaginary part. The complex conjugate, $\overline{z}$, is $a - bi$.
+
+2. **Multiplying by Conjugate**:
+   
+$$
+   z \cdot \overline{z} = (a + bi)(a - bi)
+   $$
+
+
+3. **Expanding the Product**:
+   
+$$
+   (a + bi)(a - bi) = a^2 - abi + abi - b^2i^2
+   $$
+
+   
+4. **Simplifying Terms**:
+   - The $abi$ and $-abi$ terms cancel out.
+   - Since $i^2 = -1$, the expression becomes:
+     
+$$
+     a^2 - (-b^2) = a^2 + b^2
+     $$
+
+
+5. **Modulus Squared**:
+   The modulus (or absolute value) of $z$ is $|z| = \sqrt{a^2 + b^2}$. Therefore, $|z|^2 = a^2 + b^2$.
+
+6. **Conclusion**: Thus, $z \cdot \overline{z} = |z|^2$, demonstrating that the product of a complex number and its conjugate equals the square of its modulus.

@@ -1,0 +1,26 @@
+---
+title: "Finding position of a term"
+categories: ["Geometric Progression", "Fundamentals"]
+
+
+---
+
+
+
+To determine the term in a geometric sequence given the first term $a$, common ratio $r$, and the desired term $t$, you can use the following steps:
+
+1. **Identify the formula**: The $n$-th term of a geometric sequence is given by
+   $$t = a \times r^{n-1}$$2. **Solve for$ n $**: Rearrange the formula to solve for $n$:
+   $$n - 1 = \log_r\left(\frac{t}{a}\right)$$Then,$$n = \log_r\left(\frac{t}{a}\right) + 1$$3. **Use logarithms**: If$ r \neq 1 $, you can use logarithms to solve for $n$:
+   $$n = 1 + \frac{\ln(t/a)}{\ln(r)}$$If$ r = 1 $, then all terms are equal to $a$.
+
+### Example Calculation:
+If the first term $a = 2$ and common ratio $r = 4$, and you want to find the term where $t = 512$:
+- Plug into the formula: $512 = 2 \times 4^{n-1}$
+- Simplify: $256 = 4^{n-1}$
+- Recognize that $256 = 4^4$, so $n - 1 = 4$ and $n = 5$.
+
+### Conclusion:
+The term in the geometric sequence can be found using the formula $t = a \times r^{n-1}$. By solving for $n$ with logarithms, you can determine which term corresponds to $t$.
+
+$$\boxed{t = a \cdot r^{n - 1}}$$

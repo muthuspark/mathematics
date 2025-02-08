@@ -1,0 +1,25 @@
+---
+title: "Relationship between terms and arithmetic means"
+categories: ["Arithmetic Progression", "Arithmetic Mean"]
+
+
+---
+
+
+
+To determine if a finite arithmetic progression (AP) contains the average of any two symmetrically placed terms, we analyze the following:
+
+1. **Define the AP**: Let’s consider an AP with first term $a$and common difference$d$. The terms are given by $a + id$for indices$i$.
+
+2. **Consider any two terms**: Suppose we pick two terms at positions $i$and$j$(where$i < j$). These terms have values $a + id$and$a + jd$ respectively.
+
+3. **Compute their arithmetic mean**: The arithmetic mean of these two terms is $\frac{(a + id) + (a + jd)}{2} = a + \frac{(i + j)d}{2}$.
+
+4. **Determine if the mean is another term in the AP**: For this mean to be another term in the AP, it must equal $a + kd$for some integer$k$. This leads to the equation:
+   $$\frac{i + j}{2} = k$$which implies that$i + j$must be even. Therefore, if$i$and$j$have the same parity (both odd or both even), their sum will be even, making$k$ an integer index in the AP.
+
+5. **Conclusion**: For a finite arithmetic progression with an odd number of terms, choosing two symmetrically placed terms results in their average being another term in the progression. However, for an even number of terms, this does not necessarily hold as demonstrated by specific examples.
+
+Thus, the key condition is that the progression must have an odd number of terms.
+
+$$\boxed{\text{The progression has an odd number of terms.}}$$

@@ -1,0 +1,24 @@
+---
+title: "Inserting harmonic means between two numbers"
+categories: ["Arithmetic Progression", "Harmonic Mean"]
+
+
+---
+
+
+
+Given the equation:
+
+$$\frac{1}{x} - \frac{1}{a} = \frac{1}{y} - \frac{1}{x}$$
+
+we start by simplifying both sides. 
+
+First, we combine the terms on both sides:
+
+$$\left( \frac{a - x}{xa} \right) = \left( \frac{x - y}{xy} \right)$$Next, we cross-multiply to eliminate the denominators:$$y(a - x) = x(x - y)$$Expanding both sides, we get:$$ya - yx = x^2 - xy$$Simplifying this equation by bringing all terms to one side:$$ya - x^2 = 0 \implies ya = x^2$$We also know from the original equation that:$$\frac{1}{x} - \frac{1}{a} = \frac{1}{y} - \frac{1}{x}$$This simplifies to:$$\frac{a - x}{xa} = \frac{x - y}{xy}$$Cross-multiplying again, we find:$$y(a - x) = x(x - y)$$Simplifying this gives us$ ya = x^2 $. 
+
+We then solve for the relationships between the variables. From the equation $2/x = 1/a + 1/y$, we derive:
+
+$$2/(x) = (y + a)/(ay)$$Multiplying both sides by$ x $and simplifying, we find:$$2a - x = a \implies x = a$$Substituting$ x = a $into$ ya = x^2 $, we get:
+
+$$ya = a^2 \implies y = a$$Thus, the relationships are:$$\boxed{x = a} \quad \text{and} \quad \boxed{y = a}$$

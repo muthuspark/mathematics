@@ -1,0 +1,69 @@
+---
+title: "Real part (Re): a"
+categories: ["Complex Numbers", "Basic Definitions"]
+---
+
+
+
+**Understanding the Real Part (Re) in Complex Numbers**
+
+In the realm of mathematics, especially when dealing with complex numbers, it's crucial to grasp their structure and properties. A complex number is typically expressed as $z = a + bi$, where:
+- $a$ represents the **real part**, or simply the real component.
+- $b$ is the coefficient of the imaginary unit $i$.
+- The imaginary unit $i$ is defined by $i^2 = -1$.
+
+### Structure of Complex Numbers
+
+The complex number plane allows visualization, with:
+- The horizontal axis representing **real numbers** (the real part).
+- The vertical axis representing **imaginary numbers**.
+
+Thus, any point in this plane can be associated with a unique complex number $z = a + bi$, where:
+- The projection onto the real axis is $Re(z) = a$.
+- The projection onto the imaginary axis is $Im(z) = b$.
+
+### Key Properties and Operations
+
+1. **Addition and Subtraction**: When adding or subtracting complex numbers, you handle their real and imaginary parts separately. For example:
+   - If $z_1 = 3 + 4i$ and $z_2 = 5 + 6i$, then:
+     
+$$ Re(z_1 + z_2) = Re(8 + 10i) = 8 $$
+
+     
+$$ Im(z_1 + z_2) = Im(8 + 10i) = 10 $$
+
+
+2. **Multiplication**: The multiplication of complex numbers involves both real and imaginary parts:
+   - $(a + bi)(c + di) = (ac - bd) + (ad + bc)i$
+     - Real part: $Re(z_1 z_2) = ac - bd$
+     - Imaginary part: $Im(z_1 z_2) = ad + bc$
+
+3. **Conjugate**: The conjugate of a complex number $z = a + bi$ is $\overline{z} = a - bi$. This changes the sign of the imaginary part:
+   - Real part remains unchanged.
+   - Imaginary part becomes negative.
+
+4. **Modulus**: The modulus or magnitude of a complex number is given by:
+   
+$$ |z| = \sqrt{a^2 + b^2} $$
+
+   Which represents its distance from the origin in the complex plane.
+
+### Example Calculations
+
+**Example 1: Addition**
+
+Let $z_1 = 5 + 3i$ and $z_2 = 7 - 4i$:
+- Real parts sum: $Re(z_1) + Re(z_2) = 5 + 7 = 12$
+- Imaginary parts sum: $Im(z_1) + Im(z_2) = 3 - 4 = -1$
+- Result: $z_1 + z_2 = 12 - i$
+
+**Example 2: Multiplication**
+
+Let $z_3 = 6 - 2i$:
+- Real part of product with $z_1$: $Re(z_3 z_1) = (5)(6) + (-2)(3) = 30 - 6 = 24$
+- Imaginary part: $Im(z_3 z_1) = (5)(-2) + (3)(6) = -10 + 18 = 8$
+- Result: $z_3 z_1 = 24 + 8i$
+
+### Conclusion
+
+Understanding the real part of a complex number is fundamental, as it encapsulates the component that remains constant. This concept not only aids in representing numbers graphically but also simplifies operations by treating real and imaginary components separately. Whether through addition, subtraction, multiplication, or taking conjugates, the real part plays a pivotal role in maintaining consistency and clarity within mathematical manipulations.

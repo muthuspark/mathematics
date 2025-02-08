@@ -1,0 +1,13 @@
+---
+title: "Alternative formula (Sn = n/2[first term + last term])"
+categories: ["Arithmetic Progression", "Harmonic Mean"]
+
+
+---
+
+
+
+The sum $S_n$ of an arithmetic progression can be expressed in two ways:
+
+1. **Using the first and last terms:**
+   $$S_n = \frac{n}{2} (a_1 + a_n)$$2. **Using the common difference:**$$S_n = \frac{n}{2} [2a_1 + (n - 1)d]$$Here,$ a_1 $is the first term,$ d $is the common difference, and$ n $is the number of terms. Both formulas are derived from similar principles but differ in their approach: one directly uses the first and last term, while the other uses the common difference.$$\boxed{S_n = \frac{n}{2} (a_1 + a_n)}$$

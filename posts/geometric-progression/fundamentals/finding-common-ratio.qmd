@@ -1,0 +1,43 @@
+---
+title: "Finding common ratio"
+categories: ["Geometric Progression", "Fundamentals"]
+
+
+---
+
+
+
+**Finding the Common Ratio in a Geometric Progression**
+
+A geometric progression (GP) is a sequence where each term after the first is found by multiplying the previous term by a constant called the common ratio (r). The nth term of a GP can be expressed as $a_n = a_1 \times r^{(n-1)}$, where $a_1$ is the first term.
+
+**Step-by-Step Guide to Finding the Common Ratio**
+
+1. **Identify Given Information:**
+   - Determine what terms and positions are given in the GP.
+   - Note whether consecutive terms or non-consecutive terms are provided.
+
+2. **Use Consecutive Terms for r:**
+   - If two consecutive terms are known, such as $a_1$ and $a_2$, calculate r using:
+     $$r = \frac{a_2}{a_1}$$
+   - This method is straightforward when consecutive terms are available.
+
+3. **Handle Non-Consecutive Terms:**
+   - When given non-consecutive terms, such as $a_1$ and $a_k$, use the formula:
+     $$r = \left( \frac{a_k}{a_1} \right)^{\frac{1}{k-1}}$$
+   - This works if the positions of the terms are known apart by (k-1) intervals.
+
+4. **Consider Negative Common Ratios:**
+   - A GP can have a negative common ratio, which flips signs between terms.
+   - When taking roots in step 3, both positive and negative solutions should be considered to ensure all possibilities are covered.
+
+5. **Examples and Applications:**
+   - For $a_1 = 2$ and $a_3 = 50$, find r:
+     $$r^2 = \frac{50}{2} = 25$$$$ r = 5 \text{ or } r = -5$$- For$ a_1 = 2 $and$ a_4 = 24 $, find r:
+     $$r^3 = \frac{24}{2} = 12$$$$ r = \sqrt[3]{12}$$
+
+6. **Conclusion:**
+   - The common ratio can be determined by evaluating the position and relationship of given terms in a GP.
+   - Both positive and negative values are considered, especially when dealing with non-consecutive or equally spaced terms.
+
+By following these steps, you can efficiently find the common ratio in various types of geometric progressions.

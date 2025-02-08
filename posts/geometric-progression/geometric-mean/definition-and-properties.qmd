@@ -1,0 +1,25 @@
+---
+title: "Definition and properties"
+categories: ["Geometric Progression", "Geometric Mean"]
+
+
+---
+
+
+
+The Geometric Mean in a Geometric Progression (GP) is defined as follows:
+
+1. **Definition**: In a GP where each term after the first is obtained by multiplying the previous one by a constant ratio r, the nth root of the product of all n terms gives the middle term when n is odd or provides an exponent related to steps for even n.
+
+2. **Formula Derivation**:
+   - For n terms: t1, t2 = t1*r, t3 = t1*r², ..., tn = t1*r^{n-1}
+   - The product of all terms is t1^n * r^{0+1+2+...+(n-1)} = t1^n * r^{(n-1)n/2}
+   - The nth root of this product is [t1^n * r^{(n-1)n/2}]^(1/n) = t1 * r^{(n-1)/2}
+
+3. **Geometric Mean Properties**:
+   - For an odd number of terms (e.g., 3), the middle term is the nth root of the product.
+   - For even n, geometric means are found using roots instead of squares, increasing complexity with higher numbers.
+
+4. **Conclusion**: The GP's nth term can be derived from the product of all terms and involves exponents related to steps or square roots for two-term cases.
+
+**Answer:** The Geometric Mean in a GP is found by taking the nth root of the product of all n terms, providing middle terms for odd n and exponents for even n.

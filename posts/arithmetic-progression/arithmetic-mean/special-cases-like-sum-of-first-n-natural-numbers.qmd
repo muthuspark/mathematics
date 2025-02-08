@@ -1,0 +1,18 @@
+---
+title: "Special cases like sum of first n natural numbers"
+categories: ["Arithmetic Progression", "Arithmetic Mean"]
+
+
+---
+
+
+
+To find the arithmetic mean of the first $n$ terms of an arithmetic progression, we can follow these steps:
+
+1. **Identify the first term (a) and common difference (d)**: The first term is given as $a$ and the common difference is $d$.
+
+2. **Determine the nth term**: The nth term $a_n$ of the arithmetic progression is given by:
+
+   $$a_n = a + (n - 1)d$$3. **Calculate the sum of the first$ n $terms**: The sum$ S $of the first$ n $terms can be calculated using the formula:$$S = \frac{n}{2} \times (\text{first term} + \text{last term})$$Substituting the values, we get:$$S = \frac{n}{2} \times (a + [a + (n - 1)d])$$4. **Compute the arithmetic mean**: The arithmetic mean$ M $is the sum divided by$ n $:
+
+   $$M = \frac{S}{n} = \frac{\frac{n}{2}(2a + (n - 1)d)}{n}$$Simplifying this, we get:$$M = \frac{2a + (n - 1)d}{2}$$Thus, the arithmetic mean of the first$ n $terms of an arithmetic progression is:$$\boxed{\dfrac{2a + (n - 1)d}{2}}$$

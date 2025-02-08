@@ -1,0 +1,66 @@
+---
+title: "sin θ = 1/cosec θ and cosec θ = 1/sin θ"
+categories: ["Trignometry", "Reciprocal Identities"]
+
+
+---
+
+```chart
+sin(x)
+```
+
+To prove $\sin \theta = \frac{1}{\csc \theta}$ using the triangle's angles and sides, we'll consider a right-angled triangle. Here's the step-by-step proof:
+
+**Labeling a right-angled triangle**
+
+In a right-angled triangle, let:
+
+- $\theta$ be one of the acute angles.
+- The **opposite side** to angle $\theta$ is labeled as $a$.
+- The **adjacent side** to angle $\theta$ is labeled as $b$.
+- The **hypotenuse** is labeled as $c$.
+
+**Definition of sine in terms of the triangle**
+
+In a right-angled triangle, the sine of an angle $\theta$ is defined as:
+
+$$
+\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{a}{c}
+$$
+
+
+**Definition of cosecant in terms of the triangle**
+
+The cosecant of angle $\theta$ is the reciprocal of sine, defined as:
+
+$$
+\csc \theta = \frac{1}{\sin \theta} = \frac{\text{hypotenuse}}{\text{opposite}} = \frac{c}{a}
+$$
+
+
+**Reciprocal of cosecant**
+
+Now, take the reciprocal of $\csc \theta$:
+
+$$
+\frac{1}{\csc \theta} = \frac{a}{c}
+$$
+
+
+**Compare with $\sin \theta$**
+
+From Step 2, we know:
+
+$$
+\sin \theta = \frac{a}{c}
+$$
+
+
+Thus, we have:
+
+$$
+\sin \theta = \frac{1}{\csc \theta}
+$$
+
+
+This proves that $\sin \theta = \frac{1}{\csc \theta}$ using the triangle's angles and sides.

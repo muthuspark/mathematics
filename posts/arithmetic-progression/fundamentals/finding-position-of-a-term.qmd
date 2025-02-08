@@ -1,0 +1,35 @@
+---
+title: "Finding position of a term"
+categories: ["Arithmetic Progression", "Fundamentals"]
+
+
+---
+
+
+
+To determine the position (n) of a term T in an Arithmetic Progression (AP), follow these structured steps:
+
+1. **Understand the AP Structure**: Recognize that an AP is a sequence where each term after the first is obtained by adding a constant difference, d, to the preceding term.
+
+2. **General Formula for nth Term**:
+   $$a_n = a_1 + (n - 1)d$$
+   Where:
+   - $a_n$ is the nth term.
+   - $a_1$ is the first term.
+   - d is the common difference.
+   - n is the position of the term in the AP.
+
+3. **Solve for n**:
+   Rearrange the formula to solve for n when T is given:
+   $$T = a_1 + (n - 1)d$$Subtract$ a_1 $from both sides:$$T - a_1 = (n - 1)d$$Divide both sides by d:$$\frac{T - a_1}{d} = n - 1$$Add 1 to both sides:$$n = \left( \frac{T - a_1}{d} \right) + 1$$
+
+4. **Consider Special Cases**:
+   - **When d = 0**: All terms are equal, so any term's position is valid.
+   - **Division by Zero**: If d = 0, the formula becomes undefined, but in practice, all positions are correct since every term is same.
+
+5. **Example Calculations**:
+   - **Case 1**: Given $a_1 = 4$, $d = -2$, find n for $T = -6$:
+     $$-6 = 4 + (n - 1)(-2)$$$$ -10 = -2(n - 1)$$$$ 5 = n - 1$$$$ n = 6$$- **Case 2**: Given term3 is 10 and term5 is 26:$$a_3 = a_1 + 2d = 10$$$$ a_5 = a_1 + 4d = 26$$Subtract equations:$$2d = 16 \Rightarrow d = 8$$Substitute back to find$ a_1 $:
+     $$a_1 + 16 = 10 \Rightarrow a_1 = -6$$The nth term formula is:$$a_n = -6 + (n - 1) \times 8$$
+
+By following these steps and considering the special cases, you can accurately determine the position of any term in an AP.

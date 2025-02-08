@@ -1,0 +1,70 @@
+---
+title: "Complex plane representation"
+categories: ["Complex Numbers", "Basic Definitions"]
+---
+
+
+
+Certainly! Below is an organized, step-by-step explanation of the complex plane representation.
+
+---
+
+### 1. **Definition of Complex Numbers**
+
+A complex number is defined as an ordered pair $z = a + bi$, where:
+- $a$ and $b$ are real numbers.
+- $i$ is the imaginary unit satisfying $i^2 = -1$.
+
+This representation combines a real part ($a$) and an imaginary part ($b$).
+
+---
+
+### 2. **Geometric Representation on the Complex Plane**
+
+Each complex number $z = a + bi$ can be represented as a point $(a, b)$ in a two-dimensional plane:
+- The horizontal axis is called the **real axis**.
+- The vertical axis is called the **imaginary axis**.
+
+This plane is known as the **complex plane** or **Argand diagram**. Every point on this plane corresponds to a unique complex number and vice versa.
+
+---
+
+### 3. **Operations in the Complex Plane**
+
+#### **Addition**
+To add two complex numbers, you add their corresponding real and imaginary parts:
+
+$$ (a + bi) + (c + di) = (a + c) + (b + d)i $$
+
+Geometrically, this is equivalent to vector addition: the resulting vector is obtained by placing the tail of one vector at the tip of the other and drawing a parallelogram.
+
+#### **Multiplication**
+Multiplying complex numbers has a geometric interpretation:
+- **Rotation**: Multiplying by $i$ corresponds to a rotation of 90 degrees counterclockwise around the origin.
+- **Scaling**: Multiplication by real numbers scales the complex number's magnitude while keeping it at the same angle.
+
+For example, multiplying $z = 1 + i$ by $i$:
+
+$$ (1 + i) \cdot i = i + i^2 = i - 1 $$
+
+This corresponds to a rotation of 90 degrees in the plane.
+
+---
+
+### 4. **Modulus or Absolute Value**
+
+The modulus or absolute value of a complex number $z = a + bi$ is its distance from the origin on the plane:
+
+$$ |z| = \sqrt{a^2 + b^2} $$
+
+This connects back to the Pythagorean theorem, where $a$ and $b$ are the legs of a right triangle.
+
+---
+
+### Conclusion
+
+The complex plane provides a geometric interpretation of complex numbers, allowing for intuitive visualization of operations like addition, multiplication, and transformations. This representation is fundamental in various fields of mathematics, physics, and engineering.
+
+--- 
+
+This step-by-step explanation covers the basic definitions, geometric representation, operations, and modulus in the context of complex numbers.

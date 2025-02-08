@@ -1,0 +1,87 @@
+---
+title: "θ = arg(z) = tan⁻¹(b/a)"
+categories: ["Complex Numbers", "Polar Form"]
+---
+
+
+
+To determine the angle $\theta$ for a complex number $z = a + bi$, follow these steps:
+
+1. **Identify the Real and Imaginary Parts:**
+   - Let $a$ be the real part ($\text{Re}(z)$).
+   - Let $b$ be the imaginary part ($\text{Im}(z)$).
+
+2. **Calculate the Tangent of the Angle:**
+   - If $a \neq 0$:
+     
+$$
+     \tan(\theta) = \frac{b}{a}
+     $$
+
+   - If $a = 0$:
+     - If $b > 0$: $\theta = \frac{\pi}{2}$
+     - If $b < 0$: $\theta = -\frac{\pi}{2}$ or $\theta = \frac{3\pi}{2}$
+
+3. **Determine the Angle:**
+   - Use the arctangent function to find $\theta$:
+     
+$$
+     \theta = \arctan\left(\frac{b}{a}\right)
+     $$
+
+   - Adjust the angle based on the quadrant where $(a, b)$ lies:
+     - **First Quadrant:** Both $a > 0$ and $b > 0$.
+     - **Second Quadrant:** $a < 0$ and $b > 0$. Use $\pi + \arctan\left(\frac{b}{a}\right)$.
+     - **Third Quadrant:** Both $a < 0$ and $b < 0$. Use $\pi + \arctan\left(\frac{b}{a}\right)$.
+     - **Fourth Quadrant:** $a > 0$ and $b < 0$. Use $2\pi + \arctan\left(\frac{b}{a}\right)$.
+
+4. **Examples:**
+   - **Example 1:** $z = 3 + 4i$
+     
+$$
+     \tan(\theta) = \frac{4}{3} \approx 1.333
+     $$
+
+     
+$$
+     \theta = \arctan(1.333) \approx 0.927 \text{ radians (approximately } 53^\circ\text{)}
+     $$
+
+   - **Example 2:** $z = -4 + 3i$
+     
+$$
+     \tan(\theta) = \frac{3}{-4} = -0.75
+     $$
+
+     Since both 'a' and 'b' have different signs:
+     
+$$
+     \theta = \pi - 0.6435 \approx 2.498 \text{ radians (approximately } 143^\circ\text{)}
+     $$
+
+   - **Example 3:** $z = -4 - 3i$
+     
+$$
+     \tan(\theta) = \frac{-3}{-4} = 0.75
+     $$
+
+     Both 'a' and 'b' are negative:
+     
+$$
+     \theta = \pi + 0.6435 \approx 3.785 \text{ radians (approximately } 216^\circ\text{)}
+     $$
+
+   - **Example 4:** $z = 4 - 3i$
+     
+$$
+     \tan(\theta) = \frac{-3}{4} = -0.75
+     $$
+
+     'a' is positive and 'b' is negative:
+     
+$$
+     \theta = 2\pi + (-0.6435) \approx 5.6397 \text{ radians (approximately } 316^\circ\text{)}
+     $$
+
+
+By following these steps, you can accurately determine the angle $\theta$ for any complex number $z = a + bi$.

@@ -1,0 +1,52 @@
+---
+title: "Transformations visualization"
+categories: ["Complex Numbers", "Graphical Representation"]
+---
+
+
+
+Certainly! Here's a structured and organized article on transformations visualization in the context of graphical representation with complex numbers:
+
+---
+
+**Transformations Visualization: A Graphical Exploration**
+
+1. **Introduction to Complex Numbers on the Complex Plane**
+   - Complex numbers are plotted on a two-dimensional plane where the x-axis represents the real part (Re(z)) and the y-axis represents the imaginary part (Im(z)).
+   - This representation allows for intuitive visualization of complex operations.
+
+2. **Scaling by Modulus: A Visual Representation of Size Change**
+   - Multiplying a complex number z = x + yi by another complex number w = a + bi scales the point on the plane.
+   - The modulus |w| determines the scaling factor, and w can be expressed as |w|(cosθ + i sinθ), representing rotation by θ.
+
+3. **Rotation by Angle: A Visual Transformation Through Multiplication**
+   - Rotation is achieved by multiplying a complex number by e^(iθ) = cosθ + i sinθ.
+   - This operation scales the point by 1 (since |e^(iθ)| = 1) and rotates it by θ degrees.
+
+4. **Translation: A Visual Shift in the Plane**
+   - Translation is represented by adding another complex number w to z, shifting all points on the graph by (Re(w), Im(w)).
+
+5. **Reflections and Other Transformations**
+   - Reflection over the real axis changes z = x + yi to z' = x - yi.
+   - Reflection over a line at angle θ can be represented using matrices that include both scaling and rotation, altering vectors in both magnitude and direction.
+
+6. **Modulus and Phase Representation**
+   - The modulus |z| captures the scaling effect, while the phase (angle) represents the rotational aspect.
+   - Using Euler's formula e^(iθ) provides a concise way to visualize these transformations on the complex plane.
+
+7. **Combined Transformations: Visualizing Sequential Operations**
+   - Combinations like f(z) = wz + w₀ involve both rotation/scaling and translation, affecting each point's position dynamically.
+   - Order matters in multiplication (non-commutative), influencing final positions differently than sequential operations.
+
+8. **Visual Implications of Transformations**
+   - Scaling changes the shape's size without altering angles or orientation.
+   - Rotation preserves the shape's form but rotates it within the plane.
+   - Translation moves every point by a constant vector, maintaining the relative positions between points.
+
+9. **Example: Rotate and Translate**
+   - Consider z = 2 + 3i rotated by 90 degrees (multiplied by i) to become iz = -3 + 2i, then translated by w = 1 + i, resulting in (-2, 3).
+     - This transformation moves each point on the plane while preserving their relative orientation and distances.
+
+---
+
+This article provides a comprehensive exploration of complex transformations, focusing on visual aspects that enhance understanding through intuitive representation.

@@ -1,0 +1,73 @@
+---
+title: "Finding the nth term (an = ar^(n-1))"
+categories: ["Geometric Progression", "Fundamentals"]
+
+
+---
+
+
+
+**Understanding Geometric Progressions: A Detailed Guide**
+
+A geometric progression (GP) is a sequence of numbers where each term after the first is found by multiplying the previous term by a constant called the common ratio, denoted as 'r'. The general form of a GP is: 
+
+a, ar, ar², ar³, ..., ar^(n-1), ...
+
+Here's a step-by-step guide to finding the nth term using the formula an = ar^(n-1):
+
+### Define the Terms
+
+- **First Term (a):** The initial value of the sequence.
+- **Common Ratio (r):** The constant multiplier between consecutive terms.
+
+### Observe the Pattern
+
+Let's write out the first few terms to identify the pattern:
+
+1. Term 1: a
+2. Term 2: ar
+3. Term 3: ar²
+4. Term 4: ar³
+5. ...
+
+Each term is obtained by multiplying the previous term by 'r'.
+
+### Derive the Formula
+
+To find the nth term, we can express it in terms of the first term and the ratio:
+
+an = a * r^(n-1)
+
+**Explanation:**
+- When n=1 (first term), an = a * r^(0) = a*1 = a.
+- For each subsequent n, you multiply by 'r' one more time than the previous exponent.
+
+### Examples
+
+**Example 1:**
+
+Given a GP where the first term is 2 and common ratio is 3:
+
+- Term 1 (n=1): a * r^(0) = 2*1 = 2
+- Term 2 (n=2): 2*3¹ = 6
+- Term 3 (n=3): 2*3² = 18
+- ...
+
+**Example 2:**
+
+For a GP with first term 5 and common ratio -2:
+
+- Term 1 (n=1): 5*(-2)⁰ = 5
+- Term 2 (n=2): 5*(-2)^1 = -10
+- Term 3 (n=3): 5*(-2)² = 20
+
+### Special Cases
+
+- **When r = 1:** All terms are equal to the first term 'a'.
+- **When r = 0:** After the first term, all subsequent terms are zero.
+
+### Applications
+
+Understanding this formula is crucial for various applications, including financial calculations and growth patterns. It allows you to find any term in the sequence efficiently without listing all preceding terms.
+
+By following these steps, you can confidently use the formula an = ar^(n-1) to determine any term in a geometric progression.

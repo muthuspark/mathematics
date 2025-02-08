@@ -1,0 +1,24 @@
+---
+title: "De Moivre's formula: (r(cos(θ) + i·sin(θ)))^n = r^n(cos(nθ) + i·sin(nθ))"
+categories: ["Complex Numbers", "Properties"]
+---
+
+
+
+To compute the power of a complex number using De Moivre's theorem, we can follow these steps:
+
+1. Express the complex number $z$ in polar form: $z = r(\cos \theta + i \sin \theta)$, where $r$ is the modulus and $\theta$ is the argument of the complex number.
+2. For a given integer $n$, De Moivre's theorem states that:
+   
+$$
+   z^n = [r(\cos \theta + i \sin \theta)]^n = r^n (\cos(n\theta) + i \sin(n\theta))
+   $$
+
+3. This theorem allows us to compute the power of a complex number by separately raising the modulus $r$ to the power $n$ and adding the angles after multiplying them by $n$.
+
+Thus, the final answer is:
+
+$$
+\boxed{z^n = r^n (\cos(n\theta) + i\sin(n\theta))}
+$$
+

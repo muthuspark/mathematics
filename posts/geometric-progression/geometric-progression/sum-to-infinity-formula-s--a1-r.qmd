@@ -1,0 +1,67 @@
+---
+title: "Sum to infinity formula (S∞ = a/(1-r))"
+categories: ["Geometric Progression", "Geometric Progression"]
+
+
+---
+
+
+
+**Understanding Geometric Progressions and Deriving the Sum to Infinity Formula**
+
+A geometric progression (GP) is a sequence where each term after the first is obtained by multiplying the preceding term by a constant called the common ratio, denoted as 'r'. This means if the first term is 'a', the GP can be written as: a, ar, ar², ar³, ..., where each subsequent term is found by multiplying the previous one by 'r'.
+
+**Introduction to Geometric Progressions**
+
+Geometric progressions are fundamental in various fields of mathematics and have applications in finance, physics, computer science, and more. They are characterized by their constant ratio between consecutive terms. For example, the sequence 2, 6, 18, 54,... is a GP with a common ratio 'r' of 3, as each term is obtained by multiplying the previous one by 3.
+
+**General Formula for the Sum of a Geometric Progression**
+
+The sum of the first 'n' terms of a GP can be found using the formula:
+
+$$S_n = a \frac{1 - r^n}{1 - r}$$
+
+where:
+- $S_n$ is the sum of the first n terms,
+- 'a' is the first term,
+- 'r' is the common ratio,
+- $r \neq 1$.
+
+However, when dealing with an infinite number of terms, we are interested in the sum to infinity, denoted as $S_{\infty}$ or simply $S_{\infty}$.
+
+**Deriving the Sum to Infinity (S∞) Using Multiplication by 'r'**
+
+To find $S_{\infty}$, let's consider an infinite GP:
+
+$$S = a + ar + ar^2 + ar^3 + \dots$$Multiply both sides of this equation by the common ratio 'r':$$rS = ar + ar^2 + ar^3 + ar^4 + \dots$$Now, subtract the second equation from the first:$$
+\begin{align*}
+S - rS &= (a + ar + ar^2 + ar^3 + \dots) - (ar + ar^2 + ar^3 + ar^4 + \dots) \\
+S(1 - r) &= a
+\end{align*}
+$$
+
+**Conditions Under Which S∞ Holds True**
+
+The sum to infinity formula $S_{\infty} = \frac{a}{1 - r}$ only applies when the common ratio 'r' satisfies $|r| < 1$. This ensures that the terms of the GP approach zero as n approaches infinity, allowing the series to converge to a finite sum.
+
+**Examples to Illustrate the Formula**
+
+Let's apply the formula in practical scenarios:
+
+1. **Example 1:**
+   - Given: First term $a = 3$, common ratio $r = \frac{1}{2}$.
+   - Find: Sum to infinity.
+   
+   Using the formula:
+   $$S_{\infty} = \frac{3}{1 - \frac{1}{2}} = \frac{3}{\frac{1}{2}} = 6$$
+   
+2. **Example 2:**
+   - Given: First term $a = 5$, common ratio $r = \frac{-1}{2}$.
+   - Find: Sum to infinity.
+   
+   Using the formula:
+   $$S_{\infty} = \frac{5}{1 - \left( -\frac{1}{2} \right)} = \frac{5}{1 + \frac{1}{2}} = \frac{5}{\frac{3}{2}} = \frac{10}{3}$$
+
+**Conclusion**
+
+Understanding geometric progressions and their properties is essential in various mathematical applications. The sum to infinity formula, $S_{\infty} = \frac{a}{1 - r}$, provides a powerful tool for calculating the sum of an infinite GP when the common ratio 'r' satisfies $|r| < 1$. This concept not only simplifies complex calculations but also opens doors to various fields where GPs are prevalent.

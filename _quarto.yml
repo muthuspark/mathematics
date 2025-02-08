@@ -1,0 +1,341 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Everything Mathematics"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/muthuspark/mathematics
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+    - section: "Trigonometry"
+      contents:
+        - section: "Reciprocal Identities" 
+          contents:
+            - posts/trigonometry/reciprocal-identities/tan---1cot--and-cot---1tan.qmd
+            - posts/trigonometry/reciprocal-identities/sin---1csc--and-csc---1sin.qmd
+            - posts/trigonometry/reciprocal-identities/cos---1sec--and-sec---1cos.qmd
+        - section: "Pythagorean Identities" 
+          contents:
+            - posts/trigonometry/pythagorean-identities/cot--1--csc.qmd
+            - posts/trigonometry/pythagorean-identities/sinx--tanx1-x.qmd
+            - posts/trigonometry/pythagorean-identities/cosx--2---sinx.qmd
+            - posts/trigonometry/pythagorean-identities/sinx--2---cosx.qmd
+            - posts/trigonometry/pythagorean-identities/cosx--tan1-xx.qmd
+            - posts/trigonometry/pythagorean-identities/tan--1--sec.qmd
+            - posts/trigonometry/pythagorean-identities/sin--cos--1.qmd
+        - section: "Quotient Identities" 
+          contents:
+            - posts/trigonometry/quotient-identities/cot---cos-sin.qmd
+            - posts/trigonometry/quotient-identities/tan---sin-cos.qmd
+        - section: "Evenodd Properties" 
+          contents:
+            - posts/trigonometry/evenodd-properties/sin----sin.qmd
+            - posts/trigonometry/evenodd-properties/csc----csc.qmd
+            - posts/trigonometry/evenodd-properties/sec---sec.qmd
+            - posts/trigonometry/evenodd-properties/tan----tan.qmd
+            - posts/trigonometry/evenodd-properties/cot----cot.qmd
+            - posts/trigonometry/evenodd-properties/cos---cos.qmd
+        - section: "Cofunction Identities" 
+          contents:
+            - posts/trigonometry/cofunction-identities/cos2-----sin.qmd
+            - posts/trigonometry/cofunction-identities/sin2-----cos.qmd
+            - posts/trigonometry/cofunction-identities/cot2-----tan.qmd
+            - posts/trigonometry/cofunction-identities/tan2-----cot.qmd
+            - posts/trigonometry/cofunction-identities/sec2-----csc.qmd
+            - posts/trigonometry/cofunction-identities/csc2-----sec.qmd
+        - section: "Addition And Subtraction Formulas" 
+          contents:
+            - posts/trigonometry/addition-and-subtraction-formulas/tana--b--tana--tanb1--tanatanb.qmd
+            - posts/trigonometry/addition-and-subtraction-formulas/sina--b--sinacosb--cosasinb.qmd
+            - posts/trigonometry/addition-and-subtraction-formulas/cosa--b--cosacosb--sinasinb.qmd
+        - section: "Double Angle Formulas" 
+          contents:
+            - posts/trigonometry/double-angle-formulas/sin2--2sincos.qmd
+            - posts/trigonometry/double-angle-formulas/cos2--cos---sin--2cos---1--1---2sin.qmd
+            - posts/trigonometry/double-angle-formulas/tan2--2tan1---tan.qmd
+        - section: "Half Angle Formulas" 
+          contents:
+            - posts/trigonometry/half-angle-formulas/cos2--1--cos2.qmd
+            - posts/trigonometry/half-angle-formulas/tan2--1---cos1--cos.qmd
+            - posts/trigonometry/half-angle-formulas/sin2--1---cos2.qmd
+        - section: "Product To Sum Formulas" 
+          contents:
+            - posts/trigonometry/product-to-sum-formulas/cosacosb--cosa-b--cosab2.qmd
+            - posts/trigonometry/product-to-sum-formulas/sinacosb--sinab--sina-b2.qmd
+            - posts/trigonometry/product-to-sum-formulas/sinasinb--cosa-b---cosab2.qmd
+        - section: "Sum To Product Formulas" 
+          contents:
+            - posts/trigonometry/sum-to-product-formulas/sina--sinb--2sinab2cosa-b2.qmd
+            - posts/trigonometry/sum-to-product-formulas/cosa--cosb--2cosab2cosa-b2.qmd
+            - posts/trigonometry/sum-to-product-formulas/cosa---cosb---2sinab2sina-b2.qmd
+            - posts/trigonometry/sum-to-product-formulas/sina---sinb--2cosab2sina-b2.qmd
+        - section: "Basic Inverse Functions" 
+          contents:
+            - posts/trigonometry/basic-inverse-functions/sinx--sinx.qmd
+            - posts/trigonometry/basic-inverse-functions/tanx--tanx.qmd
+            - posts/trigonometry/basic-inverse-functions/cosx--cosx.qmd
+            - posts/trigonometry/basic-inverse-functions/cotx--cotx.qmd
+            - posts/trigonometry/basic-inverse-functions/secx--secx.qmd
+            - posts/trigonometry/basic-inverse-functions/cscx--cscx.qmd
+        - section: "Complementary Relations" 
+          contents:
+            - posts/trigonometry/complementary-relations/cscx--secx.qmd
+            - posts/trigonometry/complementary-relations/tanx--cotx--2.qmd
+            - posts/trigonometry/complementary-relations/sinx--cosx--2.qmd
+        - section: "Basic Inverse Relations" 
+          contents:
+            - posts/trigonometry/basic-inverse-relations/cotcotx--x-for-all-x.qmd
+            - posts/trigonometry/basic-inverse-relations/csccscx--x-for-x--1.qmd
+            - posts/trigonometry/basic-inverse-relations/tantanx--x-for-all-x.qmd
+            - posts/trigonometry/basic-inverse-relations/coscosx--x-for--1--x--1.qmd
+            - posts/trigonometry/basic-inverse-relations/sinsinx--x-for--1--x--1.qmd
+            - posts/trigonometry/basic-inverse-relations/secsecx--x-for-x--1.qmd
+        - section: "Reciprocal Relations" 
+          contents:
+            - posts/trigonometry/reciprocal-relations/sinx--csc1x-for-x--1.qmd
+            - posts/trigonometry/reciprocal-relations/cosx--sec1x-for-x--1.qmd
+            - posts/trigonometry/reciprocal-relations/tanx--cot1x.qmd
+        - section: "Negative Argument Relations" 
+          contents:
+            - posts/trigonometry/negative-argument-relations/cot-x-----cotx.qmd
+            - posts/trigonometry/negative-argument-relations/sin-x---sinx.qmd
+            - posts/trigonometry/negative-argument-relations/csc-x---cscx.qmd
+            - posts/trigonometry/negative-argument-relations/tan-x---tanx.qmd
+            - posts/trigonometry/negative-argument-relations/sec-x-----secx.qmd
+            - posts/trigonometry/negative-argument-relations/cos-x-----cosx.qmd
+        - section: "Sum And Difference Formulas" 
+          contents:
+            - posts/trigonometry/sum-and-difference-formulas/sinx--siny--sinx1-y--y1-x.qmd
+            - posts/trigonometry/sum-and-difference-formulas/tanx--tany--tanxy1xy.qmd
+        - section: "Composite Function Identities" 
+          contents:
+            - posts/trigonometry/composite-function-identities/tansinx--sintanx1tanx.qmd
+            - posts/trigonometry/composite-function-identities/sincosx--2---x.qmd
+            - posts/trigonometry/composite-function-identities/cossinx--x.qmd
+    # - section: "Binomial Theorem"
+    #   contents:
+    #     - section: "Fundamental Prerequisites"
+    #       contents:
+    #         - posts/binomial-theorem/fundamental-prerequisites/factorial-notation-n.qmd
+    #         - posts/binomial-theorem/fundamental-prerequisites/basic-exponent-rules-and-laws.qmd
+    #         - posts/binomial-theorem/fundamental-prerequisites/understanding-of-sequences-and-series.qmd
+    #         - posts/binomial-theorem/fundamental-prerequisites/basic-algebraic-operations-and-expansions.qmd
+    #         - posts/binomial-theorem/fundamental-prerequisites/laws-of-indices.qmd
+    #     - section: "Binomial Expansion Core Concepts"
+    #       contents:
+    #         - posts/binomial-theorem/binomial-expansion-core-concepts/general-form-a--b.qmd
+    #         - posts/binomial-theorem/binomial-expansion-core-concepts/term-independent-of-x.qmd
+    #         - posts/binomial-theorem/binomial-expansion-core-concepts/terms-in-expansion.qmd
+    #         - posts/binomial-theorem/binomial-expansion-core-concepts/middle-terms.qmd
+    #         - posts/binomial-theorem/binomial-expansion-core-concepts/binomial-coefficients.qmd
+    #         - posts/binomial-theorem/binomial-expansion-core-concepts/general-term-rth-term.qmd
+    #         - posts/binomial-theorem/binomial-expansion-core-concepts/maximum-term.qmd
+    #     - section: "Properties Of Binomial Coefficients"
+    #       contents:
+    #         - posts/binomial-theorem/properties-of-binomial-coefficients/sum-property.qmd
+    #         - posts/binomial-theorem/properties-of-binomial-coefficients/symmetry-property.qmd
+    #         - posts/binomial-theorem/properties-of-binomial-coefficients/recursive-property.qmd
+    #         - posts/binomial-theorem/properties-of-binomial-coefficients/relationship-with-fibonacci-numbers.qmd
+    #     - section: "Combinations And Permutations"
+    #       contents:
+    #         - posts/binomial-theorem/combinations-and-permutations/properties-of-combinations.qmd
+    #         - posts/binomial-theorem/combinations-and-permutations/pascals-triangle-and-its-properties.qmd
+    #         - posts/binomial-theorem/combinations-and-permutations/understanding-ncr-notation.qmd
+    #         - posts/binomial-theorem/combinations-and-permutations/combinatorial-mathematics-basics.qmd
+    #         - posts/binomial-theorem/combinations-and-permutations/relationship-between-ncr-and-npr.qmd
+    #     - section: "Pascal's Triangle Properties"
+    #       contents:
+    #         - posts/binomial-theorem/pascals-triangle-properties/relationship-with-combinations.qmd
+    #         - posts/binomial-theorem/pascals-triangle-properties/patterns-within-the-triangle.qmd
+    #         - posts/binomial-theorem/pascals-triangle-properties/sum-of-elements-in-each-row.qmd
+    #         - posts/binomial-theorem/pascals-triangle-properties/applications-in-expansions.qmd
+    #         - posts/binomial-theorem/pascals-triangle-properties/construction-method.qmd
+    #     - section: "Problem Solving Strategies"
+    #       contents:
+    #         - posts/binomial-theorem/problem-solving-strategies/pattern-recognition.qmd
+    #         - posts/binomial-theorem/problem-solving-strategies/expansion-shortcuts.qmd
+    #         - posts/binomial-theorem/problem-solving-strategies/term-identification.qmd
+    #         - posts/binomial-theorem/problem-solving-strategies/coefficient-comparison.qmd
+    #         - posts/binomial-theorem/problem-solving-strategies/middle-term-problems.qmd
+    #     - section: "Related Formulas"
+    #       contents:
+    #         - posts/binomial-theorem/related-formulas/nc--nc----nc--2.qmd
+    #         - posts/binomial-theorem/related-formulas/sum-of-squares-of-binomial-coefficients.qmd
+    #         - posts/binomial-theorem/related-formulas/relationships-between-consecutive-terms.qmd
+    #         - posts/binomial-theorem/related-formulas/multinomial-expansions.qmd
+    #     - section: "Special Cases And Forms"
+    #       contents:
+    #         - posts/binomial-theorem/special-cases-and-forms/negative-and-fractional-indices.qmd
+    #         - posts/binomial-theorem/special-cases-and-forms/x---1-expansion.qmd
+    #         - posts/binomial-theorem/special-cases-and-forms/1--x-expansion.qmd
+    #         - posts/binomial-theorem/special-cases-and-forms/x--a-where-a-is-constant.qmd
+    #         - posts/binomial-theorem/special-cases-and-forms/expansion-of-x--1x.qmd
+    #     - section: "Advanced Topics"
+    #       contents:
+    #         - posts/binomial-theorem/advanced-topics/binomial-series.qmd
+    #         - posts/binomial-theorem/advanced-topics/relationship-with-calculus.qmd
+    #         - posts/binomial-theorem/advanced-topics/complex-number-applications.qmd
+    #         - posts/binomial-theorem/advanced-topics/infinite-series-expansions.qmd
+    #         - posts/binomial-theorem/advanced-topics/application-to-probability.qmd
+    #     - section: "Applications"
+    #       contents:
+    #         - posts/binomial-theorem/applications/sum-of-coefficients.qmd
+    #         - posts/binomial-theorem/applications/finding-specific-terms-without-full-expansion.qmd
+    #         - posts/binomial-theorem/applications/number-of-terms.qmd
+    #         - posts/binomial-theorem/applications/finding-coefficients.qmd
+    #         - posts/binomial-theorem/applications/term-with-maximum-value.qmd
+    # - section: "Arithmetic Progression"
+    #   contents:
+    #     - section: "Fundamentals"
+    #       contents:
+    #         - posts/arithmetic-progression/fundamentals/definition-and-basic-concepts.qmd
+    #         - posts/arithmetic-progression/fundamentals/finding-common-difference.qmd
+    #         - posts/arithmetic-progression/fundamentals/finding-the-nth-term-an--a--n-1d.qmd
+    #         - posts/arithmetic-progression/fundamentals/finding-position-of-a-term.qmd
+    #         - posts/arithmetic-progression/fundamentals/recognition-of-patterns-in-sequences.qmd
+    #         - posts/arithmetic-progression/fundamentals/consecutive-terms-in-ap.qmd
+    #     - section: "Problem Solving Strategies"
+    #       contents:
+    #         - posts/arithmetic-progression/problem-solving-strategies/pattern-recognition.qmd
+    #         - posts/arithmetic-progression/problem-solving-strategies/expansion-shortcuts.qmd
+    #         - posts/arithmetic-progression/problem-solving-strategies/term-identification.qmd
+    #         - posts/arithmetic-progression/problem-solving-strategies/coefficient-comparison.qmd
+    #         - posts/arithmetic-progression/problem-solving-strategies/middle-term-problems.qmd
+    #     - section: "Arithmetic Mean"
+    #       contents:
+    #         - posts/arithmetic-progression/arithmetic-mean/definition-and-properties-of-arithmetic-mean.qmd
+    #         - posts/arithmetic-progression/arithmetic-mean/relationship-between-terms-and-arithmetic-means.qmd
+    #         - posts/arithmetic-progression/arithmetic-mean/inserting-arithmetic-means-between-two-numbers.qmd
+    #         - posts/arithmetic-progression/arithmetic-mean/special-cases-like-sum-of-first-n-natural-numbers.qmd
+    #         - posts/arithmetic-progression/arithmetic-mean/alternative-formula-sn--n2first-term--last-term.qmd
+    #         - posts/arithmetic-progression/arithmetic-mean/sum-of-n-terms-sn--n22a--n-1d.qmd
+    #     - section: "Harmonic Mean"
+    #       contents:
+    #         - posts/arithmetic-progression/harmonic-mean/definition-and-properties-of-harmonic-mean.qmd
+    #         - posts/arithmetic-progression/harmonic-mean/relationship-between-terms-and-harmonic-means.qmd
+    #         - posts/arithmetic-progression/harmonic-mean/inserting-harmonic-means-between-two-numbers.qmd
+    #         - posts/arithmetic-progression/harmonic-mean/special-cases-like-sum-of-first-n-natural-numbers.qmd
+    #         - posts/arithmetic-progression/harmonic-mean/alternative-formula-sn--n2first-term--last-term.qmd
+    #         - posts/arithmetic-progression/harmonic-mean/sum-of-n-terms-sn--n22a--n-1d.qmd
+    #     - section: "Geometric Mean"
+    #       contents:
+    #         - posts/arithmetic-progression/geometric-mean/definition-and-properties-of-geometric-mean.qmd
+    #         - posts/arithmetic-progression/geometric-mean/relationship-between-terms-and-geometric-means.qmd
+    #         - posts/arithmetic-progression/geometric-mean/inserting-geometric-means-between-two-numbers.qmd
+    #         - posts/arithmetic-progression/geometric-mean/special-cases-like-sum-of-first-n-natural-numbers.qmd
+    #         - posts/arithmetic-progression/geometric-mean/alternative-formula-sn--n2first-term--last-term.qmd
+    #         - posts/arithmetic-progression/geometric-mean/sum-of-n-terms-sn--n22a--n-1d.qmd
+    # - section: "Geometric Progression"
+    #   contents:
+    #     - section: "Fundamentals"
+    #       contents:
+    #         - posts/geometric-progression/fundamentals/definition-and-basic-concepts.qmd
+    #         - posts/geometric-progression/fundamentals/finding-common-ratio.qmd
+    #         - posts/geometric-progression/fundamentals/finding-the-nth-term-an--arn-1.qmd
+    #         - posts/geometric-progression/fundamentals/finding-position-of-a-term.qmd
+    #         - posts/geometric-progression/fundamentals/relationship-between-consecutive-terms.qmd
+    #         - posts/geometric-progression/fundamentals/properties-of-gp-terms.qmd
+    #     - section: "Product Of Terms"
+    #       contents:
+    #         - posts/geometric-progression/product-of-terms/relationship-with-powers.qmd
+    #         - posts/geometric-progression/product-of-terms/product-of-n-terms.qmd
+    #         - posts/geometric-progression/product-of-terms/properties-of-products.qmd
+    #         - posts/geometric-progression/product-of-terms/special-products-in-gp.qmd
+    #     - section: "Geometric Mean"
+    #       contents:
+    #         - posts/geometric-progression/geometric-mean/definition-and-properties.qmd
+    #         - posts/geometric-progression/geometric-mean/relationship-between-terms-and-geometric-means.qmd
+    #         - posts/geometric-progression/geometric-mean/inserting-geometric-means-between-two-numbers.qmd
+    #         - posts/geometric-progression/geometric-mean/connection-between-am-and-gm.qmd
+    #     - section: "Geometric Progression"
+    #       contents:
+    #         - posts/geometric-progression/geometric-progression/sum-of-n-terms-sn--a1-rn1-r-when-r1.qmd
+    #         - posts/geometric-progression/geometric-progression/sum-to-infinity-formula-s--a1-r.qmd
+    #         - posts/geometric-progression/geometric-progression/sum-of-infinite-gp-when-r1.qmd
+    #         - posts/geometric-progression/geometric-progression/special-cases-and-variations.qmd
+    # - section: "Complex Numbers"
+    #   contents:
+    #     - section: "Basic Definitions"
+    #       contents:
+    #         - posts/complex-numbers/basic-definitions/complex-number-a--bi.qmd
+    #         - posts/complex-numbers/basic-definitions/complex-conjugate-a---bi.qmd
+    #         - posts/complex-numbers/basic-definitions/real-part-re-a.qmd
+    #         - posts/complex-numbers/basic-definitions/imaginary-part-im-b.qmd
+    #         - posts/complex-numbers/basic-definitions/complex-plane-representation.qmd
+    #         - posts/complex-numbers/basic-definitions/i---1.qmd
+    #     - section: "Properties"
+    #       contents:
+    #         - posts/complex-numbers/properties/complex-conjugate-product-zz--z.qmd
+    #         - posts/complex-numbers/properties/argument-argz--tanba.qmd
+    #         - posts/complex-numbers/properties/modulus-a--bi--a--b.qmd
+    #         - posts/complex-numbers/properties/de-moivres-formula-rcos--isinn--rncosn--isinn.qmd
+    #         - posts/complex-numbers/properties/eulers-formula-ei--cos--isin.qmd
+    #     - section: "Operations"
+    #       contents:
+    #         - posts/complex-numbers/operations/addition-a--bi--c--di--a--c--b--di.qmd
+    #         - posts/complex-numbers/operations/subtraction-a--bi---c--di--a---c--b---di.qmd
+    #         - posts/complex-numbers/operations/multiplication-a--bic--di--ac---bd--ad--bci.qmd
+    #         - posts/complex-numbers/operations/division-a--bic--di--ac--bdc--d--bc---adc--di.qmd
+    #     - section: "Graphical Representation"
+    #       contents:
+    #         - posts/complex-numbers/graphical-representation/vector-representation.qmd
+    #         - posts/complex-numbers/graphical-representation/complex-plane-plotting.qmd
+    #         - posts/complex-numbers/graphical-representation/polar-plots.qmd
+    #         - posts/complex-numbers/graphical-representation/transformations-visualization.qmd
+    #         - posts/complex-numbers/graphical-representation/root-plotting.qmd
+    #     - section: "Polar Form"
+    #       contents:
+    #         - posts/complex-numbers/polar-form/z--rcos--isin.qmd
+    #         - posts/complex-numbers/polar-form/converting-rectangular-to-polar.qmd
+    #         - posts/complex-numbers/polar-form/converting-polar-to-rectangular.qmd
+    #         - posts/complex-numbers/polar-form/r--z--a--b.qmd
+    #         - posts/complex-numbers/polar-form/argz--tanba.qmd
+    #     - section: "Complex Roots"
+    #       contents:
+    #         - posts/complex-numbers/complex-roots/roots-of-complex-numbers.qmd
+    #         - posts/complex-numbers/complex-roots/nth-roots-of-unity.qmd
+    #         - posts/complex-numbers/complex-roots/principal-root.qmd
+    #         - posts/complex-numbers/complex-roots/other-roots-formula-z1n--r1ncos--2kn--isin--2kn.qmd
+    #     - section: "Special Functions"
+    #       contents:
+    #         - posts/complex-numbers/special-functions/complex-logarithm.qmd
+    #         - posts/complex-numbers/special-functions/complex-exponential.qmd
+    #         - posts/complex-numbers/special-functions/complex-trigonometric-functions.qmd
+    #         - posts/complex-numbers/special-functions/complex-hyperbolic-functions.qmd
+    #         - posts/complex-numbers/special-functions/branch-cuts-and-riemann-surfaces.qmd
+    #     - section: "Advanced Topics"
+    #       contents:
+    #         - posts/complex-numbers/advanced-topics/analytic-functions.qmd
+    #         - posts/complex-numbers/advanced-topics/complex-integration.qmd
+    #         - posts/complex-numbers/advanced-topics/conformal-mapping.qmd
+    #         - posts/complex-numbers/advanced-topics/residue-theory.qmd
+    #         - posts/complex-numbers/advanced-topics/complex-analysis-basics.qmd
+    #     - section: "Applications"
+    #       contents:
+    #         - posts/complex-numbers/applications/vector-rotations.qmd
+    #         - posts/complex-numbers/applications/polynomial-equations.qmd
+    #         - posts/complex-numbers/applications/ac-circuit-analysis.qmd
+    #         - posts/complex-numbers/applications/fractal-theory.qmd
+    #         - posts/complex-numbers/applications/wave-functions-in-quantum-mechanics.qmd
+  page-navigation: true
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    minimal: true
+    page-layout: article
+    include-before-body: _includes/header.html
+
+callout-appearance: simple
+

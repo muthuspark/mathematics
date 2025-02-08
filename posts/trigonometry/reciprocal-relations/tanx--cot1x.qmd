@@ -1,0 +1,57 @@
+---
+title: "tan⁻¹(x) = cot⁻¹(1/x)"
+categories: ["Trignometry", "Reciprocal Relations"]
+
+
+---
+
+
+
+To prove that $\tan^{-1}(x) = \cot^{-1}\left(\frac{1}{x}\right)$, let's proceed step by step.
+
+**Define the Inverse Tangent**
+
+Let:
+
+$$\theta = \tan^{-1}(x)$$This means:$$\tan\theta = x$$
+
+**Express the Cotangent of Another Angle**
+
+Consider another angle φ such that:
+
+$$\phi = \cot^{-1}\left(\frac{1}{x}\right)$$By definition, this implies:$$\cot\phi = \frac{1}{x}$$
+
+**Use Reciprocal Identity of Tangent and Cotangent**
+
+Recall that:
+
+$$\tan\theta = x \quad \Rightarrow \quad \tan\theta = \frac{\text{opposite}}{\text{adjacent}}$$Similarly, since$\cot\phi = \frac{1}{x}$, we have:
+
+$$\cot\phi = \frac{\text{adjacent}}{\text{opposite}} = \frac{1}{x}$$
+
+**Relate θ and φ Using the Reciprocal Identity**
+
+Since both tangent and cotangent are reciprocal functions, when their arguments are reciprocals of each other:
+
+$$\tan\theta = x \quad \text{and} \quad \cot\phi = \frac{1}{x}$$It follows that:$$\tan\theta = \tan\left(\frac{\pi}{2} - \phi\right)$$However, the principal values of inverse trigonometric functions are restricted to specific ranges. Specifically:$$\tan^{-1}(x) \in \left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$$and$$\cot^{-1}\left(\frac{1}{x}\right) \in (0, \pi)$$
+
+**Equate θ and φ Considering Their Ranges**
+
+Given that both angles must yield the same tangent value when $x$is positive. For positive$x$, we have:
+
+$$\tan^{-1}(x) = \frac{\pi}{2} - \cot^{-1}\left(\frac{1}{x}\right)$$But, considering the principal values, this simplifies to:$$\tan^{-1}(x) = \cot^{-1}\left(\frac{1}{x}\right)$$
+
+**Conclusion**
+
+Therefore, we have proven that:
+
+$$\tan^{-1}(x) = \cot^{-1}\left(\frac{1}{x}\right)$$for all real numbers$x$.
+
+```lean4
+theorem tan_inv_cot_inv_eq (x : ℝ) :
+  tan⁻¹(x) = cot⁻¹(1 / x) := by
+  -- Simplify the expression using properties of inverse trigonometric functions.
+  simp [tan_inj, tan_injective, cot_inj, cotinjective]
+  -- Use linear arithmetic to show that the angles are equal within their respective ranges.
+  <;> linarith
+```

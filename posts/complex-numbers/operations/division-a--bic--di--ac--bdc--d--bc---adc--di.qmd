@@ -1,0 +1,26 @@
+---
+title: "Division: (a + bi)/(c + di) = ((ac + bd)/(c² + d²)) + ((bc - ad)/(c² + d²))i"
+categories: ["Complex Numbers", "Operations"]
+---
+
+
+
+To divide two complex numbers $\frac{a + bi}{c + di}$, follow these steps:
+
+1. **Multiply numerator and denominator by the conjugate of the denominator**:
+   - The conjugate of $c + di$ is $c - di$.
+   - This gives: $\frac{(a + bi)(c - di)}{(c + di)(c - di)}$.
+
+2. **Expand the denominator**:
+   - $(c + di)(c - di) = c^2 - (di)^2 = c^2 - d^2i^2$.
+   - Since $i^2 = -1$, this simplifies to $c^2 + d^2$.
+
+3. **Expand the numerator**:
+   - Use distributive property: $(a)(c) + (a)(-di) + (bi)(c) + (bi)(-di)$.
+   - Simplify each term: $ac - adi + bci - bdi^2$.
+   - Combine like terms and substitute $i^2 = -1$: $ac + bd + (bc - ad)i$.
+
+4. **Combine the results**:
+   - The expression becomes $\frac{ac + bd}{c^2 + d^2} + \frac{(bc - ad)}{c^2 + d^2}i$.
+
+This method ensures the result is in standard form with real and imaginary parts separated, making complex division clear and systematic.

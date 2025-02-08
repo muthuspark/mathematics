@@ -1,0 +1,40 @@
+---
+title: "cot θ = cos θ/sin θ"
+categories: ["Trignometry", "Quotient Identities"]
+
+
+---
+
+
+
+To prove that $\cot \theta = \frac{\cos \theta}{\sin \theta}$, let's follow these easy-to-understand steps:
+
+**Understand the Definition of Cotangent**
+
+Cotangent, often written as $\cot \theta$, is one of the reciprocal trigonometric functions. It is defined as:
+
+$$\cot \theta = \frac{1}{\tan \theta}$$
+
+**Recall the Definition of Tangent**
+
+Tangent ($\tan \theta$) is another trigonometric function and is also known to be the ratio of cosine ($\cos \theta$) to sine ($\sin \theta$). Specifically:
+
+$$\tan \theta = \frac{\cos \theta}{\sin \theta}$$
+
+**Substitute Tangent into Cotangent**
+
+Since cotangent is the reciprocal of tangent, we substitute the expression for $\tan \theta$from Step 2 into the equation for$\cot \theta$:
+
+$$\cot \theta = \frac{1}{\tan \theta} = \frac{1}{\left( \frac{\cos \theta}{\sin \theta} \right)}$$
+
+**Simplify the Reciprocal of a Fraction**
+
+Dividing by a fraction is equivalent to multiplying by its reciprocal. Therefore, we can simplify:
+
+$$\cot \theta = \frac{1}{\left( \frac{\cos \theta}{\sin \theta} \right)} = \frac{\sin \theta}{\cos \theta}$$
+
+**Conclusion:**
+
+After substituting and simplifying, we have shown that:
+
+$$\cot \theta = \frac{\sin \theta}{\cos \theta}$$This completes the proof that$\cot \theta$is equal to$\frac{\cos \theta}{\sin \theta}$.

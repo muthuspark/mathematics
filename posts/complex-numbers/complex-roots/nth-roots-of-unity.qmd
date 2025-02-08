@@ -1,0 +1,52 @@
+---
+title: "nth roots of unity"
+categories: ["Complex Numbers", "Complex Roots"]
+---
+
+
+
+**Understanding nth Roots of Unity**
+
+**Introduction**
+
+Roots of unity are a fundamental concept in complex numbers, particularly when dealing with solutions to equations involving powers. They have elegant geometric interpretations on the unit circle in the complex plane.
+
+**Definition and Equation**
+
+An nth root of unity is a complex number $z$ such that $z^n = 1$. These roots are evenly spaced around the unit circle in the complex plane, each separated by an angle of $\frac{2\pi}{n}$.
+
+**Solving $z^n = 1$ Using Trigonometry**
+
+To solve $z^n = 1$, we express $z$ using Euler's formula: $z = e^{i\theta}$. Substituting into the equation gives:
+
+
+$$
+z^n = (e^{i\theta})^n = e^{in\theta}
+$$
+
+
+For this to equal 1, which is $e^{i0}$, we set $n\theta = 2\pi k$ for integers $k$. Thus,
+
+
+$$
+\theta = \frac{2\pi k}{n}
+$$
+
+
+This yields the nth roots of unity as:
+
+
+$$
+z_k = e^{i\frac{2\pi k}{n}} = \cos\left(\frac{2\pi k}{n}\right) + i\sin\left(\frac{2\pi k}{n}\right)
+$$
+
+
+for $k = 0, 1, 2, \dots, n-1$.
+
+**How They're Spaced**
+
+Each root is separated by an angle of $\frac{2\pi}{n}$, ensuring they are equally spaced around the unit circle. This symmetry means all roots have a magnitude of 1 and are positioned at angles that form a regular polygon (an n-gon) inscribed within the circle.
+
+**Conclusion**
+
+Nth roots of unity are essential in solving polynomial equations with complex coefficients, as they provide exact solutions when raised to their respective powers equal 1. Their geometric interpretation on the unit circle offers clarity and insight into their distribution and relationships. Understanding this concept is foundational for advanced studies in mathematics and engineering.

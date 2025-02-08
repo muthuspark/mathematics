@@ -1,0 +1,51 @@
+---
+title: "Residue theory"
+categories: ["Complex Numbers", "Advanced Topics"]
+---
+
+
+
+**Residue Theory: A Comprehensive Explanation**
+
+**1. Introduction to Residues in Complex Analysis**
+
+Residue theory is a powerful tool in complex analysis that allows us to evaluate integrals of analytic functions, particularly those with singularities within the contour of integration. Unlike Cauchy's theorem, which states that the integral of an analytic function around a closed contour is zero, residue theory provides a way to compute non-zero results when singularities are present.
+
+**2. Laurent Series and Singularities**
+
+A complex function can be expressed as a Laurent series around a point:
+
+$$ f(z) = \sum_{n=-\infty}^{\infty} a_n (z - a)^n $$
+
+Singular points occur where the series has either zero or infinite coefficients, indicating poles, essential singularities, or removable singularities. Poles are most common in residue theory.
+
+**3. Residue Calculation**
+
+- **Simple Pole:** For $f(z) = \frac{1}{z - a}$, the residue at $z = a$ is:
+  
+$$ \text{Res}(f, a) = 1 $$
+
+- **Higher-Order Poles (e.g., double pole):** If $f(z) = \frac{1}{(z - a)(z - b)}$, the residue at $z = a$ is:
+  
+$$ \text{Res}(f, a) = -\frac{1}{b - a} $$
+
+
+For essential singularities, residues are zero because there's an infinite Laurent series.
+
+**4. Summing Residues with the Residue Theorem**
+
+The residue theorem states that for a closed contour $C$ enclosing singular points inside:
+
+$$ \oint_C f(z) dz = 2\pi i \sum \text{Res}(f, z_k) $$
+
+where $z_k$ are the singularities inside $C$.
+
+**5. Applications and Considerations**
+
+- **Real Integrals:** Functions that are even or odd can exploit symmetry to simplify real integral calculations.
+- **Singularities in Contour Integration:** Essential singularities require special attention, often handled by conformal mappings.
+- **Convergence of Residues:** The convergence depends on the decay of $f(z)$ at infinity; for example, a semicircle in the upper half-plane is useful.
+
+**6. Summary**
+
+Residue theory simplifies integral evaluation by decomposing functions into residues at singularities inside a contour. It's essential for non-zero results when singularities are present and leverages advanced techniques like conformal mappings. This method extends Cauchy's theorem to practical computation of complex integrals.

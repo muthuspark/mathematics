@@ -1,0 +1,20 @@
+---
+title: "Sum of squares of binomial coefficients"
+categories: ["Binomial Theorem", "Related Formulas"]
+
+
+---
+
+
+
+To prove the identity $\sum_{k=0}^{n} \binom{n}{k}^2 = \binom{2n}{n}$, we can use generating functions.
+
+First, consider the generating function $G(t) = \sum_{k=0}^{n} \binom{n}{k} t^k$. This is known to be $(1 + t)^n$.
+
+Next, we square this generating function:
+$$[G(t)]^2 = [(1 + t)^n]^2 = (1 + t)^{2n}$$The coefficient of$t^n$in the expansion of$(1 + t)^{2n}$is given by$\binom{2n}{n}$.
+
+On the other hand, the coefficient of $t^n$in the product$[G(t)]^2$can be found using convolution. Specifically, it is:$$\sum_{i=0}^{n} \binom{n}{i} \binom{n}{n-i}$$However, since we are only considering the sum of squares$\sum_{k=0}^{n} \binom{n}{k}^2$, this coefficient is exactly $\sum_{k=0}^{n} \binom{n}{k}^2$.
+
+Thus, we have:
+$$\sum_{k=0}^{n} \binom{n}{k}^2 = \binom{2n}{n}$$Hence, the identity is proven:$$\boxed{\sum_{k=0}^{n} \binom{n}{k}^2 = \dbinom{2n}{n}}$$

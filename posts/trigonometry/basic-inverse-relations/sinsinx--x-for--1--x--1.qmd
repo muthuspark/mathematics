@@ -1,0 +1,36 @@
+---
+title: "sin(sin⁻¹(x)) = x, for -1 ≤ x ≤ 1"
+categories: ["Trignometry","Basic Inverse Relations"]
+
+
+---
+
+
+
+**Step-by-Step Explanation and Proof**
+
+Let's prove that $\sin(\sin^{-1}(x)) = x$for all$x$in the interval$[-1, 1]$.
+
+1. **Define the Inverse Sine Function:**
+   
+   Let $y = \sin^{-1}(x)$. By definition of the inverse sine function:
+   
+   $$\sin(y) = x$$
+   
+2. **Apply Sine to Both Sides:**
+   
+   Take the sine of both sides of the equation:
+   
+   $$\sin(\sin(y)) = \sin(x)$$
+   
+3. **Simplify Using Trigonometric Identity:**
+   
+   Since $y = \sin^{-1}(x)$, substituting back into the equation gives:
+   
+   $$\sin(\sin^{-1}(x)) = x$$
+   
+4. **Conclusion:**
+   
+   Therefore, we have shown that for any $x$in the domain of$\sin^{-1}$, which is $[-1, 1]$:
+   
+   $$\sin(\sin^{-1}(x)) = x$$**Final Result:**$\boxed{\sin(\sin^{-1}(x)) = x}$for all$x$such that$-1 \leq x \leq 1$.

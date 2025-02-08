@@ -1,0 +1,41 @@
+---
+title: "Relationship between consecutive terms"
+categories: ["Geometric Progression", "Fundamentals"]
+
+
+---
+
+
+
+**Understanding the Relationship Between Consecutive Terms in a Geometric Progression (GP)**
+
+A geometric progression, or GP, is a sequence where each term after the first is found by multiplying the previous term by a constant called the common ratio, denoted as 'r'. This means that if the first term of the GP is 'a', the sequence can be written as:  
+a, ar, ar², ar³, ..., ar^(n-1), ...
+
+**Step-by-Step Explanation**
+
+1. **Define Variables:**
+   - Let 'a' represent the first term of the GP.
+   - Let 'r' represent the common ratio, which is a constant used to generate each subsequent term.
+
+2. **Express Consecutive Terms:**
+   - The nth term of the GP is given by t_n = a * r^(n-1).
+   - The (n+1)th term is then t_{n+1} = a * r^n.
+
+3. **Find the Ratio Between Consecutive Terms:**
+   - Divide the (n+1)th term by the nth term to find the relationship:
+     $$\frac{t_{n+1}}{t_n} = \frac{a * r^n}{a * r^{n-1}}$$- Simplify the expression:$$\frac{t_{n+1}}{t_n} = r$$
+
+4. **Conclusion:**
+   - Each consecutive term in a GP is 'r' times the previous term.
+   - This relationship holds true for any common ratio 'r' (except when r=0, which results in an infinite sequence).
+
+5. **Example:**
+   - Consider a GP with first term 2 and common ratio 3:
+     $$2, 6, 18, 54, ...$$
+   - From 2 to 6: Multiply by 3.
+   - From 6 to 18: Multiply by 3 again.
+
+**Summary**
+
+In a geometric progression, each consecutive term is the previous term multiplied by the common ratio 'r'. This relationship ensures that every term follows a consistent pattern based on multiplication by 'r', making it predictable and essential in various applications such as finance, science, and everyday calculations.

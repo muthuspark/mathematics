@@ -1,0 +1,43 @@
+---
+title: "Alternative formula (Sn = n/2[first term + last term])"
+categories: ["Arithmetic Progression", "Arithmetic Mean"]
+
+
+---
+
+
+
+To find the sum $S_n$ of the first $n$ terms in an arithmetic sequence, we use the formula:
+
+$$S_n = \frac{n}{2} (a_1 + a_n)$$
+
+**Step-by-Step Explanation:**
+
+1. **Understand the Arithmetic Sequence:**
+   - An arithmetic sequence is a sequence where each term after the first is obtained by adding a constant difference $d$.
+   - The terms are $a_1, a_1 + d, a_1 + 2d, \ldots, a_n$.
+
+2. **Summing the Terms:**
+   - When you add all the terms together:
+     $$S_n = a_1 + (a_1 + d) + (a_1 + 2d) + \ldots + (a_1 + (n-1)d)$$
+
+3. **Using Pairing Method:**
+   - Pair the first term with the last term, second term with the second last term, etc.
+     $$S_n = a_1 + a_n + a_2 + a_{n-1} + \ldots$$- Each pair sums to$ a_1 + a_n $.
+   - If there are $n$ terms, you have $\frac{n}{2}$ such pairs (if $n$ is even).
+
+4. **Expressing the Sum:**
+   - The sum of all pairs is $\frac{n}{2} (a_1 + a_n)$.
+   
+5. **Simplifying:**
+   - Thus, the formula becomes:
+     $$S_n = \frac{n}{2} (a_1 + a_n)$$
+
+6. **Alternative Expression Using Common Difference:**
+   - Since $a_n = a_1 + (n - 1)d$, substituting gives:
+     $$S_n = \frac{n}{2} [a_1 + (a_1 + (n - 1)d)] = n a_1 + \frac{d n(n - 1)}{2}$$
+
+**Conclusion:**
+The formula $S_n = \frac{n}{2} (a_1 + a_n)$ allows you to calculate the sum of the first $n$ terms without knowing each term individually or the common difference. This is because it leverages the symmetry in arithmetic sequences, ensuring that each pair of terms averages out correctly.
+
+\boxed{S_n = \dfrac{n}{2}(a_1 + a_n)}

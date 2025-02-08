@@ -1,0 +1,67 @@
+---
+title: "Definition and basic concepts"
+categories: ["Arithmetic Progression", "Fundamentals"]
+
+
+---
+
+
+
+**Arithmetic Progression: A Comprehensive Guide**
+
+**Introduction**
+An arithmetic progression (AP) is a sequence of numbers where each term after the first is obtained by adding a constant difference to the preceding term. This concept is fundamental in mathematics and finds applications in various fields, including banking, physics, and finance.
+
+**Definition**
+- An arithmetic progression is defined as a sequence $a_1, a_2, a_3, \ldots$ where each term increases or decreases by a fixed amount known as the common difference ($d$).
+- The general form of an AP is:
+  $$a_n = a_1 + (n - 1)d$$
+  Where:
+  - $a_n$ is the nth term,
+  - $a_1$ is the first term,
+  - $d$ is the common difference,
+  - $n$ is the term number.
+
+**Key Concepts and Tests**
+
+1. **Consistency of Differences:**
+   - To verify if a sequence is an AP, check that the difference between consecutive terms remains constant.
+   - Example:
+     - Sequence: 3, 7, 11, 15,... (Common difference $d = 4$)
+
+2. **Positive and Negative Common Difference:**
+   - If $d > 0$, the sequence is increasing.
+   - If $d < 0$, the sequence is decreasing.
+   - Example:
+     - Decreasing sequence: 10, 5, 0, -5,... (Common difference $d = -5$)
+
+3. **Geometric Progression vs Arithmetic Progression:**
+   - While both involve a constant change between terms, they differ in how the change is applied.
+   - GP uses multiplication, whereas AP uses addition.
+
+**Examples and Applications**
+
+1. **Example 1:**
+   - Sequence: 2, 5, 8, 11,... (Common difference $d = 3$)
+   - Verification:
+     - Differences: 5-2=3, 8-5=3, etc.
+   - Conclusion: This is an AP with a common difference of 3.
+
+2. **Example 2:**
+   - Sequence: 10, 7, 4, 1,... (Common difference $d = -3$)
+   - Verification:
+     - Differences: 7-10=-3, 4-7=-3, etc.
+   - Conclusion: This is an AP with a common difference of -3.
+
+**Nth Term Formula**
+- The formula to find the nth term of an AP:
+  $$a_n = a_1 + (n - 1)d$$
+- Example Calculation:
+  - For $a_5$, where $a_1 = 2$and$d = 3$:
+    $$a_5 = 2 + (5 - 1) \times 3 = 2 + 12 = 14$$
+
+**Infinite Arithmetic Progression**
+- An AP can be infinite, continuing indefinitely, as there is no upper or lower limit imposed.
+
+**Conclusion**
+Understanding arithmetic progression is crucial for various applications. It involves a constant difference between terms, allowing predictable calculation of any term using the nth term formula. This concept underpins many mathematical and real-world scenarios where steady growth or decline is observed.

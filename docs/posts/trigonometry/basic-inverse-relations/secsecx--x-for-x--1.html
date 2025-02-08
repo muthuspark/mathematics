@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>sec(sec⁻¹(x)) = x, for |x| ≥ 1 – Everything Mathematics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../posts/trigonometry/reciprocal-relations/sinx--csc1x-for-x--1.html" rel="next">
+<link href="../../../posts/trigonometry/basic-inverse-relations/sinsinx--x-for--1--x--1.html" rel="prev">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-8b2975e1950e27371390fa444370b2f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Everything Mathematics</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/muthuspark/mathematics"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Trigonometry</li><li class="breadcrumb-item"><a href="../../../posts/trigonometry/basic-inverse-relations/cotcotx--x-for-all-x.html">Basic Inverse Relations</a></li><li class="breadcrumb-item"><a href="../../../posts/trigonometry/basic-inverse-relations/secsecx--x-for-x--1.html">sec(sec⁻¹(x)) = x, for |x| ≥ 1</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Trigonometry</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Reciprocal Identities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-identities/tan---1cot--and-cot---1tan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan θ = 1/cot θ and cot θ = 1/tan θ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-identities/sin---1csc--and-csc---1sin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin θ = 1/csc θ and csc θ = 1/sin θ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-identities/cos---1sec--and-sec---1cos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos θ = 1/sec θ and sec θ = 1/cos θ</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Pythagorean Identities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/cot--1--csc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot²θ + 1 = csc²θ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/sinx--tanx1-x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) = tan⁻¹(x/√(1-x²))</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/cosx--2---sinx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(x) = π/2 - sin⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/sinx--2---cosx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) = π/2 - cos⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/cosx--tan1-xx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(x) = tan⁻¹(√(1-x²)/x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/tan--1--sec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan²θ + 1 = sec²θ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/pythagorean-identities/sin--cos--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin²θ + cos²θ = 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Quotient Identities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/quotient-identities/cot---cos-sin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot θ = cos θ/sin θ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/quotient-identities/tan---sin-cos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan θ = sin θ/cos θ</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Evenodd Properties</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/sin----sin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(-θ) = -sin(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/csc----csc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc(-θ) = -csc(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/sec---sec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sec(-θ) = sec(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/tan----tan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan(-θ) = -tan(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/cot----cot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot(-θ) = -cot(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/evenodd-properties/cos---cos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(-θ) = cos(θ)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">Cofunction Identities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/cos2-----sin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(π/2 - θ) = sin(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/sin2-----cos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(π/2 - θ) = cos(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/cot2-----tan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot(π/2 - θ) = tan(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/tan2-----cot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan(π/2 - θ) = cot(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/sec2-----csc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sec(π/2 - θ) = csc(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/cofunction-identities/csc2-----sec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc(π/2 - θ) = sec(θ)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Addition And Subtraction Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/addition-and-subtraction-formulas/tana--b--tana--tanb1--tanatanb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan(A ± B) = (tan(A) ± tan(B))/(1 ∓ tan(A)tan(B))</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/addition-and-subtraction-formulas/sina--b--sinacosb--cosasinb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(A ± B) = sin(A)cos(B) ± cos(A)sin(B)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/addition-and-subtraction-formulas/cosa--b--cosacosb--sinasinb.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(A ± B) = cos(A)cos(B) ∓ sin(A)sin(B)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">Double Angle Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/double-angle-formulas/sin2--2sincos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(2θ) = 2sin(θ)cos(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/double-angle-formulas/cos2--cos---sin--2cos---1--1---2sin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(2θ) = cos²(θ) - sin²(θ) = 2cos²(θ) - 1 = 1 - 2sin²(θ)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/double-angle-formulas/tan2--2tan1---tan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan(2θ) = 2tan(θ)/(1 - tan²(θ))</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+ <span class="menu-text">Half Angle Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/half-angle-formulas/cos2--1--cos2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos²(θ/2) = (1 + cos(θ))/2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/half-angle-formulas/tan2--1---cos1--cos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan²(θ/2) = (1 - cos(θ))/(1 + cos(θ))</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/half-angle-formulas/sin2--1---cos2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin²(θ/2) = (1 - cos(θ))/2</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+ <span class="menu-text">Product To Sum Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/product-to-sum-formulas/cosacosb--cosa-b--cosab2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(A)cos(B) = [cos(A-B) + cos(A+B)]/2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/product-to-sum-formulas/sinacosb--sinab--sina-b2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(A)cos(B) = [sin(A+B) + sin(A-B)]/2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/product-to-sum-formulas/sinasinb--cosa-b---cosab2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(A)sin(B) = [cos(A-B) - cos(A+B)]/2</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
+ <span class="menu-text">Sum To Product Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-to-product-formulas/sina--sinb--2sinab2cosa-b2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(A) + sin(B) = 2sin((A+B)/2)cos((A-B)/2)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-to-product-formulas/cosa--cosb--2cosab2cosa-b2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(A) + cos(B) = 2cos((A+B)/2)cos((A-B)/2)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-to-product-formulas/cosa---cosb---2sinab2sina-b2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(A) - cos(B) = -2sin((A+B)/2)sin((A-B)/2)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-to-product-formulas/sina---sinb--2cosab2sina-b2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(A) - sin(B) = 2cos((A+B)/2)sin((A-B)/2)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Basic Inverse Functions</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/sinx--sinx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) = sin⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/tanx--tanx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(x) = tan⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/cosx--cosx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(x) = cos⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/cotx--cotx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot⁻¹(x) = cot⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/secx--secx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sec⁻¹(x) = sec⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-functions/cscx--cscx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc⁻¹(x) = csc⁻¹(x)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+ <span class="menu-text">Complementary Relations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/complementary-relations/cscx--secx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc⁻¹(x) + sec⁻¹(x) = π</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/complementary-relations/tanx--cotx--2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(x) + cot⁻¹(x) = π/2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/complementary-relations/sinx--cosx--2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) + cos⁻¹(x) = π/2</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
+ <span class="menu-text">Basic Inverse Relations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/cotcotx--x-for-all-x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot(cot⁻¹(x)) = x, for all x</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/csccscx--x-for-x--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc(csc⁻¹(x)) = x, for |x| ≥ 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/tantanx--x-for-all-x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan(tan⁻¹(x)) = x, for all x</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/coscosx--x-for--1--x--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos(cos⁻¹(x)) = x, for -1 ≤ x ≤ 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/sinsinx--x-for--1--x--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin(sin⁻¹(x)) = x, for -1 ≤ x ≤ 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/basic-inverse-relations/secsecx--x-for-x--1.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">sec(sec⁻¹(x)) = x, for |x| ≥ 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false">
+ <span class="menu-text">Reciprocal Relations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-relations/sinx--csc1x-for-x--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) = csc⁻¹(1/x), for |x| ≥ 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-relations/cosx--sec1x-for-x--1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(x) = sec⁻¹(1/x), for |x| ≥ 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/reciprocal-relations/tanx--cot1x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(x) = cot⁻¹(1/x)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false">
+ <span class="menu-text">Negative Argument Relations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/cot-x-----cotx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cot⁻¹(-x) = π - cot⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/sin-x---sinx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(-x) = -sin⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/csc-x---cscx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">csc⁻¹(-x) = -csc⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/tan-x---tanx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(-x) = -tan⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/sec-x-----secx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sec⁻¹(-x) = π - sec⁻¹(x)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/negative-argument-relations/cos-x-----cosx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(-x) = π - cos⁻¹(x)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false">
+ <span class="menu-text">Sum And Difference Formulas</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-and-difference-formulas/sinx--siny--sinx1-y--y1-x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(x) + sin⁻¹(y) = sin⁻¹(x√(1-y²) + y√(1-x²))</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/sum-and-difference-formulas/tanx--tany--tanxy1xy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(x) ± tan⁻¹(y) = tan⁻¹((x±y)/(1∓xy))</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="false">
+ <span class="menu-text">Composite Function Identities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/composite-function-identities/tansinx--sintanx1tanx.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">tan⁻¹(sin(x)) = sin⁻¹(tan(x)/(√(1+tan²(x))))</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/composite-function-identities/sincosx--2---x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sin⁻¹(cos(x)) = π/2 - x</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../posts/trigonometry/composite-function-identities/cossinx--x.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">cos⁻¹(sin(x)) = x</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/14.0.1/math.min.js"></script>
+<script type="text/javascript">
+
+function plotFunction(expresion) {
+    const expression = expresion.trim();
+    if (!expression) {
+        console.error("Please enter a valid trigonometric function.");
+        return;
+    }
+
+    const xValues = [];
+    const yValues = [];
+
+    // Define the range and step size for x
+    const startX = -10;
+    const endX = 10;
+    const step = 0.1;
+
+    for (let x = startX; x <= endX; x += step) {
+        try {
+        // Use math.js to evaluate the expression
+        const scope = { x };
+        const y = math.evaluate(expression, scope);
+        xValues.push(x);
+        yValues.push(y);
+        } catch (error) {
+        console.error("Error evaluating function:", error);
+        console.error("Invalid function. Please enter a valid trigonometric function.");
+        return;
+        }
+    }
+
+    // Create a new chart
+    const ctx = document.getElementById('expressionChart').getContext('2d');
+    myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+        labels: xValues,
+        datasets: [{
+            label: `Plot for ${expression}`,
+            data: yValues,
+            borderColor: 'blue',
+            borderWidth: 2,
+            fill: false,
+        }],
+        },
+        options: {
+        scales: {
+            x: {
+            type: 'linear',
+            position: 'bottom',
+            title: {
+                display: true,
+                text: 'x',
+            },
+            },
+            y: {
+            title: {
+                display: true,
+                text: 'y',
+            },
+            },
+        },
+        responsive: false,
+        maintainAspectRatio: false,
+        },
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const preChart = document.querySelector('#quarto-document-content > pre.chart');
+    const chartText = preChart.innerText;
+    const canvas = document.createElement('canvas');
+    canvas.id = 'expressionChart';
+    canvas.height = 500;
+    canvas.style.width = '100%';
+    preChart.replaceWith(canvas);
+    plotFunction(chartText);
+});
+</script>
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Trigonometry</li><li class="breadcrumb-item"><a href="../../../posts/trigonometry/basic-inverse-relations/cotcotx--x-for-all-x.html">Basic Inverse Relations</a></li><li class="breadcrumb-item"><a href="../../../posts/trigonometry/basic-inverse-relations/secsecx--x-for-x--1.html">sec(sec⁻¹(x)) = x, for |x| ≥ 1</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">sec(sec⁻¹(x)) = x, for |x| ≥ 1</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Trignometry</div>
+    <div class="quarto-category">Basic Inverse Relations</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>To write a detailed explanation about how reciprocals work with trigonometric functions, we need to consider the relationships between sine, cosine, tangent, cotangent, and their reciprocal counterparts. Here are the key steps:</p>
+<ol type="1">
+<li><p><strong>Reciprocal Relationships</strong>: The secant function is the reciprocal of the cosine function: <span class="math display">\[\sec(\theta) = \frac{1}{\cos(\theta)}\]</span>2. <strong>Using Inverse Trigonometric Functions</strong>: When an angle is defined via its inverse trigonometric function (e.g.,$ $), we can express the secant or tangent of that angle in terms of the given value.</p></li>
+<li><p><strong>Example Calculation</strong>:</p>
+<ul>
+<li>Suppose we have an angle <span class="math inline">\(y = \arctan(x)\)</span>. Then, <span class="math inline">\(\tan(y) = x\)</span>.</li>
+<li>We draw a right triangle where the opposite side is <span class="math inline">\(x\)</span> and the adjacent side is 1.</li>
+<li>The hypotenuse of this triangle is <span class="math inline">\(\sqrt{1 + x^2}\)</span>.</li>
+<li>Therefore, <span class="math inline">\(\sec(y) = \frac{\text{hypotenuse}}{\text{adjacent}} = \sqrt{1 + x^2}\)</span>.</li>
+</ul></li>
+</ol>
+<p>Thus, the reciprocal relationship between secant and cosine allows expressions like:</p>
+<p><span class="math display">\[\boxed{\sec(\arccos(x)) = \sqrt{1 + x^2}}\]</span></p>
+
+
+
+</main> <!-- /main -->
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../../posts/trigonometry/basic-inverse-relations/sinsinx--x-for--1--x--1.html" class="pagination-link" aria-label="sin(sin⁻¹(x)) = x, for -1 ≤ x ≤ 1">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">sin(sin⁻¹(x)) = x, for -1 ≤ x ≤ 1</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../../posts/trigonometry/reciprocal-relations/sinx--csc1x-for-x--1.html" class="pagination-link" aria-label="sin⁻¹(x) = csc⁻¹(1/x), for |x| ≥ 1">
+        <span class="nav-page-text">sin⁻¹(x) = csc⁻¹(1/x), for |x| ≥ 1</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

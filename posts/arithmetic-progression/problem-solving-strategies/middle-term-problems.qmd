@@ -1,0 +1,13 @@
+---
+title: "Middle term problems"
+categories: ["Arithmetic Progression", "Problem-Solving Strategies"]
+
+
+---
+
+
+
+Given a problem where we need to determine the common difference $d$ of an arithmetic progression (AP) with only two arbitrary terms provided, it is concluded that insufficient information is present. This is because without knowing the specific positions or number of terms between the given values, the common difference cannot be uniquely determined.
+
+### Final Answer
+\boxed{\text{Insufficient information}}

@@ -1,0 +1,58 @@
+---
+title: "Vector rotations"
+categories: ["Complex Numbers", "Applications"]
+---
+
+
+
+**Rotations in Complex Numbers: A Comprehensive Overview**
+
+**Introduction**
+
+Vectors can be rotated by applying mathematical operations, specifically through matrices or complex number multiplication. These methods leverage the properties of rotation matrices and exponential forms to transform vectors in 2D space.
+
+**Rotation via Rotation Matrices**
+
+A rotation matrix is a 2x2 matrix that rotates points in the plane by a given angle θ around the origin. The matrix form for rotation by θ radians (or degrees) is:
+
+
+$$
+R(θ) = \begin{bmatrix}
+\cosθ & -\sinθ \\
+\sinθ & \cosθ
+\end{bmatrix}
+$$
+
+
+Multiplying this matrix with a vector [a; b] transforms it as follows:
+
+
+$$
+c = a\cosθ - b\sinθ \\
+d = a\sinθ + b\cosθ
+$$
+
+
+This transformation effectively rotates the point (a, b) by θ degrees in the plane.
+
+**Rotation via Complex Multiplication**
+
+In complex numbers, multiplying by $e^{iθ}$ rotates a complex number z = a + bi by θ radians. For instance:
+
+- Multiply z by i (which is $e^{i\pi/2}$) to rotate 90 degrees.
+- Multiply z by another unit complex number on the unit circle at angle θ.
+
+**Consistency and Flexibility**
+
+Both methods are consistent with each other:
+- A rotation matrix approach can be seen as a manual computation of complex multiplication, ensuring results align when using native functions for vectors in programming or software.
+
+**Edge Cases and Considerations**
+
+- **Direct Rotation:** Rotating a vector directly via the rotation matrix is straightforward.
+- **Edge Angles:** Rotation by 0 degrees (no change) or multiples thereof leaves vectors invariant.
+- **Negative and Multiple Rotations:** These do not affect the vector's magnitude, only its direction.
+
+**Conclusion**
+
+The dual methods of rotation matrices and complex multiplication offer flexibility in achieving rotations. This understanding is fundamental for applications in engineering, physics, and computer graphics, where 2D vector transformations are essential.

@@ -1,0 +1,51 @@
+---
+title: "Inserting geometric means between two numbers"
+categories: ["Arithmetic Progression", "Geometric Mean"]
+
+
+---
+
+
+
+To address the problem of finding three numbers that are both in an arithmetic (AP) and geometric (GP) progression when written in order with two given numbers, 16 and 81, we can follow these steps:
+
+1. **Understanding the Conditions**:
+   - Let the three numbers be $a$, $b$, and $c$.
+   - Since they are in AP, the differences between consecutive terms must be equal: $b - a = c - b$.
+   - Since they are also in GP, the ratios of consecutive terms must be equal: $\frac{b}{a} = \frac{c}{b}$.
+
+2. **Setting Up Equations**:
+   - From AP condition: $2b = a + c$.
+   - From GP condition: $b^2 = ac$.
+
+3. **Expressing Variables in Terms of One Another**:
+   - Let’s denote the common difference as $d$ and the common ratio as $r$.
+     - For AP: $b = a + d$, $c = b + d = a + 2d$.
+     - For GP: $b^2 = a(a + d)$.
+
+4. **Solving for Common Difference**:
+   - Substitute $b = a + d$ into the GP equation: $(a + d)^2 = a(a + d)$.
+   - Expanding and simplifying: $a^2 + 2ad + d^2 = a^2 + ad$ ⇒ $ad + d^2 = 0$.
+   - Factor out $d$: $d(a + d) = 0$.
+
+5. **Considering Possibilities**:
+   - If $d = 0$, all terms are equal, so $a = b = c$. This satisfies both AP and GP conditions.
+   - If $a + d = 0$, then $a = -d$. Substituting back, we can find specific values if needed.
+
+6. **Applying to Given Numbers**:
+   - The given numbers are 16 and 81. We need to check if these can be part of such a progression.
+     - Let’s consider the three-term AP: $a$, $b$, $c$.
+       - From AP condition: $2b = a + c$.
+       - From GP condition: $b^2 = ac$.
+     - Suppose the two numbers are part of this progression. Without loss of generality, assume one number is at the beginning and another near the middle.
+     - Let’s test possible values:
+       - If $a = 16$ and $c = 81$, then from AP: $b = (16 + 81)/2 = 48.5$.
+         - Check GP condition: $48.5^2 = 16 * 81$. However, $48.5^2 ≈ 2352.25$ and $16 * 81 = 1296$, which are not equal.
+       - Thus, this combination doesn't work.
+
+7. **Conclusion**:
+   - The only common solution between both conditions is when all three numbers are equal. Therefore, the three numbers that satisfy being in both an AP and a GP with two given numbers (16 and 81) must be equal to each other.
+   - Hence, the final answer is that all three numbers must be identical.
+
+**Final Answer**
+The only solution where three numbers are both in arithmetic progression (AP) and geometric progression (GP) when written in order with 16 and 81 as two of them is if all three numbers are equal. Therefore, each number must be \boxed{24}.

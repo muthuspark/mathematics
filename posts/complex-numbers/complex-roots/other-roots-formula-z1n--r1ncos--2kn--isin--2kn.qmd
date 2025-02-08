@@ -1,0 +1,63 @@
+---
+title: "Other roots formula: z^(1/n) = r^(1/n)(cos((θ + 2πk)/n) + i·sin((θ + 2πk)/n))"
+categories: ["Complex Numbers", "Complex Roots"]
+---
+
+
+
+### Detailed Explanation of the Other Roots Formula
+
+When dealing with the nth roots of a complex number, we leverage the concept from De Moivre's theorem. Here's a structured breakdown:
+
+1. **Expressing z in Polar Form:**
+   - Any non-zero complex number $z$ can be written as:
+     
+$$
+     z = r(\cos\theta + i\sin\theta)
+     $$
+
+     where $r$ is the modulus (distance from the origin), and $\theta$ is the argument (angle made with the positive real axis).
+
+2. **Finding the nth Root in Polar Form:**
+   - To find an nth root of $z$, denote it as $w$. Expressing $w$ in polar form:
+     
+$$
+     w = R(\cos\phi + i\sin\phi)
+     $$
+
+     where $R$ is the modulus and $\phi$ is the argument.
+
+3. **Calculating Modulus of the Root:**
+   - Since $w^n = z$, equating moduli:
+     
+$$
+     R^n = r \implies R = r^{1/n}
+     $$
+
+
+4. **Determining the Angle for Each Root:**
+   - The angle must satisfy:
+     
+$$
+     n\phi \equiv \theta \pmod{2\pi}
+     $$
+
+     Solving for $\phi$:
+     
+$$
+     \phi = \frac{\theta + 2\pi k}{n} \quad \text{for } k = 0, 1, 2, ..., n-1
+     $$
+
+
+5. **Expressing Each Root:**
+   - The nth roots are:
+     
+$$
+     w_k = r^{1/n}\left[\cos\left(\frac{\theta + 2\pi k}{n}\right) + i\sin\left(\frac{\theta + 2\pi k}{n}\right)\right] \quad \text{for } k = 0, 1, 2, ..., n-1
+     $$
+
+
+6. **Conclusion:**
+   - Each root $w_k$ has the same modulus $r^{1/n}$ and distinct arguments spaced evenly around the circle at angles $\frac{\theta + 2\pi k}{n}$. This ensures all nth roots of $z$ are found, forming an n-sided polygon on the complex plane.
+
+This method simplifies root finding by focusing on modulus and angle in polar coordinates, extending real number roots into a two-dimensional solution set.

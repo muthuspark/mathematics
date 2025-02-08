@@ -1,0 +1,16 @@
+---
+title: "Maximum term"
+categories: ["Binomial Theorem", "Binomial Expansion Core Concepts"]
+
+
+---
+
+
+
+To determine the expression for $f_k(a, b)$, we start by recognizing that $f_k(a, b)$ is defined as:
+
+$$f_k(a, b) = \sum_{i=0}^{n - k} \binom{n}{i} \left( \frac{b}{a + b} \right)^i$$This sum represents the left-hand tail of the binomial distribution up to$ n - k $. It is a known combinatorial identity where each term in the sum involves choosing $i$ elements from a set of size $n$, multiplied by the probability factor $\left( \frac{b}{a + b} \right)^i$.
+
+After considering various possibilities and recognizing that this sum does not correspond to any standard named distribution without additional context, we conclude that:
+
+$$f_k(a, b) = \sum_{i=0}^{n - k} \binom{n}{i} \left( \frac{b}{a + b} \right)^i.$$Thus, the final answer is:$$\boxed{\sum_{i=0}^{n - k} \binom{n}{i} \left( \frac{b}{a + b} \right)^i}$$

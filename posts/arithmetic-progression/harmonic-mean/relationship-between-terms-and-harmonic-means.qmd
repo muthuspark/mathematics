@@ -1,0 +1,21 @@
+---
+title: "Relationship between terms and harmonic means"
+categories: ["Arithmetic Progression", "Harmonic Mean"]
+
+
+---
+
+
+
+Let {a_n} and {b_n} be arithmetic progressions with common differences $d_a$and$d_b$respectively. Then,$${a_n} = a_1 + (n - 1)d_a$$
+$${b_n} = b_1 + (n - 1)d_b$$Given that {a_n} =$\frac{1}{b_n}$for all$n$, we have:
+
+$$a_1 + (n - 1)d_a = \frac{1}{b_1 + (n - 1)d_b}$$Let$m = n - 1$. Then,
+
+$$(a_1 + d_a m ) = \frac{1}{(b_1 + d_b m)}$$Multiplying both sides by the denominator:$$(a_1 + d_a m)(b_1 + d_b m) = 1$$Expanding the left side:$$a_1 b_1 + a_1 d_b m + d_a b_1 m + d_a d_b m^2 = 1$$This equation must hold for all$m$, implying each coefficient of $m^k$ is zero. Therefore,
+
+- The coefficient of $m^2$gives$d_b = 0$- The coefficient of$m$gives$a_1 d_b + d_a b_1 = 0$, which simplifies to $d_a b_1 = 0$- The constant term gives$a_1 b_1 - 1 = 0$, so $a_1 b_1 = 1$From these, we conclude that both common differences must be zero (i.e.,$d_a = 0$and$d_b = 0$), making the sequences {a_n} and {b_n} constant. Hence, their product is 1, i.e., $p q = 1$where$p = a_1$and$q = b_1$.
+
+Therefore, the final answer is:
+
+$$\boxed{\text{The only such arithmetic progressions are constants where } pq = 1}$$

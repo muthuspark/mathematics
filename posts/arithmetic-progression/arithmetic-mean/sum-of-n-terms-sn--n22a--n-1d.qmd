@@ -1,0 +1,66 @@
+---
+title: "Sum of n terms (Sn = n/2[2a + (n-1)d])"
+categories: ["Arithmetic Progression", "Arithmetic Mean"]
+
+
+---
+
+
+
+**Understanding Arithmetic Progression and Its Sum Formula**
+
+In mathematics, an **Arithmetic Progression (AP)** is a sequence of numbers where each term after the first is obtained by adding a constant difference to the preceding term. This constant difference is known as the common difference ($d$).
+
+**1. Introduction to Arithmetic Progression:**
+An AP can be written as $a, a + d, a + 2d, \ldots, a + (n - 1)d$ where:
+- $a$ is the first term,
+- $d$ is the common difference,
+- $n$ is the number of terms.
+
+**2. What is Sn?**
+Sn represents the sum of the first $n$ terms of an AP. Understanding this helps in various applications, including statistics and financial calculations where averages are crucial.
+
+**3. Deriving the Sum Formula:**
+
+To find Sn, consider pairing each term with its counterpart from the end:
+- First term: $a$- Second term:$a + d$
+- ...
+- nth term: $a + (n - 1)d$
+
+Reverse sequence:
+- First term: $a + (n - 1)d$- Second term:$a + (n - 2)d$
+- ...
+- nth term: $a$
+
+**Pairing Terms:**
+When added together, each pair sums to the same value:
+- $a + [a + (n - 1)d] = 2a + (n - 1)d$
+- Similarly for all other pairs.
+
+Since there are $n$terms, we have$n/2$such pairs. Thus, the total sum is:$$Sn = \frac{n}{2} \times [2a + (n - 1)d]$$Simplifying:$$Sn = \frac{n}{2} [2a + (n - 1)d]$$
+
+**4. Alternative Derivation Using Average:**
+
+The arithmetic mean ($AM$) of the first and last terms is:
+$$AM = \frac{a + [a + (n - 1)d]}{2} = a + \frac{(n - 1)d}{2}$$Since Sn is the number of terms multiplied by this average:$$Sn = n \times \left( a + \frac{(n - 1)d}{2} \right)$$Simplifying:$$Sn = \frac{n}{2} [2a + (n - 1)d]$$
+
+**5. Example:**
+
+Let's compute the sum of the first 5 terms where $a = 3$and$d = 4$.
+
+Using the formula:
+- Terms: $3, 7, 11, 15, 19$- Sum:$3 + 7 + 11 + 15 + 19 = 55$
+
+**Verification:**
+Pairing terms:
+$$(3 + 19) + (7 + 15) + 11 = 22 + 22 + 11 = 55$$
+
+Using average method:
+- First term $a = 3$, last term $= 19$- Mean:$ (3 + 19)/2 = 11 $- Sum:$5 \times 11 = 55$
+
+**6. Conclusion:**
+The formula for the sum of the first $n$terms ($Sn$) of an AP is:$$Sn = \frac{n}{2} [2a + (n - 1)d]$$
+This derivation using pairing and average methods provides a clear understanding of how the arithmetic mean plays into calculating the total sum, reinforcing its role as a measure of central tendency in sequences.
+
+**Summary:**
+Arithmetic progressions are foundational in mathematics, and their sum formulas are essential for various applications. By examining term pairings and leveraging the concept of arithmetic mean, we can effectively compute sums and understand their properties within APs.

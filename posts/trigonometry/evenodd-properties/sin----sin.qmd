@@ -1,0 +1,37 @@
+---
+title: "sin(-θ) = -sin(θ)"
+categories: ["Trignometry", "Even/Odd Properties"]
+
+
+---
+
+
+
+To prove that $\sin(-\theta) = -\sin(\theta)$, we can use multiple approaches:
+
+**1. Using Even and Odd Functions:**
+
+- **Definition:** A function $f(x)$is even if$f(-x) = f(x)$for all$x$in its domain, and odd if$f(-x) = -f(x)$for all$x$.
+  
+- **Sine Function:** Sine is an odd function because $\sin(-\theta) = -\sin(\theta)$.
+
+**2. Using the Unit Circle:**
+
+- On the unit circle, rotating counterclockwise by $\theta$radians gives a point with coordinates$(\cos(\theta), \sin(\theta))$.
+  
+- Rotating clockwise by $\theta$radians (equivalent to$2\pi - \theta$) places the point at $(\cos(\theta), -\sin(\theta))$.
+  
+- Thus, $\sin(-\theta) = -\sin(\theta)$.
+
+**3. Using the Angle Addition Formula:**
+
+- The formula is $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$.
+  
+- Letting $b = -\theta$, we have:
+  $$\sin(0) = \sin(\theta)\cos(-\theta) + \cos(\theta)\sin(-\theta)$$Since$\sin(0) = 0$and$\cos(-\theta) = \cos(\theta)$:
+  $$0 = \sin(\theta)\cos(\theta) + \cos(\theta)\sin(-\theta)$$- Rearranging:$$-\sin(\theta)\cos(\theta) = \cos(\theta)\sin(-\theta)$$- Dividing both sides by$\cos(\theta)$:
+  $$-\sin(\theta) = \sin(-\theta)$$
+
+**Conclusion:**
+
+Through the properties of even and odd functions, the unit circle interpretation, and the angle addition formula, we have proven that $\sin(-\theta) = -\sin(\theta)$.
